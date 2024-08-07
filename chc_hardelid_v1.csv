@@ -1088,7 +1088,7 @@ H74.2,hes_apc,diag,icd10,discontinuity and dislocation of ear ossicles,neurologi
 H74.3,hes_apc,diag,icd10,other acquired abnormalities of ear ossicles,neurological,chronic ear conditions,
 H75.0,hes_apc,diag,icd10,mastoiditis in infectious and parasitic diseases classified elsewhere,neurological,chronic ear conditions,
 H80,hes_apc,diag,icd10,otosclerosis,neurological,chronic ear conditions,
-H81.0,hes_apc,diag,icd10,m?®ni?¿re disease,neurological,chronic ear conditions,
+H81.0,hes_apc,diag,icd10,meniere disease,neurological,chronic ear conditions,
 H81.4,hes_apc,diag,icd10,vertigo of central origin,neurological,chronic ear conditions,
 H83.0,hes_apc,diag,icd10,labyrinthitis,neurological,chronic ear conditions,
 H83.2,hes_apc,diag,icd10,labyrinthine dysfunction,neurological,chronic ear conditions,
