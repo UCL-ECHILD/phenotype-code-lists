@@ -1,0 +1,21 @@
+code,dataset,field,code_type,description,flag
+Z37,hes_apc,diag,icd10,outcome of delivery,startage_7001_7002
+Z38,hes_apc,diag,icd10,liveborn infants according to place of birth,startage_7001_7002
+N01,hes_apc,hrg,hrg_v3.5,neonates - died <2 days old,startage_7001_7002
+N02,hes_apc,hrg,hrg_v3.5,neonates with multiple minor diagnoses,startage_7001_7002
+N03,hes_apc,hrg,hrg_v3.5,neonates with one minor diagnosis,startage_7001_7002
+N04,hes_apc,hrg,hrg_v3.5,neonates with multiple major diagnoses,startage_7001_7002
+N05,hes_apc,hrg,hrg_v3.5,neonates with one major diagnosis,startage_7001_7002
+PB01Z,hes_apc,hrg,hrg_v4,major neonatal diagnoses,startage_7001_7002
+PB02Z,hes_apc,hrg,hrg_v4,minor neonatal diagnoses,startage_7001_7002
+PB03Z,hes_apc,hrg,hrg_v4,healthy baby,startage_7001_7002
+3,hes_apc,epitype,epitype,birth episode,startage_7001_7002
+6,hes_apc,epitype,epitype,other birth event,startage_7001_7002
+5,hes_apc,classpat,classpat,mothers and babies using only delivery facilities,startage_7001_7002
+82,hes_apc,admimeth,admimeth,the birth of a baby in this health care provider,startage_7001_7002
+83,hes_apc,admimeth,admimeth,baby born outside the health care provider except when born at home as intended,startage_7001_7002
+2C,hes_apc,admimeth,admimeth,baby born at home as intended (available from 2013/14),startage_7001_7002
+0,hes_apc,neocare,neocare,normal care,startage_7001_7002
+1,hes_apc,neocare,neocare,special care,startage_7001_7002
+2,hes_apc,neocare,neocare,level 2 intensive care,startage_7001_7002
+3,hes_apc,neocare,neocare,level 1 intensive care,startage_7001_7002
