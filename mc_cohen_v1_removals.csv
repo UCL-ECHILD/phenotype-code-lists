@@ -1,0 +1,21 @@
+code,dataset,field,code_type,group,subgroup,reason_for_removal
+V44.1,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V44.2,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V44.3,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V44.5,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V44.6,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V45.0,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V45.1,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V53.0,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V53.5,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.0,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.1,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.2,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.3,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.5,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V55.6,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V56.0,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+V56.8,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+5190,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+5696,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository
+9961,hes_apc,diag,icd9,technological_assistance,technological_assistance,icd9 not used in repository

@@ -1,0 +1,11 @@
+code,dataset,field,code_type,group,subgroup,truncated_to
+K91.40,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,K91.4
+K91.41,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,K91.4
+K91.42,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,K91.4
+K91.49,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,K91.4
+J95.00,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0
+J95.01,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0
+J95.02,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0
+J95.03,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0
+J95.08,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0
+J95.09,hes_apc,diag,icd-10-ca,technological_assistance,technological_assistance,J95.0

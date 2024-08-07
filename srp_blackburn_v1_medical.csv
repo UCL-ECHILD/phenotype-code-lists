@@ -1,0 +1,17 @@
+﻿code,dataset,field,code_type,description
+N83.2,hes_apc,diag,icd10,other and unspecified ovarian cysts
+A09.9,hes_apc,diag,icd10,gastroenteritis and colitis of unspecified origin
+K52.9,hes_apc,diag,icd10,noninfective gastroenteritis and colitis unspecified
+E28.2,hes_apc,diag,icd10,polycystic ovarian syndrome
+N39.0,hes_apc,diag,icd10,urinary tract infection site not specified
+K58.9,hes_apc,diag,icd10,irritable bowel syndrome without diarrhoea
+Y75.2,hes_apc,opertn,opcs4,laparoscopic approach to abdominal cavity nec
+H01.3,hes_apc,opertn,opcs4,emergency excision of normal appendix
+H02.9,hes_apc,opertn,opcs4,unspecified other excision of appendix
+H01.2,hes_apc,opertn,opcs4,emergency excision of abnormal appendix nec
+H01.9,hes_apc,opertn,opcs4,unspecified emergency excision of appendix
+H02.1,hes_apc,opertn,opcs4,interval appendicectomy
+H02.3,hes_apc,opertn,opcs4,prophylactic appendicectomy nec
+H02.4,hes_apc,opertn,opcs4,incidental appendicectomy
+H02.8,hes_apc,opertn,opcs4,other specified other excision of appendix
+H01.1,hes_apc,opertn,opcs4,emergency excision of abnormal appendix and drainage hfq

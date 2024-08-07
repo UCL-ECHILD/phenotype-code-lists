@@ -1,0 +1,53 @@
+code,dataset,field,code_type,description
+U,hes_apc,rescty,city of residence,no fixed abode
+U,hes_apc,resgor,region of residence,no fixed abode
+U,hes_apc,resladst,local authority district of residence,no fixed abode
+Z59.0,hes_apc,diag,icd10,homelessness
+F84632,hes_apc,gpprac,gp practice,exclusively specialist gp
+C82670,hes_apc,gpprac,gp practice,exclusively specialist gp
+N81655,hes_apc,gpprac,gp practice,exclusively specialist gp
+F84733,hes_apc,gpprac,gp practice,exclusively specialist gp
+G81689,hes_apc,gpprac,gp practice,exclusively specialist gp
+K84066,hes_apc,gpprac,gp practice,exclusively specialist gp
+L81662,hes_apc,gpprac,gp practice,exclusively specialist gp
+E85752,hes_apc,gpprac,gp practice,potential additional homeless practice
+G85733,hes_apc,gpprac,gp practice,potential additional homeless practice
+E84712,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00143,hes_apc,gpprac,gp practice,potential additional homeless practice
+J82217,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y04047,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00056,hes_apc,gpprac,gp practice,exclusively specialist gp
+E85753,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00282,hes_apc,gpprac,gp practice,potential additional homeless practice
+E84711,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00481,hes_apc,gpprac,gp practice,potential additional homeless practice
+G6715360,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y00060,hes_apc,gpprac,gp practice,exclusively specialist gp
+N85646,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y04629,hes_apc,gpprac,gp practice,potential additional homeless practice
+L83673,hes_apc,gpprac,gp practice,exclusively specialist gp
+P87662,hes_apc,gpprac,gp practice,potential additional homeless practice
+H82642,hes_apc,gpprac,gp practice,exclusively specialist gp
+L81661,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00049,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00182,hes_apc,gpprac,gp practice,exclusively specialist gp
+G82811,hes_apc,gpprac,gp practice,potential additional homeless practice
+E82666,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y01057,hes_apc,gpprac,gp practice,exclusively specialist gp
+G85731,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y02444,hes_apc,gpprac,gp practice,potential additional homeless practice
+E83666,hes_apc,gpprac,gp practice,potential additional homeless practice
+B83657,hes_apc,gpprac,gp practice,exclusively specialist gp
+NRV04,hes_apc,gpprac,gp practice,exclusively specialist gp
+B86669,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y00083,hes_apc,gpprac,gp practice,potential additional homeless practice
+B85659,hes_apc,gpprac,gp practice,exclusively specialist gp
+D82641,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y02674,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y00256,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y00054,hes_apc,gpprac,gp practice,exclusively specialist gp
+F85709,hes_apc,gpprac,gp practice,potential additional homeless practice
+F84740,hes_apc,gpprac,gp practice,exclusively specialist gp
+Y00264,hes_apc,gpprac,gp practice,potential additional homeless practice
+Y04543,hes_apc,gpprac,gp practice,exclusively specialist gp
+E87772,hes_apc,gpprac,gp practice,exclusively specialist gp
