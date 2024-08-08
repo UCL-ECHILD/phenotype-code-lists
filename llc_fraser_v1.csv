@@ -1,0 +1,278 @@
+code,dataset,field,code_type,description
+A17,hes_apc,diag,icd10,tuberculosis of nervous system
+A81.0,hes_apc,diag,icd10,creutzfeldt-jakob disease
+A81.1,hes_apc,diag,icd10,subacute sclerosing panencephalitis
+B20,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in infectious and parasitic diseases
+B21,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in malignant neoplasms
+B22,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in other specified diseases
+B23,hes_apc,diag,icd10,human immunodeficiency virus [hiv] disease resulting in other conditions
+B24,hes_apc,diag,icd10,unspecified human immunodeficiency virus [hiv] disease
+C00,hes_apc,diag,icd10,malignant neoplasm of lip
+C01,hes_apc,diag,icd10,malignant neoplasm of base of tongue
+C02,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of tongue
+C03,hes_apc,diag,icd10,malignant neoplasm of gum
+C04,hes_apc,diag,icd10,malignant neoplasm of floor of mouth
+C05,hes_apc,diag,icd10,malignant neoplasm of palate
+C06,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of mouth
+C07,hes_apc,diag,icd10,malignant neoplasm of parotid gland
+C08,hes_apc,diag,icd10,malignant neoplasm of other and unspecified major salivary glands
+C09,hes_apc,diag,icd10,malignant neoplasm of tonsil
+C10,hes_apc,diag,icd10,malignant neoplasm of oropharynx
+C11,hes_apc,diag,icd10,malignant neoplasm of nasopharynx
+C12,hes_apc,diag,icd10,malignant neoplasm of piriform sinus
+C13,hes_apc,diag,icd10,malignant neoplasm of hypopharynx
+C14,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites in the lip oral cavity and pharynx
+C15,hes_apc,diag,icd10,malignant neoplasm of oesophagus
+C16,hes_apc,diag,icd10,malignant neoplasm of stomach
+C17,hes_apc,diag,icd10,malignant neoplasm of small intestine
+C18,hes_apc,diag,icd10,malignant neoplasm of colon
+C19,hes_apc,diag,icd10,malignant neoplasm of rectosigmoid junction
+C20,hes_apc,diag,icd10,malignant neoplasm of rectum
+C21,hes_apc,diag,icd10,malignant neoplasm of anus and anal canal
+C22,hes_apc,diag,icd10,malignant neoplasm of liver and intrahepatic bile ducts
+C23,hes_apc,diag,icd10,malignant neoplasm of gallbladder
+C24,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of biliary tract
+C25,hes_apc,diag,icd10,malignant neoplasm of pancreas
+C26,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined digestive organs
+C30,hes_apc,diag,icd10,malignant neoplasm of nasal cavity and middle ear
+C31,hes_apc,diag,icd10,malignant neoplasm of accessory sinuses
+C32,hes_apc,diag,icd10,malignant neoplasm of larynx
+C33,hes_apc,diag,icd10,malignant neoplasm of trachea
+C34,hes_apc,diag,icd10,malignant neoplasm of bronchus and lung
+C37,hes_apc,diag,icd10,malignant neoplasm of thymus
+C38,hes_apc,diag,icd10,malignant neoplasm of heart mediastinum and pleura
+C39,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites in the respiratory system and intrathoracic organs
+C40,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of limbs
+C41,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of other and unspecified sites
+C43,hes_apc,diag,icd10,malignant melanoma of skin
+C44,hes_apc,diag,icd10,other malignant neoplasms of skin
+C45,hes_apc,diag,icd10,mesothelioma
+C46,hes_apc,diag,icd10,kaposi sarcoma
+C47,hes_apc,diag,icd10,malignant neoplasm of peripheral nerves and autonomic nervous system
+C48,hes_apc,diag,icd10,malignant neoplasm of retroperitoneum and peritoneum
+C49,hes_apc,diag,icd10,malignant neoplasm of other connective and soft tissue
+C50,hes_apc,diag,icd10,malignant neoplasm of breast
+C51,hes_apc,diag,icd10,malignant neoplasm of vulva
+C52,hes_apc,diag,icd10,malignant neoplasm of vagina
+C53,hes_apc,diag,icd10,malignant neoplasm of cervix uteri
+C54,hes_apc,diag,icd10,malignant neoplasm of corpus uteri
+C55,hes_apc,diag,icd10,malignant neoplasm of uterus part unspecified
+C56,hes_apc,diag,icd10,malignant neoplasm of ovary
+C57,hes_apc,diag,icd10,malignant neoplasm of other and unspecified female genital organs
+C58,hes_apc,diag,icd10,malignant neoplasm of placenta
+C60,hes_apc,diag,icd10,malignant neoplasm of penis
+C61,hes_apc,diag,icd10,malignant neoplasm of prostate
+C62,hes_apc,diag,icd10,malignant neoplasm of testis
+C63,hes_apc,diag,icd10,malignant neoplasm of other and unspecified male genital organs
+C64,hes_apc,diag,icd10,malignant neoplasm of kidney except renal pelvis
+C65,hes_apc,diag,icd10,malignant neoplasm of renal pelvis
+C66,hes_apc,diag,icd10,malignant neoplasm of ureter
+C67,hes_apc,diag,icd10,malignant neoplasm of bladder
+C68,hes_apc,diag,icd10,malignant neoplasm of other and unspecified urinary organs
+C69,hes_apc,diag,icd10,malignant neoplasm of eye and adnexa
+C70,hes_apc,diag,icd10,malignant neoplasm of meninges
+C71,hes_apc,diag,icd10,malignant neoplasm of brain
+C72,hes_apc,diag,icd10,malignant neoplasm of spinal cord cranial nerves and other parts of central nervous system
+C73,hes_apc,diag,icd10,malignant neoplasm of thyroid gland
+C74,hes_apc,diag,icd10,malignant neoplasm of adrenal gland
+C75,hes_apc,diag,icd10,malignant neoplasm of other endocrine glands and related structures
+C76,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites
+C77,hes_apc,diag,icd10,secondary and unspecified malignant neoplasm of lymph nodes
+C78,hes_apc,diag,icd10,secondary malignant neoplasm of respiratory and digestive organs
+C79,hes_apc,diag,icd10,secondary malignant neoplasm of other and unspecified sites
+C80,hes_apc,diag,icd10,malignant neoplasm without specification of site
+C81,hes_apc,diag,icd10,hodgkin lymphoma
+C82,hes_apc,diag,icd10,follicular lymphoma
+C83,hes_apc,diag,icd10,non-follicular lymphoma
+C84,hes_apc,diag,icd10,mature t/nk-cell lymphomas
+C85,hes_apc,diag,icd10,other and unspecified types of non-hodgkin lymphoma
+C86,hes_apc,diag,icd10,other specified types of t/nk-cell lymphoma
+C88,hes_apc,diag,icd10,malignant immunoproliferative diseases
+C90,hes_apc,diag,icd10,multiple myeloma and malignant plasma cell neoplasms
+C91,hes_apc,diag,icd10,lymphoid leukaemia
+C92,hes_apc,diag,icd10,myeloid leukaemia
+C93,hes_apc,diag,icd10,monocytic leukaemia
+C94,hes_apc,diag,icd10,other leukaemias of specified cell type
+C95,hes_apc,diag,icd10,leukaemia of unspecified cell type
+C96,hes_apc,diag,icd10,other and unspecified malignant neoplasms of lymphoid haematopoietic and related tissue
+C97,hes_apc,diag,icd10,malignant neoplasms of independent (primary) multiple sites
+D33,hes_apc,diag,icd10,benign neoplasm of brain and other parts of central nervous system
+D43,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour of brain and central nervous system
+D44.4,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: craniopharyngeal duct
+D48,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour of other and unspecified sites
+D56.1,hes_apc,diag,icd10,beta thalassaemia
+D61.0,hes_apc,diag,icd10,constitutional aplastic anaemia
+D61.9,hes_apc,diag,icd10,aplastic anaemia unspecified
+D70,hes_apc,diag,icd10,agranulocytosis
+D76.1,hes_apc,diag,icd10,haemophagocytic lymphohistiocytosis
+D81,hes_apc,diag,icd10,combined immunodeficiencies
+D82.1,hes_apc,diag,icd10,di george syndrome
+D83,hes_apc,diag,icd10,common variable immunodeficiency
+D89.1,hes_apc,diag,icd10,cryoglobulinaemia
+E31.0,hes_apc,diag,icd10,autoimmune polyglandular failure
+E34.8,hes_apc,diag,icd10,other specified endocrine disorders
+E70.2,hes_apc,diag,icd10,disorders of tyrosine metabolism
+E71,hes_apc,diag,icd10,disorders of branched-chain amino-acid metabolism and fatty-acid metabolism
+E72,hes_apc,diag,icd10,other disorders of amino-acid metabolism
+E74,hes_apc,diag,icd10,other disorders of carbohydrate metabolism
+E75,hes_apc,diag,icd10,disorders of sphingolipid metabolism and other lipid storage disorders
+E76,hes_apc,diag,icd10,disorders of glycosaminoglycan metabolism
+E77,hes_apc,diag,icd10,disorders of glycoprotein metabolism
+E79.1,hes_apc,diag,icd10,lesch-nyhan syndrome
+E83.0,hes_apc,diag,icd10,disorders of copper metabolism
+E84,hes_apc,diag,icd10,cystic fibrosis
+E88.0,hes_apc,diag,icd10,disorders of plasma-protein metabolism not elsewhere classified
+E88.1,hes_apc,diag,icd10,lipodystrophy not elsewhere classified
+F80.3,hes_apc,diag,icd10,acquired aphasia with epilepsy [landau-kleffner]
+F84.2,hes_apc,diag,icd10,rett syndrome
+G10,hes_apc,diag,icd10,huntington disease
+G11.1,hes_apc,diag,icd10,early-onset cerebellar ataxia
+G11.3,hes_apc,diag,icd10,cerebellar ataxia with defective dna repair
+G12,hes_apc,diag,icd10,spinal muscular atrophy and related syndromes
+G20,hes_apc,diag,icd10,parkinson disease
+G23.0,hes_apc,diag,icd10,hallervorden-spatz disease
+G23.8,hes_apc,diag,icd10,other specified degenerative diseases of basal ganglia
+G31.8,hes_apc,diag,icd10,other specified degenerative diseases of nervous system
+G31.9,hes_apc,diag,icd10,degenerative disease of nervous system unspecified
+G35,hes_apc,diag,icd10,multiple sclerosis
+G40.4,hes_apc,diag,icd10,other generalized epilepsy and epileptic syndromes
+G40.5,hes_apc,diag,icd10,special epileptic syndromes
+G60.0,hes_apc,diag,icd10,hereditary motor and sensory neuropathy
+G60.1,hes_apc,diag,icd10,refsum disease
+G70.2,hes_apc,diag,icd10,congenital and developmental myasthenia
+G70.9,hes_apc,diag,icd10,myoneural disorder unspecified
+G71.0,hes_apc,diag,icd10,muscular dystrophy
+G71.1,hes_apc,diag,icd10,myotonic disorders
+G71.2,hes_apc,diag,icd10,congenital myopathies
+G71.3,hes_apc,diag,icd10,mitochondrial myopathy not elsewhere classified
+G80.0,hes_apc,diag,icd10,spastic quadriplegic cerebral palsy
+G80.8,hes_apc,diag,icd10,other cerebral palsy
+G82.3,hes_apc,diag,icd10,flaccid tetraplegia
+G82.4,hes_apc,diag,icd10,spastic tetraplegia
+G82.5,hes_apc,diag,icd10,tetraplegia unspecified
+G93.4,hes_apc,diag,icd10,encephalopathy unspecified
+G93.6,hes_apc,diag,icd10,cerebral oedema
+G93.7,hes_apc,diag,icd10,reye syndrome
+H11.1,hes_apc,diag,icd10,conjunctival degenerations and deposits
+H49.8,hes_apc,diag,icd10,other paralytic strabismus
+H35.5,hes_apc,diag,icd10,hereditary retinal dystrophy
+I21,hes_apc,diag,icd10,acute myocardial infarction
+I27.0,hes_apc,diag,icd10,primary pulmonary hypertension
+I42,hes_apc,diag,icd10,cardiomyopathy
+I61.3,hes_apc,diag,icd10,intracerebral haemorrhage in brain stem
+I81,hes_apc,diag,icd10,portal vein thrombosis
+J84.1,hes_apc,diag,icd10,other interstitial pulmonary diseases with fibrosis
+J96,hes_apc,diag,icd10,respiratory failure not elsewhere classified
+J98.4,hes_apc,diag,icd10,other disorders of lung
+K55.0,hes_apc,diag,icd10,acute vascular disorders of intestine
+K55.9,hes_apc,diag,icd10,vascular disorder of intestine unspecified
+K72,hes_apc,diag,icd10,hepatic failure not elsewhere classified
+K74,hes_apc,diag,icd10,fibrosis and cirrhosis of liver
+K76.5,hes_apc,diag,icd10,hepatic veno-occlusive disease
+K86.8,hes_apc,diag,icd10,other specified diseases of pancreas
+M31.3,hes_apc,diag,icd10,wegener granulomatosis
+M32.1,hes_apc,diag,icd10,systemic lupus erythematosus with organ or system involvement
+M89.5,hes_apc,diag,icd10,osteolysis
+N17,hes_apc,diag,icd10,acute renal failure
+N18,hes_apc,diag,icd10,chronic kidney disease
+N19,hes_apc,diag,icd10,unspecified kidney failure
+N25.8,hes_apc,diag,icd10,other disorders resulting from impaired renal tubular function
+P10.1,hes_apc,diag,icd10,cerebral haemorrhage due to birth injury
+P11.2,hes_apc,diag,icd10,unspecified brain damage due to birth injury
+P21.0,hes_apc,diag,icd10,severe birth asphyxia
+P28.5,hes_apc,diag,icd10,respiratory failure of newborn
+P29.0,hes_apc,diag,icd10,neonatal cardiac failure
+P29.3,hes_apc,diag,icd10,persistent fetal circulation
+P35.0,hes_apc,diag,icd10,congenital rubella syndrome
+P35.1,hes_apc,diag,icd10,congenital cytomegalovirus infection
+P35.8,hes_apc,diag,icd10,other congenital viral diseases
+P37.1,hes_apc,diag,icd10,congenital toxoplasmosis
+P52.4,hes_apc,diag,icd10,intracerebral (nontraumatic) haemorrhage of fetus and newborn
+P52.5,hes_apc,diag,icd10,subarachnoid (nontraumatic) haemorrhage of fetus and newborn
+P52.9,hes_apc,diag,icd10,intracranial (nontraumatic) haemorrhage of fetus and newborn unspecified
+P83.2,hes_apc,diag,icd10,hydrops fetalis not due to haemolytic disease
+P91.2,hes_apc,diag,icd10,neonatal cerebral leukomalacia
+P91.6,hes_apc,diag,icd10,hypoxic ischaemic encephalopathy of newborn
+P96.0,hes_apc,diag,icd10,congenital renal failure
+Q00.0,hes_apc,diag,icd10,anencephaly
+Q01,hes_apc,diag,icd10,encephalocele
+Q03.1,hes_apc,diag,icd10,atresia of foramina of magendie and luschka
+Q03.9,hes_apc,diag,icd10,congenital hydrocephalus unspecified
+Q04.0,hes_apc,diag,icd10,congenital malformations of corpus callosum
+Q04.2,hes_apc,diag,icd10,holoprosencephaly
+Q04.3,hes_apc,diag,icd10,other reduction deformities of brain
+Q04.4,hes_apc,diag,icd10,septo-optic dysplasia
+Q04.6,hes_apc,diag,icd10,congenital cerebral cysts
+Q04.9,hes_apc,diag,icd10,congenital malformation of brain unspecified
+Q07.0,hes_apc,diag,icd10,arnold-chiari syndrome
+Q20.0,hes_apc,diag,icd10,common arterial trunk
+Q20.3,hes_apc,diag,icd10,discordant ventriculoarterial connection
+Q20.4,hes_apc,diag,icd10,double inlet ventricle
+Q20.6,hes_apc,diag,icd10,isomerism of atrial appendages
+Q20.8,hes_apc,diag,icd10,other congenital malformations of cardiac chambers and connections
+Q21.3,hes_apc,diag,icd10,tetralogy of fallot
+Q23.2,hes_apc,diag,icd10,congenital mitral stenosis
+Q21.8,hes_apc,diag,icd10,other congenital malformations of cardiac septa
+Q22.0,hes_apc,diag,icd10,pulmonary valve atresia
+Q22.1,hes_apc,diag,icd10,congenital pulmonary valve stenosis
+Q22.4,hes_apc,diag,icd10,congenital tricuspid stenosis
+Q22.5,hes_apc,diag,icd10,ebstein anomaly
+Q22.6,hes_apc,diag,icd10,hypoplastic right heart syndrome
+Q23.0,hes_apc,diag,icd10,congenital stenosis of aortic valve
+Q23.4,hes_apc,diag,icd10,hypoplastic left heart syndrome
+Q23.9,hes_apc,diag,icd10,congenital malformation of aortic and mitral valves unspecified
+Q25.4,hes_apc,diag,icd10,other congenital malformations of aorta
+Q25.6,hes_apc,diag,icd10,stenosis of pulmonary artery
+Q26.2,hes_apc,diag,icd10,total anomalous pulmonary venous connection
+Q26.4,hes_apc,diag,icd10,anomalous pulmonary venous connection unspecified
+Q26.8,hes_apc,diag,icd10,other congenital malformations of great veins
+Q28.2,hes_apc,diag,icd10,arteriovenous malformation of cerebral vessels
+Q32.1,hes_apc,diag,icd10,other congenital malformations of trachea
+Q33.6,hes_apc,diag,icd10,hypoplasia and dysplasia of lung
+Q39.6,hes_apc,diag,icd10,diverticulum of oesophagus
+Q41.0,hes_apc,diag,icd10,congenital absence atresia and stenosis of duodenum
+Q41.9,hes_apc,diag,icd10,congenital absence atresia and stenosis of small intestine part unspecified
+Q43.7,hes_apc,diag,icd10,persistent cloaca
+Q44.2,hes_apc,diag,icd10,atresia of bile ducts
+Q74.8,hes_apc,diag,icd10,other specified congenital malformations of limb(s)
+Q44.5,hes_apc,diag,icd10,other congenital malformations of bile ducts
+Q44.7,hes_apc,diag,icd10,other congenital malformations of liver
+Q60.1,hes_apc,diag,icd10,renal agenesis bilateral
+Q60.6,hes_apc,diag,icd10,potter syndrome
+Q61.4,hes_apc,diag,icd10,renal dysplasia
+Q61.9,hes_apc,diag,icd10,cystic kidney disease unspecified
+Q64.2,hes_apc,diag,icd10,congenital posterior urethral valves
+Q74.3,hes_apc,diag,icd10,arthrogryposis multiplex congenita
+Q75.0,hes_apc,diag,icd10,craniosynostosis
+Q77.2,hes_apc,diag,icd10,short rib syndrome
+Q77.3,hes_apc,diag,icd10,chondrodysplasia punctata
+Q77.4,hes_apc,diag,icd10,achondroplasia
+Q78.0,hes_apc,diag,icd10,osteogenesis imperfecta
+Q78.5,hes_apc,diag,icd10,metaphyseal dysplasia
+Q79.2,hes_apc,diag,icd10,exomphalos
+Q79.3,hes_apc,diag,icd10,gastroschisis
+Q80.4,hes_apc,diag,icd10,harlequin fetus
+Q81,hes_apc,diag,icd10,epidermolysis bullosa
+Q82.1,hes_apc,diag,icd10,xeroderma pigmentosum
+Q82.4,hes_apc,diag,icd10,ectodermal dysplasia (anhidrotic)
+Q85.8,hes_apc,diag,icd10,other phakomatoses not elsewhere classified
+Q86.0,hes_apc,diag,icd10,fetal alcohol syndrome (dysmorphic)
+Q87.0,hes_apc,diag,icd10,congenital malformation syndromes predominantly affecting facial appearance
+Q87.1,hes_apc,diag,icd10,congenital malformation syndromes predominantly associated with short stature
+Q87.2,hes_apc,diag,icd10,congenital malformation syndromes predominantly involving limbs
+Q87.8,hes_apc,diag,icd10,other specified congenital malformation syndromes not elsewhere classified
+Q91,hes_apc,diag,icd10,edwards' syndrome and patau syndrome
+Q92.0,hes_apc,diag,icd10,whole chromosome trisomy meiotic nondisjunction
+Q92.1,hes_apc,diag,icd10,whole chromosome trisomy mosaicism (mitotic nondisjunction)
+Q92.4,hes_apc,diag,icd10,duplications seen only at prometaphase
+Q92.7,hes_apc,diag,icd10,triploidy and polyploidy
+Q92.8,hes_apc,diag,icd10,other specified trisomies and partial trisomies of autosomes
+Q93.2,hes_apc,diag,icd10,chromosome replaced with ring or dicentric
+Q93.3,hes_apc,diag,icd10,deletion of short arm of chromosome 4
+Q93.4,hes_apc,diag,icd10,deletion of short arm of chromosome 5
+Q93.5,hes_apc,diag,icd10,other deletions of part of a chromosome
+Q93.8,hes_apc,diag,icd10,other deletions from the autosomes
+Q95.2,hes_apc,diag,icd10,balanced autosomal rearrangement in abnormal individual
+T86.0,hes_apc,diag,icd10,bone-marrow transplant rejection
+T86.2,hes_apc,diag,icd10,heart transplant failure and rejection
+Z51.5,hes_apc,diag,icd10,palliative care
