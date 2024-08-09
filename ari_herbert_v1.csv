@@ -1,0 +1,590 @@
+code,dataset,field,code_type,description,group,subgroup,flag1,flag2
+S00,hes_apc,diag,icd10,superficial injury of head,injuries,injuries,emergency_admission,first_episode_only
+S01,hes_apc,diag,icd10,open wound of head,injuries,injuries,emergency_admission,first_episode_only
+S02,hes_apc,diag,icd10,fracture of skull and facial bones,injuries,injuries,emergency_admission,first_episode_only
+S03,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of head,injuries,injuries,emergency_admission,first_episode_only
+S04,hes_apc,diag,icd10,injury of cranial nerves,injuries,injuries,emergency_admission,first_episode_only
+S05,hes_apc,diag,icd10,injury of eye and orbit,injuries,injuries,emergency_admission,first_episode_only
+S06,hes_apc,diag,icd10,intracranial injury,injuries,injuries,emergency_admission,first_episode_only
+S07,hes_apc,diag,icd10,crushing injury of head,injuries,injuries,emergency_admission,first_episode_only
+S08,hes_apc,diag,icd10,traumatic amputation of part of head,injuries,injuries,emergency_admission,first_episode_only
+S09,hes_apc,diag,icd10,other and unspecified injuries of head,injuries,injuries,emergency_admission,first_episode_only
+S10,hes_apc,diag,icd10,superficial injury of neck,injuries,injuries,emergency_admission,first_episode_only
+S11,hes_apc,diag,icd10,open wound of neck,injuries,injuries,emergency_admission,first_episode_only
+S12,hes_apc,diag,icd10,fracture of neck,injuries,injuries,emergency_admission,first_episode_only
+S13,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments at neck level,injuries,injuries,emergency_admission,first_episode_only
+S14,hes_apc,diag,icd10,injury of nerves and spinal cord at neck level,injuries,injuries,emergency_admission,first_episode_only
+S15,hes_apc,diag,icd10,injury of blood vessels at neck level,injuries,injuries,emergency_admission,first_episode_only
+S16,hes_apc,diag,icd10,injury of muscle and tendon at neck level,injuries,injuries,emergency_admission,first_episode_only
+S17,hes_apc,diag,icd10,crushing injury of neck,injuries,injuries,emergency_admission,first_episode_only
+S18,hes_apc,diag,icd10,traumatic amputation at neck level,injuries,injuries,emergency_admission,first_episode_only
+S19,hes_apc,diag,icd10,other and unspecified injuries of neck,injuries,injuries,emergency_admission,first_episode_only
+S20,hes_apc,diag,icd10,superficial injury of thorax,injuries,injuries,emergency_admission,first_episode_only
+S21,hes_apc,diag,icd10,open wound of thorax,injuries,injuries,emergency_admission,first_episode_only
+S22,hes_apc,diag,icd10,fracture of rib(s) sternum and thoracic spine,injuries,injuries,emergency_admission,first_episode_only
+S23,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of thorax,injuries,injuries,emergency_admission,first_episode_only
+S24,hes_apc,diag,icd10,injury of nerves and spinal cord at thorax level,injuries,injuries,emergency_admission,first_episode_only
+S25,hes_apc,diag,icd10,injury of blood vessels of thorax,injuries,injuries,emergency_admission,first_episode_only
+S26,hes_apc,diag,icd10,injury of heart,injuries,injuries,emergency_admission,first_episode_only
+S27,hes_apc,diag,icd10,injury of other and unspecified intrathoracic organs,injuries,injuries,emergency_admission,first_episode_only
+S28,hes_apc,diag,icd10,crushing injury of thorax and traumatic amputation of part of thorax,injuries,injuries,emergency_admission,first_episode_only
+S29,hes_apc,diag,icd10,other and unspecified injuries of thorax,injuries,injuries,emergency_admission,first_episode_only
+S30,hes_apc,diag,icd10,superficial injury of abdomen lower back and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S31,hes_apc,diag,icd10,open wound of abdomen lower back and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S32,hes_apc,diag,icd10,fracture of lumbar spine and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S33,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of lumbar spine and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S34,hes_apc,diag,icd10,injury of nerves and lumbar spinal cord at abdomen lower back and pelvis level,injuries,injuries,emergency_admission,first_episode_only
+S35,hes_apc,diag,icd10,injury of blood vessels at abdomen lower back and pelvis level,injuries,injuries,emergency_admission,first_episode_only
+S36,hes_apc,diag,icd10,injury of intra-abdominal organs,injuries,injuries,emergency_admission,first_episode_only
+S37,hes_apc,diag,icd10,injury of urinary and pelvic organs,injuries,injuries,emergency_admission,first_episode_only
+S38,hes_apc,diag,icd10,crushing injury and traumatic amputation of part of abdomen lower back and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S39,hes_apc,diag,icd10,other and unspecified injuries of abdomen lower back and pelvis,injuries,injuries,emergency_admission,first_episode_only
+S40,hes_apc,diag,icd10,superficial injury of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S41,hes_apc,diag,icd10,open wound of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S42,hes_apc,diag,icd10,fracture of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S43,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of shoulder girdle,injuries,injuries,emergency_admission,first_episode_only
+S44,hes_apc,diag,icd10,injury of nerves at shoulder and upper arm level,injuries,injuries,emergency_admission,first_episode_only
+S45,hes_apc,diag,icd10,injury of blood vessels at shoulder and upper arm level,injuries,injuries,emergency_admission,first_episode_only
+S46,hes_apc,diag,icd10,injury of muscle and tendon at shoulder and upper arm level,injuries,injuries,emergency_admission,first_episode_only
+S47,hes_apc,diag,icd10,crushing injury of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S48,hes_apc,diag,icd10,traumatic amputation of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S49,hes_apc,diag,icd10,other and unspecified injuries of shoulder and upper arm,injuries,injuries,emergency_admission,first_episode_only
+S50,hes_apc,diag,icd10,superficial injury of forearm,injuries,injuries,emergency_admission,first_episode_only
+S51,hes_apc,diag,icd10,open wound of forearm,injuries,injuries,emergency_admission,first_episode_only
+S52,hes_apc,diag,icd10,fracture of forearm,injuries,injuries,emergency_admission,first_episode_only
+S53,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of elbow,injuries,injuries,emergency_admission,first_episode_only
+S54,hes_apc,diag,icd10,injury of nerves at forearm level,injuries,injuries,emergency_admission,first_episode_only
+S55,hes_apc,diag,icd10,injury of blood vessels at forearm level,injuries,injuries,emergency_admission,first_episode_only
+S56,hes_apc,diag,icd10,injury of muscle and tendon at forearm level,injuries,injuries,emergency_admission,first_episode_only
+S57,hes_apc,diag,icd10,crushing injury of forearm,injuries,injuries,emergency_admission,first_episode_only
+S58,hes_apc,diag,icd10,traumatic amputation of forearm,injuries,injuries,emergency_admission,first_episode_only
+S59,hes_apc,diag,icd10,other and unspecified injuries of forearm,injuries,injuries,emergency_admission,first_episode_only
+S60,hes_apc,diag,icd10,superficial injury of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+S61,hes_apc,diag,icd10,open wound of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+S62,hes_apc,diag,icd10,fracture at wrist and hand level,injuries,injuries,emergency_admission,first_episode_only
+S63,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments at wrist and hand level,injuries,injuries,emergency_admission,first_episode_only
+S64,hes_apc,diag,icd10,injury of nerves at wrist and hand level,injuries,injuries,emergency_admission,first_episode_only
+S65,hes_apc,diag,icd10,injury of blood vessels at wrist and hand level,injuries,injuries,emergency_admission,first_episode_only
+S66,hes_apc,diag,icd10,injury of muscle and tendon at wrist and hand level,injuries,injuries,emergency_admission,first_episode_only
+S67,hes_apc,diag,icd10,crushing injury of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+S68,hes_apc,diag,icd10,traumatic amputation of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+S69,hes_apc,diag,icd10,other and unspecified injuries of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+S70,hes_apc,diag,icd10,superficial injury of hip and thigh,injuries,injuries,emergency_admission,first_episode_only
+S71,hes_apc,diag,icd10,open wound of hip and thigh,injuries,injuries,emergency_admission,first_episode_only
+S72,hes_apc,diag,icd10,fracture of femur,injuries,injuries,emergency_admission,first_episode_only
+S73,hes_apc,diag,icd10,dislocation sprain and strain of joint and ligaments of hip,injuries,injuries,emergency_admission,first_episode_only
+S74,hes_apc,diag,icd10,injury of nerves at hip and thigh level,injuries,injuries,emergency_admission,first_episode_only
+S75,hes_apc,diag,icd10,injury of blood vessels at hip and thigh level,injuries,injuries,emergency_admission,first_episode_only
+S76,hes_apc,diag,icd10,injury of muscle and tendon at hip and thigh level,injuries,injuries,emergency_admission,first_episode_only
+S77,hes_apc,diag,icd10,crushing injury of hip and thigh,injuries,injuries,emergency_admission,first_episode_only
+S78,hes_apc,diag,icd10,traumatic amputation of hip and thigh,injuries,injuries,emergency_admission,first_episode_only
+S79,hes_apc,diag,icd10,other and unspecified injuries of hip and thigh,injuries,injuries,emergency_admission,first_episode_only
+S80,hes_apc,diag,icd10,superficial injury of lower leg,injuries,injuries,emergency_admission,first_episode_only
+S81,hes_apc,diag,icd10,open wound of lower leg,injuries,injuries,emergency_admission,first_episode_only
+S82,hes_apc,diag,icd10,fracture of lower leg including ankle,injuries,injuries,emergency_admission,first_episode_only
+S83,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments of knee,injuries,injuries,emergency_admission,first_episode_only
+S84,hes_apc,diag,icd10,injury of nerves at lower leg level,injuries,injuries,emergency_admission,first_episode_only
+S85,hes_apc,diag,icd10,injury of blood vessels at lower leg level,injuries,injuries,emergency_admission,first_episode_only
+S86,hes_apc,diag,icd10,injury of muscle and tendon at lower leg level,injuries,injuries,emergency_admission,first_episode_only
+S87,hes_apc,diag,icd10,crushing injury of lower leg,injuries,injuries,emergency_admission,first_episode_only
+S88,hes_apc,diag,icd10,traumatic amputation of lower leg,injuries,injuries,emergency_admission,first_episode_only
+S89,hes_apc,diag,icd10,other and unspecified injuries of lower leg,injuries,injuries,emergency_admission,first_episode_only
+S90,hes_apc,diag,icd10,superficial injury of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+S91,hes_apc,diag,icd10,open wound of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+S92,hes_apc,diag,icd10,fracture of foot except ankle,injuries,injuries,emergency_admission,first_episode_only
+S93,hes_apc,diag,icd10,dislocation sprain and strain of joints and ligaments at ankle and foot level,injuries,injuries,emergency_admission,first_episode_only
+S94,hes_apc,diag,icd10,injury of nerves at ankle and foot level,injuries,injuries,emergency_admission,first_episode_only
+S95,hes_apc,diag,icd10,injury of blood vessels at ankle and foot level,injuries,injuries,emergency_admission,first_episode_only
+S96,hes_apc,diag,icd10,injury of muscle and tendon at ankle and foot level,injuries,injuries,emergency_admission,first_episode_only
+S97,hes_apc,diag,icd10,crushing injury of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+S98,hes_apc,diag,icd10,traumatic amputation of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+S99,hes_apc,diag,icd10,other and unspecified injuries of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+T00,hes_apc,diag,icd10,superficial injuries involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T01,hes_apc,diag,icd10,open wounds involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T02,hes_apc,diag,icd10,fractures involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T03,hes_apc,diag,icd10,dislocations sprains and strains involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T04,hes_apc,diag,icd10,crushing injuries involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T05,hes_apc,diag,icd10,traumatic amputations involving multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T06,hes_apc,diag,icd10,other injuries involving multiple body regions not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T07,hes_apc,diag,icd10,unspecified multiple injuries,injuries,injuries,emergency_admission,first_episode_only
+T08,hes_apc,diag,icd10,fracture of spine level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T09,hes_apc,diag,icd10,other injuries of spine and trunk level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T10,hes_apc,diag,icd10,fracture of upper limb level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T11,hes_apc,diag,icd10,other injuries of upper limb level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T12,hes_apc,diag,icd10,fracture of lower limb level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T13,hes_apc,diag,icd10,other injuries of lower limb level unspecified,injuries,injuries,emergency_admission,first_episode_only
+T14,hes_apc,diag,icd10,injury of unspecified body region,injuries,injuries,emergency_admission,first_episode_only
+T15,hes_apc,diag,icd10,foreign body on external eye,injuries,injuries,emergency_admission,first_episode_only
+T16,hes_apc,diag,icd10,foreign body in ear,injuries,injuries,emergency_admission,first_episode_only
+T17,hes_apc,diag,icd10,foreign body in respiratory tract,injuries,injuries,emergency_admission,first_episode_only
+T18,hes_apc,diag,icd10,foreign body in alimentary tract,injuries,injuries,emergency_admission,first_episode_only
+T19,hes_apc,diag,icd10,foreign body in genitourinary tract,injuries,injuries,emergency_admission,first_episode_only
+T20,hes_apc,diag,icd10,burn and corrosion of head and neck,injuries,injuries,emergency_admission,first_episode_only
+T21,hes_apc,diag,icd10,burn and corrosion of trunk,injuries,injuries,emergency_admission,first_episode_only
+T22,hes_apc,diag,icd10,burn and corrosion of shoulder and upper limb except wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+T23,hes_apc,diag,icd10,burn and corrosion of wrist and hand,injuries,injuries,emergency_admission,first_episode_only
+T24,hes_apc,diag,icd10,burn and corrosion of hip and lower limb except ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+T25,hes_apc,diag,icd10,burn and corrosion of ankle and foot,injuries,injuries,emergency_admission,first_episode_only
+T26,hes_apc,diag,icd10,burn and corrosion confined to eye and adnexa,injuries,injuries,emergency_admission,first_episode_only
+T27,hes_apc,diag,icd10,burn and corrosion of respiratory tract,injuries,injuries,emergency_admission,first_episode_only
+T28,hes_apc,diag,icd10,burn and corrosion of other internal organs,injuries,injuries,emergency_admission,first_episode_only
+T29,hes_apc,diag,icd10,burns and corrosions of multiple body regions,injuries,injuries,emergency_admission,first_episode_only
+T30,hes_apc,diag,icd10,burn and corrosion body region unspecified,injuries,injuries,emergency_admission,first_episode_only
+T31,hes_apc,diag,icd10,burns classified according to extent of body surface involved,injuries,injuries,emergency_admission,first_episode_only
+T32,hes_apc,diag,icd10,corrosions classified according to extent of body surface involved,injuries,injuries,emergency_admission,first_episode_only
+T33,hes_apc,diag,icd10,superficial frostbite,injuries,injuries,emergency_admission,first_episode_only
+T34,hes_apc,diag,icd10,frostbite with tissue necrosis,injuries,injuries,emergency_admission,first_episode_only
+T35,hes_apc,diag,icd10,frostbite involving multiple body regions and unspecified frostbite,injuries,injuries,emergency_admission,first_episode_only
+T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,injuries,injuries,emergency_admission,first_episode_only
+T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,injuries,injuries,emergency_admission,first_episode_only
+T38,hes_apc,diag,icd10,poisoning by hormones and their synthetic substitutes and antagonists not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T39,hes_apc,diag,icd10,poisoning by nonopioid analgesics antipyretics and antirheumatics,injuries,injuries,emergency_admission,first_episode_only
+T40,hes_apc,diag,icd10,poisoning by narcotics and psychodysleptics [hallucinogens],injuries,injuries,emergency_admission,first_episode_only
+T41,hes_apc,diag,icd10,poisoning by anaesthetics and therapeutic gases,injuries,injuries,emergency_admission,first_episode_only
+T42,hes_apc,diag,icd10,poisoning by antiepileptic sedative-hypnotic and antiparkinsonism drugs,injuries,injuries,emergency_admission,first_episode_only
+T43,hes_apc,diag,icd10,poisoning by psychotropic drugs not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T44,hes_apc,diag,icd10,poisoning by drugs primarily affecting the autonomic nervous system,injuries,injuries,emergency_admission,first_episode_only
+T45,hes_apc,diag,icd10,poisoning by primarily systemic and haematological agents not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T46,hes_apc,diag,icd10,poisoning by agents primarily affecting the cardiovascular system,injuries,injuries,emergency_admission,first_episode_only
+T47,hes_apc,diag,icd10,poisoning by agents primarily affecting the gastrointestinal system,injuries,injuries,emergency_admission,first_episode_only
+T48,hes_apc,diag,icd10,poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system,injuries,injuries,emergency_admission,first_episode_only
+T49,hes_apc,diag,icd10,poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological otorhinolaryngological and dental drugs,injuries,injuries,emergency_admission,first_episode_only
+T50,hes_apc,diag,icd10,poisoning by diuretics and other and unspecified drugs medicaments and biological substances,injuries,injuries,emergency_admission,first_episode_only
+T51,hes_apc,diag,icd10,toxic effect of alcohol,injuries,injuries,emergency_admission,first_episode_only
+T52,hes_apc,diag,icd10,toxic effect of organic solvents,injuries,injuries,emergency_admission,first_episode_only
+T53,hes_apc,diag,icd10,toxic effect of halogen derivatives of aliphatic and aromatic hydrocarbons,injuries,injuries,emergency_admission,first_episode_only
+T54,hes_apc,diag,icd10,toxic effect of corrosive substances,injuries,injuries,emergency_admission,first_episode_only
+T55,hes_apc,diag,icd10,toxic effect of soaps and detergents,injuries,injuries,emergency_admission,first_episode_only
+T56,hes_apc,diag,icd10,toxic effect of metals,injuries,injuries,emergency_admission,first_episode_only
+T57,hes_apc,diag,icd10,toxic effect of other inorganic substances,injuries,injuries,emergency_admission,first_episode_only
+T58,hes_apc,diag,icd10,toxic effect of carbon monoxide,injuries,injuries,emergency_admission,first_episode_only
+T59,hes_apc,diag,icd10,toxic effect of other gases fumes and vapours,injuries,injuries,emergency_admission,first_episode_only
+T60,hes_apc,diag,icd10,toxic effect of pesticides,injuries,injuries,emergency_admission,first_episode_only
+T61,hes_apc,diag,icd10,toxic effect of noxious substances eaten as seafood,injuries,injuries,emergency_admission,first_episode_only
+T62,hes_apc,diag,icd10,toxic effect of other noxious substances eaten as food,injuries,injuries,emergency_admission,first_episode_only
+T63,hes_apc,diag,icd10,toxic effect of contact with venomous animals,injuries,injuries,emergency_admission,first_episode_only
+T64,hes_apc,diag,icd10,toxic effect of aflatoxin and other mycotoxin food contaminants,injuries,injuries,emergency_admission,first_episode_only
+T65,hes_apc,diag,icd10,toxic effect of other and unspecified substances,injuries,injuries,emergency_admission,first_episode_only
+T66,hes_apc,diag,icd10,unspecified effects of radiation,injuries,injuries,emergency_admission,first_episode_only
+T67,hes_apc,diag,icd10,effects of heat and light,injuries,injuries,emergency_admission,first_episode_only
+T68,hes_apc,diag,icd10,hypothermia,injuries,injuries,emergency_admission,first_episode_only
+T69,hes_apc,diag,icd10,other effects of reduced temperature,injuries,injuries,emergency_admission,first_episode_only
+T70,hes_apc,diag,icd10,effects of air pressure and water pressure,injuries,injuries,emergency_admission,first_episode_only
+T71,hes_apc,diag,icd10,asphyxiation,injuries,injuries,emergency_admission,first_episode_only
+T73,hes_apc,diag,icd10,effects of other deprivation,injuries,injuries,emergency_admission,first_episode_only
+T74,hes_apc,diag,icd10,maltreatment syndromes,injuries,injuries,emergency_admission,first_episode_only
+T75,hes_apc,diag,icd10,effects of other external causes,injuries,injuries,emergency_admission,first_episode_only
+T78,hes_apc,diag,icd10,adverse effects not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T79,hes_apc,diag,icd10,certain early complications of trauma not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T80,hes_apc,diag,icd10,complications following infusion transfusion and therapeutic injection,injuries,injuries,emergency_admission,first_episode_only
+T81,hes_apc,diag,icd10,complications of procedures not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T82,hes_apc,diag,icd10,complications of cardiac and vascular prosthetic devices implants and grafts,injuries,injuries,emergency_admission,first_episode_only
+T83,hes_apc,diag,icd10,complications of genitourinary prosthetic devices implants and grafts,injuries,injuries,emergency_admission,first_episode_only
+T84,hes_apc,diag,icd10,complications of internal orthopaedic prosthetic devices implants and grafts,injuries,injuries,emergency_admission,first_episode_only
+T85,hes_apc,diag,icd10,complications of other internal prosthetic devices implants and grafts,injuries,injuries,emergency_admission,first_episode_only
+T86,hes_apc,diag,icd10,failure and rejection of transplanted organs and tissues,injuries,injuries,emergency_admission,first_episode_only
+T87,hes_apc,diag,icd10,complications peculiar to reattachment and amputation,injuries,injuries,emergency_admission,first_episode_only
+T88,hes_apc,diag,icd10,other complications of surgical and medical care not elsewhere classified,injuries,injuries,emergency_admission,first_episode_only
+T90,hes_apc,diag,icd10,sequelae of injuries of head,injuries,injuries,emergency_admission,first_episode_only
+T91,hes_apc,diag,icd10,sequelae of injuries of neck and trunk,injuries,injuries,emergency_admission,first_episode_only
+T92,hes_apc,diag,icd10,sequelae of injuries of upper limb,injuries,injuries,emergency_admission,first_episode_only
+T93,hes_apc,diag,icd10,sequelae of injuries of lower limb,injuries,injuries,emergency_admission,first_episode_only
+T94,hes_apc,diag,icd10,sequelae of injuries involving multiple and unspecified body regions,injuries,injuries,emergency_admission,first_episode_only
+T95,hes_apc,diag,icd10,sequelae of burns corrosions and frostbite,injuries,injuries,emergency_admission,first_episode_only
+T96,hes_apc,diag,icd10,sequelae of poisoning by drugs medicaments and biological substances,injuries,injuries,emergency_admission,first_episode_only
+T97,hes_apc,diag,icd10,sequelae of toxic effects of substances chiefly nonmedicinal as to source,injuries,injuries,emergency_admission,first_episode_only
+T98,hes_apc,diag,icd10,sequelae of other and unspecified effects of external causes,injuries,injuries,emergency_admission,first_episode_only
+T74,hes_apc,diag,icd10,maltreatment syndromes,violence,maltreatment,emergency_admission,
+T73,hes_apc,diag,icd10,effects of other deprivation,violence,maltreatment,emergency_admission,
+Y06,hes_apc,diag,icd10,neglect and abandonment,violence,maltreatment,emergency_admission,
+Y07,hes_apc,diag,icd10,other maltreatment,violence,maltreatment,emergency_admission,
+Y04,hes_apc,diag,icd10,assault by bodily force,violence,assault,emergency_admission,
+Y05,hes_apc,diag,icd10,sexual assault by bodily force,violence,assault,emergency_admission,
+X85,hes_apc,diag,icd10,assault by drugs medicaments and biological substances,violence,assault,emergency_admission,
+X86,hes_apc,diag,icd10,assault by corrosive substance,violence,assault,emergency_admission,
+X87,hes_apc,diag,icd10,assault by pesticides,violence,assault,emergency_admission,
+X88,hes_apc,diag,icd10,assault by gases and vapours,violence,assault,emergency_admission,
+X89,hes_apc,diag,icd10,assault by other specified chemicals and noxious substances,violence,assault,emergency_admission,
+X90,hes_apc,diag,icd10,assault by unspecified chemical or noxious substance,violence,assault,emergency_admission,
+X91,hes_apc,diag,icd10,assault by hanging strangulation and suffocation,violence,assault,emergency_admission,
+X92,hes_apc,diag,icd10,assault by drowning and submersion,violence,assault,emergency_admission,
+X93,hes_apc,diag,icd10,assault by handgun discharge,violence,assault,emergency_admission,
+X94,hes_apc,diag,icd10,assault by rifle shotgun and larger firearm discharge,violence,assault,emergency_admission,
+X95,hes_apc,diag,icd10,assault by other and unspecified firearm discharge,violence,assault,emergency_admission,
+X96,hes_apc,diag,icd10,assault by explosive material,violence,assault,emergency_admission,
+X97,hes_apc,diag,icd10,assault by smoke fire and flames,violence,assault,emergency_admission,
+X98,hes_apc,diag,icd10,assault by steam hot vapours and hot objects,violence,assault,emergency_admission,
+X99,hes_apc,diag,icd10,assault by sharp object,violence,assault,emergency_admission,
+Y00,hes_apc,diag,icd10,assault by blunt object,violence,assault,emergency_admission,
+Y01,hes_apc,diag,icd10,assault by pushing from high place,violence,assault,emergency_admission,
+Y02,hes_apc,diag,icd10,assault by pushing or placing victim before moving object,violence,assault,emergency_admission,
+Y03,hes_apc,diag,icd10,assault by crashing of motor vehicle,violence,assault,emergency_admission,
+Y08,hes_apc,diag,icd10,assault by other specified means,violence,assault,emergency_admission,
+Y09,hes_apc,diag,icd10,assault by unspecified means,violence,assault,emergency_admission,
+Y20,hes_apc,diag,icd10,hanging strangulation and suffocation undetermined intent,violence,undetermined_cause,emergency_admission,
+Y21,hes_apc,diag,icd10,drowning and submersion undetermined intent,violence,undetermined_cause,emergency_admission,
+Y22,hes_apc,diag,icd10,handgun discharge undetermined intent,violence,undetermined_cause,emergency_admission,
+Y23,hes_apc,diag,icd10,rifle shotgun and larger firearm discharge undetermined intent,violence,undetermined_cause,emergency_admission,
+Y24,hes_apc,diag,icd10,other and unspecified firearm discharge undetermined intent,violence,undetermined_cause,emergency_admission,
+Y25,hes_apc,diag,icd10,contact with explosive material undetermined intent,violence,undetermined_cause,emergency_admission,
+Y26,hes_apc,diag,icd10,exposure to smoke fire and flames undetermined intent,violence,undetermined_cause,emergency_admission,
+Y27,hes_apc,diag,icd10,contact with steam hot vapours and hot objects undetermined intent,violence,undetermined_cause,emergency_admission,
+Y28,hes_apc,diag,icd10,contact with sharp object undetermined intent,violence,undetermined_cause,emergency_admission,
+Y29,hes_apc,diag,icd10,contact with blunt object undetermined intent,violence,undetermined_cause,emergency_admission,
+Y30,hes_apc,diag,icd10,falling jumping or pushed from a high place undetermined intent,violence,undetermined_cause,emergency_admission,
+Y31,hes_apc,diag,icd10,falling lying or running before or into moving object undetermined intent,violence,undetermined_cause,emergency_admission,
+Y32,hes_apc,diag,icd10,crashing of motor vehicle undetermined intent,violence,undetermined_cause,emergency_admission,
+Y33,hes_apc,diag,icd10,other specified events undetermined intent,violence,undetermined_cause,emergency_admission,
+Y34,hes_apc,diag,icd10,unspecified event undetermined intent,violence,undetermined_cause,emergency_admission,
+Z04.5,hes_apc,diag,icd10,examination and observation following other inflicted injury,violence,undetermined_cause,emergency_admission,
+Z04.8,hes_apc,diag,icd10,examination and observation for other specified reasons,violence,undetermined_cause,emergency_admission,
+X60,hes_apc,diag,icd10,intentional self-poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,self-harm,intent_poisoning,emergency_admission,
+X61,hes_apc,diag,icd10,intentional self-poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,self-harm,intent_poisoning,emergency_admission,
+X62,hes_apc,diag,icd10,intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,self-harm,intent_poisoning,emergency_admission,
+X63,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other drugs acting on the autonomic nervous system,self-harm,intent_poisoning,emergency_admission,
+X64,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified drugs medicaments and biological substances,self-harm,intent_poisoning,emergency_admission,
+X65,hes_apc,diag,icd10,intentional self-poisoning by and exposure to alcohol,self-harm,intent_poisoning,emergency_admission,
+X66,hes_apc,diag,icd10,intentional self-poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,self-harm,intent_poisoning,emergency_admission,
+X67,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other gases and vapours,self-harm,intent_poisoning,emergency_admission,
+X68,hes_apc,diag,icd10,intentional self-poisoning by and exposure to pesticides,self-harm,intent_poisoning,emergency_admission,
+X69,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances,self-harm,intent_poisoning,emergency_admission,
+X70,hes_apc,diag,icd10,intentional self-harm by hanging strangulation and suffocation,self-harm,intent_self_harm,emergency_admission,
+X71,hes_apc,diag,icd10,intentional self-harm by drowning and submersion,self-harm,intent_self_harm,emergency_admission,
+X72,hes_apc,diag,icd10,intentional self-harm by handgun discharge,self-harm,intent_self_harm,emergency_admission,
+X73,hes_apc,diag,icd10,intentional self-harm by rifle shotgun and larger firearm discharge,self-harm,intent_self_harm,emergency_admission,
+X74,hes_apc,diag,icd10,intentional self-harm by other and unspecified firearm discharge,self-harm,intent_self_harm,emergency_admission,
+X75,hes_apc,diag,icd10,intentional self-harm by explosive material,self-harm,intent_self_harm,emergency_admission,
+X76,hes_apc,diag,icd10,intentional self-harm by smoke fire and flames,self-harm,intent_self_harm,emergency_admission,
+X77,hes_apc,diag,icd10,intentional self-harm by steam hot vapours and hot objects,self-harm,intent_self_harm,emergency_admission,
+X78,hes_apc,diag,icd10,intentional self-harm by sharp object,self-harm,intent_self_harm,emergency_admission,
+X79,hes_apc,diag,icd10,intentional self-harm by blunt object,self-harm,intent_self_harm,emergency_admission,
+X80,hes_apc,diag,icd10,intentional self-harm by jumping from a high place,self-harm,intent_self_harm,emergency_admission,
+X81,hes_apc,diag,icd10,intentional self-harm by jumping or lying before moving object,self-harm,intent_self_harm,emergency_admission,
+X82,hes_apc,diag,icd10,intentional self-harm by crashing of motor vehicle,self-harm,intent_self_harm,emergency_admission,
+X83,hes_apc,diag,icd10,intentional self-harm by other specified means,self-harm,intent_self_harm,emergency_admission,
+X84,hes_apc,diag,icd10,intentional self-harm by unspecified means,self-harm,intent_self_harm,emergency_admission,
+Z91.5,hes_apc,diag,icd10,personal history of self-harm,self-harm,personal_history_self_harm,emergency_admission,
+F11,hes_apc,diag,icd10,mental and behavioural disorders due to use of opioids,drug_alc,illicit_drugs,emergency_admission,
+F12,hes_apc,diag,icd10,mental and behavioural disorders due to use of cannabinoids,drug_alc,illicit_drugs,emergency_admission,
+F13,hes_apc,diag,icd10,mental and behavioural disorders due to use of sedatives or hypnotics,drug_alc,illicit_drugs,emergency_admission,
+F14,hes_apc,diag,icd10,mental and behavioural disorders due to use of cocaine,drug_alc,illicit_drugs,emergency_admission,
+F15,hes_apc,diag,icd10,mental and behavioural disorders due to use of other stimulants including caffeine,drug_alc,illicit_drugs,emergency_admission,
+F16,hes_apc,diag,icd10,mental and behavioural disorders due to use of hallucinogens,drug_alc,illicit_drugs,emergency_admission,
+F17,hes_apc,diag,icd10,mental and behavioural disorders due to use of tobacco,drug_alc,illicit_drugs,emergency_admission,
+F19,hes_apc,diag,icd10,mental and behavioural disorders due to multiple drug use and use of other psychoactive substances,drug_alc,illicit_drugs,emergency_admission,
+R78.1,hes_apc,diag,icd10,finding of opiate drug in blood,drug_alc,illicit_drugs,emergency_admission,
+R78.2,hes_apc,diag,icd10,finding of cocaine in blood,drug_alc,illicit_drugs,emergency_admission,
+R78.3,hes_apc,diag,icd10,finding of hallucinogen in blood,drug_alc,illicit_drugs,emergency_admission,
+R78.4,hes_apc,diag,icd10,finding of other drugs of addictive potential in blood,drug_alc,illicit_drugs,emergency_admission,
+R78.5,hes_apc,diag,icd10,finding of psychotropic drug in blood,drug_alc,illicit_drugs,emergency_admission,
+T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,drug_alc,illicit_drugs,emergency_admission,
+T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,drug_alc,illicit_drugs,emergency_admission,
+T38,hes_apc,diag,icd10,poisoning by hormones and their synthetic substitutes and antagonists not elsewhere classified,drug_alc,illicit_drugs,emergency_admission,
+T39,hes_apc,diag,icd10,poisoning by nonopioid analgesics antipyretics and antirheumatics,drug_alc,illicit_drugs,emergency_admission,
+T40,hes_apc,diag,icd10,poisoning by narcotics and psychodysleptics [hallucinogens],drug_alc,illicit_drugs,emergency_admission,
+T41,hes_apc,diag,icd10,poisoning by anaesthetics and therapeutic gases,drug_alc,illicit_drugs,emergency_admission,
+T42,hes_apc,diag,icd10,poisoning by antiepileptic sedative-hypnotic and antiparkinsonism drugs,drug_alc,illicit_drugs,emergency_admission,
+T43,hes_apc,diag,icd10,poisoning by psychotropic drugs not elsewhere classified,drug_alc,illicit_drugs,emergency_admission,
+T44,hes_apc,diag,icd10,poisoning by drugs primarily affecting the autonomic nervous system,drug_alc,illicit_drugs,emergency_admission,
+T45,hes_apc,diag,icd10,poisoning by primarily systemic and haematological agents not elsewhere classified,drug_alc,illicit_drugs,emergency_admission,
+T46,hes_apc,diag,icd10,poisoning by agents primarily affecting the cardiovascular system,drug_alc,illicit_drugs,emergency_admission,
+T47,hes_apc,diag,icd10,poisoning by agents primarily affecting the gastrointestinal system,drug_alc,illicit_drugs,emergency_admission,
+T48,hes_apc,diag,icd10,poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system,drug_alc,illicit_drugs,emergency_admission,
+T49,hes_apc,diag,icd10,poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological otorhinolaryngological and dental drugs,drug_alc,illicit_drugs,emergency_admission,
+T50.0,hes_apc,diag,icd10,poisoning: mineralocorticoids and their antagonists,drug_alc,illicit_drugs,emergency_admission,
+T50.1,hes_apc,diag,icd10,poisoning: loop [high-ceiling] diuretics,drug_alc,illicit_drugs,emergency_admission,
+T50.2,hes_apc,diag,icd10,poisoning: carbonic-anhydrase inhibitors benzothiadiazides and other diuretics,drug_alc,illicit_drugs,emergency_admission,
+T50.3,hes_apc,diag,icd10,poisoning: electrolytic caloric and water-balance agents,drug_alc,illicit_drugs,emergency_admission,
+T50.4,hes_apc,diag,icd10,poisoning: drugs affecting uric acid metabolism,drug_alc,illicit_drugs,emergency_admission,
+T50.5,hes_apc,diag,icd10,poisoning: appetite depressants,drug_alc,illicit_drugs,emergency_admission,
+T50.7,hes_apc,diag,icd10,poisoning: analeptics and opioid receptor antagonists,drug_alc,illicit_drugs,emergency_admission,
+T50.8,hes_apc,diag,icd10,poisoning: diagnostic agents,drug_alc,illicit_drugs,emergency_admission,
+T50.9,hes_apc,diag,icd10,poisoning: other and unspecified drugs medicaments and biological substances,drug_alc,illicit_drugs,emergency_admission,
+Y10,hes_apc,diag,icd10,poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics undetermined intent,drug_alc,illicit_drugs,emergency_admission,
+Y11,hes_apc,diag,icd10,poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified undetermined intent,drug_alc,illicit_drugs,emergency_admission,
+Y12,hes_apc,diag,icd10,poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified undetermined intent,drug_alc,illicit_drugs,emergency_admission,
+Y13,hes_apc,diag,icd10,poisoning by and exposure to other drugs acting on the autonomic nervous system undetermined intent,drug_alc,illicit_drugs,emergency_admission,
+Y14,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified drugs medicaments and biological substances undetermined intent,drug_alc,illicit_drugs,emergency_admission,
+Z50.3,hes_apc,diag,icd10,drug rehabilitation,drug_alc,illicit_drugs,emergency_admission,
+Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,drug_alc,illicit_drugs,emergency_admission,
+Z72.2,hes_apc,diag,icd10,drug use,drug_alc,illicit_drugs,emergency_admission,
+F18,hes_apc,diag,icd10,mental and behavioural disorders due to use of volatile solvents,drug_alc,env_dom_subs,emergency_admission,
+X40,hes_apc,diag,icd10,accidental poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,drug_alc,env_dom_subs,emergency_admission,
+X41,hes_apc,diag,icd10,accidental poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,drug_alc,env_dom_subs,emergency_admission,
+X42,hes_apc,diag,icd10,accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,drug_alc,env_dom_subs,emergency_admission,
+X43,hes_apc,diag,icd10,accidental poisoning by and exposure to other drugs acting on the autonomic nervous system,drug_alc,env_dom_subs,emergency_admission,
+X44,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified drugs medicaments and biological substances,drug_alc,env_dom_subs,emergency_admission,
+X46,hes_apc,diag,icd10,accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,drug_alc,env_dom_subs,emergency_admission,
+X47,hes_apc,diag,icd10,accidental poisoning by and exposure to other gases and vapours,drug_alc,env_dom_subs,emergency_admission,
+X48,hes_apc,diag,icd10,accidental poisoning by and exposure to pesticides,drug_alc,env_dom_subs,emergency_admission,
+X49,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified chemicals and noxious substances,drug_alc,env_dom_subs,emergency_admission,
+X69,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances,drug_alc,env_dom_subs,emergency_admission,
+Y16,hes_apc,diag,icd10,poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours undetermined intent,drug_alc,env_dom_subs,emergency_admission,
+Y17,hes_apc,diag,icd10,poisoning by and exposure to other gases and vapours undetermined intent,drug_alc,env_dom_subs,emergency_admission,
+Y18,hes_apc,diag,icd10,poisoning by and exposure to pesticides undetermined intent,drug_alc,env_dom_subs,emergency_admission,
+Y19,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified chemicals and noxious substances undetermined intent,drug_alc,env_dom_subs,emergency_admission,
+G40.5,hes_apc,diag,icd10,special epileptic syndromes,drug_alc,codes_mentioning,emergency_admission,
+Z04.0,hes_apc,diag,icd10,blood-alcohol and blood-drug test,drug_alc,codes_mentioning,emergency_admission,
+E24.4,hes_apc,diag,icd10,alcohol-induced pseudo-cushing syndrome,drug_alc,codes_mentioning,emergency_admission,
+F10,hes_apc,diag,icd10,mental and behavioural disorders due to use of alcohol,drug_alc,codes_mentioning,emergency_admission,
+G31.2,hes_apc,diag,icd10,degeneration of nervous system due to alcohol,drug_alc,codes_mentioning,emergency_admission,
+G62.1,hes_apc,diag,icd10,alcoholic polyneuropathy,drug_alc,codes_mentioning,emergency_admission,
+G72.1,hes_apc,diag,icd10,alcoholic myopathy,drug_alc,codes_mentioning,emergency_admission,
+I42.6,hes_apc,diag,icd10,alcoholic cardiomyopathy,drug_alc,codes_mentioning,emergency_admission,
+K29.2,hes_apc,diag,icd10,alcoholic gastritis,drug_alc,codes_mentioning,emergency_admission,
+K70,hes_apc,diag,icd10,alcoholic liver disease,drug_alc,codes_mentioning,emergency_admission,
+K85.2,hes_apc,diag,icd10,alcohol-induced acute pancreatitis,drug_alc,codes_mentioning,emergency_admission,
+K86.0,hes_apc,diag,icd10,alcohol-induced chronic pancreatitis,drug_alc,codes_mentioning,emergency_admission,
+O35.4,hes_apc,diag,icd10,maternal care for (suspected) damage to fetus from alcohol,drug_alc,codes_mentioning,emergency_admission,
+R78.0,hes_apc,diag,icd10,finding of alcohol in blood,drug_alc,codes_mentioning,emergency_admission,
+T50.6,hes_apc,diag,icd10,poisoning: antidotes and chelating agents not elsewhere classified,drug_alc,codes_mentioning,emergency_admission,
+T51,hes_apc,diag,icd10,toxic effect of alcohol,drug_alc,codes_mentioning,emergency_admission,
+X45,hes_apc,diag,icd10,accidental poisoning by and exposure to alcohol,drug_alc,codes_mentioning,emergency_admission,
+Y15,hes_apc,diag,icd10,poisoning by and exposure to alcohol undetermined intent,drug_alc,codes_mentioning,emergency_admission,
+Y90,hes_apc,diag,icd10,evidence of alcohol involvement determined by blood alcohol level,drug_alc,codes_mentioning,emergency_admission,
+Y91,hes_apc,diag,icd10,evidence of alcohol involvement determined by level of intoxication,drug_alc,codes_mentioning,emergency_admission,
+Z50.2,hes_apc,diag,icd10,alcohol rehabilitation,drug_alc,codes_mentioning,emergency_admission,
+Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,drug_alc,codes_mentioning,emergency_admission,
+Z72.1,hes_apc,diag,icd10,alcohol use,drug_alc,codes_mentioning,emergency_admission,
+V01,hes_apc,diag,icd10,pedestrian injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V02,hes_apc,diag,icd10,pedestrian injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V03,hes_apc,diag,icd10,pedestrian injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V04,hes_apc,diag,icd10,pedestrian injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V05,hes_apc,diag,icd10,pedestrian injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V06,hes_apc,diag,icd10,pedestrian injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V09,hes_apc,diag,icd10,pedestrian injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V10,hes_apc,diag,icd10,pedal cyclist injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V11,hes_apc,diag,icd10,pedal cyclist injured in collision with other pedal cycle,accidents,transport_accidents,emergency_admission,
+V12,hes_apc,diag,icd10,pedal cyclist injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V13,hes_apc,diag,icd10,pedal cyclist injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V14,hes_apc,diag,icd10,pedal cyclist injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V15,hes_apc,diag,icd10,pedal cyclist injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V16,hes_apc,diag,icd10,pedal cyclist injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V17,hes_apc,diag,icd10,pedal cyclist injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V18,hes_apc,diag,icd10,pedal cyclist injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V19,hes_apc,diag,icd10,pedal cyclist injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V20,hes_apc,diag,icd10,motorcycle rider injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V21,hes_apc,diag,icd10,motorcycle rider injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V22,hes_apc,diag,icd10,motorcycle rider injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V23,hes_apc,diag,icd10,motorcycle rider injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V24,hes_apc,diag,icd10,motorcycle rider injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V25,hes_apc,diag,icd10,motorcycle rider injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V26,hes_apc,diag,icd10,motorcycle rider injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V27,hes_apc,diag,icd10,motorcycle rider injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V28,hes_apc,diag,icd10,motorcycle rider injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V29,hes_apc,diag,icd10,motorcycle rider injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V30,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V31,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V32,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V33,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V34,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V35,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V36,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V37,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V38,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V39,hes_apc,diag,icd10,occupant of three-wheeled motor vehicle injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V40,hes_apc,diag,icd10,car occupant injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V41,hes_apc,diag,icd10,car occupant injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V42,hes_apc,diag,icd10,car occupant injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V43,hes_apc,diag,icd10,car occupant injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V44,hes_apc,diag,icd10,car occupant injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V45,hes_apc,diag,icd10,car occupant injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V46,hes_apc,diag,icd10,car occupant injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V47,hes_apc,diag,icd10,car occupant injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V48,hes_apc,diag,icd10,car occupant injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V49,hes_apc,diag,icd10,car occupant injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V50,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V51,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V52,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V53,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V54,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V55,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V56,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V57,hes_apc,diag,icd10,occupant of pick-up truck or van injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V58,hes_apc,diag,icd10,occupant of pick-up truck or van injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V59,hes_apc,diag,icd10,occupant of pick-up truck or van injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V60,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V61,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V62,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V63,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V64,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V65,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V66,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V67,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V68,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V69,hes_apc,diag,icd10,occupant of heavy transport vehicle injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V70,hes_apc,diag,icd10,bus occupant injured in collision with pedestrian or animal,accidents,transport_accidents,emergency_admission,
+V71,hes_apc,diag,icd10,bus occupant injured in collision with pedal cycle,accidents,transport_accidents,emergency_admission,
+V72,hes_apc,diag,icd10,bus occupant injured in collision with two- or three-wheeled motor vehicle,accidents,transport_accidents,emergency_admission,
+V73,hes_apc,diag,icd10,bus occupant injured in collision with car pick-up truck or van,accidents,transport_accidents,emergency_admission,
+V74,hes_apc,diag,icd10,bus occupant injured in collision with heavy transport vehicle or bus,accidents,transport_accidents,emergency_admission,
+V75,hes_apc,diag,icd10,bus occupant injured in collision with railway train or railway vehicle,accidents,transport_accidents,emergency_admission,
+V76,hes_apc,diag,icd10,bus occupant injured in collision with other nonmotor vehicle,accidents,transport_accidents,emergency_admission,
+V77,hes_apc,diag,icd10,bus occupant injured in collision with fixed or stationary object,accidents,transport_accidents,emergency_admission,
+V78,hes_apc,diag,icd10,bus occupant injured in noncollision transport accident,accidents,transport_accidents,emergency_admission,
+V79,hes_apc,diag,icd10,bus occupant injured in other and unspecified transport accidents,accidents,transport_accidents,emergency_admission,
+V80,hes_apc,diag,icd10,animal-rider or occupant of animal-drawn vehicle injured in transport accident,accidents,transport_accidents,emergency_admission,
+V81,hes_apc,diag,icd10,occupant of railway train or railway vehicle injured in transport accident,accidents,transport_accidents,emergency_admission,
+V82,hes_apc,diag,icd10,occupant of streetcar injured in transport accident,accidents,transport_accidents,emergency_admission,
+V83,hes_apc,diag,icd10,occupant of special vehicle mainly used on industrial premises injured in transport accident,accidents,transport_accidents,emergency_admission,
+V84,hes_apc,diag,icd10,occupant of special vehicle mainly used in agriculture injured in transport accident,accidents,transport_accidents,emergency_admission,
+V85,hes_apc,diag,icd10,occupant of special construction vehicle injured in transport accident,accidents,transport_accidents,emergency_admission,
+V86,hes_apc,diag,icd10,occupant of special all-terrain or other motor vehicle designed primarily for off-road use injured in transport accident,accidents,transport_accidents,emergency_admission,
+V87,hes_apc,diag,icd10,traffic accident of specified type but victim's mode of transport unknown,accidents,transport_accidents,emergency_admission,
+V88,hes_apc,diag,icd10,nontraffic accident of specified type but victim's mode of transport unknown,accidents,transport_accidents,emergency_admission,
+V89,hes_apc,diag,icd10,motor- or nonmotor-vehicle accident type of vehicle unspecified,accidents,transport_accidents,emergency_admission,
+V90,hes_apc,diag,icd10,accident to watercraft causing drowning and submersion,accidents,transport_accidents,emergency_admission,
+V91,hes_apc,diag,icd10,accident to watercraft causing other injury,accidents,transport_accidents,emergency_admission,
+V92,hes_apc,diag,icd10,water-transport-related drowning and submersion without accident to watercraft,accidents,transport_accidents,emergency_admission,
+V93,hes_apc,diag,icd10,accident on board watercraft without accident to watercraft not causing drowning and submersion,accidents,transport_accidents,emergency_admission,
+V94,hes_apc,diag,icd10,other and unspecified water transport accidents,accidents,transport_accidents,emergency_admission,
+V95,hes_apc,diag,icd10,accident to powered aircraft causing injury to occupant,accidents,transport_accidents,emergency_admission,
+V96,hes_apc,diag,icd10,accident to nonpowered aircraft causing injury to occupant,accidents,transport_accidents,emergency_admission,
+V97,hes_apc,diag,icd10,other specified air transport accidents,accidents,transport_accidents,emergency_admission,
+V98,hes_apc,diag,icd10,other specified transport accidents,accidents,transport_accidents,emergency_admission,
+V99,hes_apc,diag,icd10,unspecified transport accident,accidents,transport_accidents,emergency_admission,
+W00,hes_apc,diag,icd10,fall on same level involving ice and snow,accidents,falls,emergency_admission,
+W01,hes_apc,diag,icd10,fall on same level from slipping tripping and stumbling,accidents,falls,emergency_admission,
+W02,hes_apc,diag,icd10,fall involving ice-skates skis roller-skates or skateboards,accidents,falls,emergency_admission,
+W03,hes_apc,diag,icd10,other fall on same level due to collision with or pushing by another person,accidents,falls,emergency_admission,
+W04,hes_apc,diag,icd10,fall while being carried or supported by other persons,accidents,falls,emergency_admission,
+W05,hes_apc,diag,icd10,fall involving wheelchair,accidents,falls,emergency_admission,
+W06,hes_apc,diag,icd10,fall involving bed,accidents,falls,emergency_admission,
+W07,hes_apc,diag,icd10,fall involving chair,accidents,falls,emergency_admission,
+W08,hes_apc,diag,icd10,fall involving other furniture,accidents,falls,emergency_admission,
+W09,hes_apc,diag,icd10,fall involving playground equipment,accidents,falls,emergency_admission,
+W10,hes_apc,diag,icd10,fall on and from stairs and steps,accidents,falls,emergency_admission,
+W11,hes_apc,diag,icd10,fall on and from ladder,accidents,falls,emergency_admission,
+W12,hes_apc,diag,icd10,fall on and from scaffolding,accidents,falls,emergency_admission,
+W13,hes_apc,diag,icd10,fall from out of or through building or structure,accidents,falls,emergency_admission,
+W14,hes_apc,diag,icd10,fall from tree,accidents,falls,emergency_admission,
+W15,hes_apc,diag,icd10,fall from cliff,accidents,falls,emergency_admission,
+W16,hes_apc,diag,icd10,diving or jumping into water causing injury other than drowning or submersion,accidents,falls,emergency_admission,
+W17,hes_apc,diag,icd10,other fall from one level to another,accidents,falls,emergency_admission,
+W18,hes_apc,diag,icd10,other fall on same level,accidents,falls,emergency_admission,
+W19,hes_apc,diag,icd10,unspecified fall,accidents,falls,emergency_admission,
+W20,hes_apc,diag,icd10,struck by thrown projected or falling object,accidents,inanimate_mech_force,emergency_admission,
+W21,hes_apc,diag,icd10,striking against or struck by sports equipment,accidents,inanimate_mech_force,emergency_admission,
+W22,hes_apc,diag,icd10,striking against or struck by other objects,accidents,inanimate_mech_force,emergency_admission,
+W23,hes_apc,diag,icd10,caught crushed jammed or pinched in or between objects,accidents,inanimate_mech_force,emergency_admission,
+W24,hes_apc,diag,icd10,contact with lifting and transmission devices not elsewhere classified,accidents,inanimate_mech_force,emergency_admission,
+W25,hes_apc,diag,icd10,contact with sharp glass,accidents,inanimate_mech_force,emergency_admission,
+W26,hes_apc,diag,icd10,contact with other sharp object(s),accidents,inanimate_mech_force,emergency_admission,
+W27,hes_apc,diag,icd10,contact with nonpowered hand tool,accidents,inanimate_mech_force,emergency_admission,
+W28,hes_apc,diag,icd10,contact with powered lawnmower,accidents,inanimate_mech_force,emergency_admission,
+W29,hes_apc,diag,icd10,contact with other powered hand tools and household machinery,accidents,inanimate_mech_force,emergency_admission,
+W30,hes_apc,diag,icd10,contact with agricultural machinery,accidents,inanimate_mech_force,emergency_admission,
+W31,hes_apc,diag,icd10,contact with other and unspecified machinery,accidents,inanimate_mech_force,emergency_admission,
+W32,hes_apc,diag,icd10,handgun discharge,accidents,inanimate_mech_force,emergency_admission,
+W33,hes_apc,diag,icd10,rifle shotgun and larger firearm discharge,accidents,inanimate_mech_force,emergency_admission,
+W34,hes_apc,diag,icd10,discharge from other and unspecified firearms,accidents,inanimate_mech_force,emergency_admission,
+W35,hes_apc,diag,icd10,explosion and rupture of boiler,accidents,inanimate_mech_force,emergency_admission,
+W36,hes_apc,diag,icd10,explosion and rupture of gas cylinder,accidents,inanimate_mech_force,emergency_admission,
+W37,hes_apc,diag,icd10,explosion and rupture of pressurized tyre pipe or hose,accidents,inanimate_mech_force,emergency_admission,
+W38,hes_apc,diag,icd10,explosion and rupture of other specified pressurized devices,accidents,inanimate_mech_force,emergency_admission,
+W39,hes_apc,diag,icd10,discharge of firework,accidents,inanimate_mech_force,emergency_admission,
+W40,hes_apc,diag,icd10,explosion of other materials,accidents,inanimate_mech_force,emergency_admission,
+W41,hes_apc,diag,icd10,exposure to high-pressure jet,accidents,inanimate_mech_force,emergency_admission,
+W42,hes_apc,diag,icd10,exposure to noise,accidents,inanimate_mech_force,emergency_admission,
+W43,hes_apc,diag,icd10,exposure to vibration,accidents,inanimate_mech_force,emergency_admission,
+W44,hes_apc,diag,icd10,foreign body entering into or through eye or natural orifice,accidents,inanimate_mech_force,emergency_admission,
+W45,hes_apc,diag,icd10,foreign body or object entering through skin,accidents,inanimate_mech_force,emergency_admission,
+W46,hes_apc,diag,icd10,contact with hypodermic needle,accidents,inanimate_mech_force,emergency_admission,
+W49,hes_apc,diag,icd10,exposure to other and unspecified inanimate mechanical forces,accidents,inanimate_mech_force,emergency_admission,
+W50,hes_apc,diag,icd10,hit struck kicked twisted bitten or scratched by another person,accidents,animate_mech_force,emergency_admission,
+W51,hes_apc,diag,icd10,striking against or bumped into by another person,accidents,animate_mech_force,emergency_admission,
+W52,hes_apc,diag,icd10,crushed pushed or stepped on by crowd or human stampede,accidents,animate_mech_force,emergency_admission,
+W53,hes_apc,diag,icd10,bitten by rat,accidents,animate_mech_force,emergency_admission,
+W54,hes_apc,diag,icd10,bitten or struck by dog,accidents,animate_mech_force,emergency_admission,
+W55,hes_apc,diag,icd10,bitten or struck by other mammals,accidents,animate_mech_force,emergency_admission,
+W56,hes_apc,diag,icd10,contact with marine animal,accidents,animate_mech_force,emergency_admission,
+W57,hes_apc,diag,icd10,bitten or stung by nonvenomous insect and other nonvenomous arthropods,accidents,animate_mech_force,emergency_admission,
+W58,hes_apc,diag,icd10,bitten or struck by crocodile or alligator,accidents,animate_mech_force,emergency_admission,
+W59,hes_apc,diag,icd10,bitten or crushed by other reptiles,accidents,animate_mech_force,emergency_admission,
+W60,hes_apc,diag,icd10,contact with plant thorns and spines and sharp leaves,accidents,animate_mech_force,emergency_admission,
+W64,hes_apc,diag,icd10,exposure to other and unspecified animate mechanical forces,accidents,animate_mech_force,emergency_admission,
+W65,hes_apc,diag,icd10,drowning and submersion while in bath-tub,accidents,drown_submersion,emergency_admission,
+W66,hes_apc,diag,icd10,drowning and submersion following fall into bath-tub,accidents,drown_submersion,emergency_admission,
+W67,hes_apc,diag,icd10,drowning and submersion while in swimming-pool,accidents,drown_submersion,emergency_admission,
+W68,hes_apc,diag,icd10,drowning and submersion following fall into swimming-pool,accidents,drown_submersion,emergency_admission,
+W69,hes_apc,diag,icd10,drowning and submersion while in natural water,accidents,drown_submersion,emergency_admission,
+W70,hes_apc,diag,icd10,drowning and submersion following fall into natural water,accidents,drown_submersion,emergency_admission,
+W73,hes_apc,diag,icd10,other specified drowning and submersion,accidents,drown_submersion,emergency_admission,
+W74,hes_apc,diag,icd10,unspecified drowning and submersion,accidents,drown_submersion,emergency_admission,
+W75,hes_apc,diag,icd10,accidental suffocation and strangulation in bed,accidents,breathing_other,emergency_admission,
+W76,hes_apc,diag,icd10,other accidental hanging and strangulation,accidents,breathing_other,emergency_admission,
+W77,hes_apc,diag,icd10,threat to breathing due to cave-in falling earth and other substances,accidents,breathing_other,emergency_admission,
+W78,hes_apc,diag,icd10,inhalation of gastric contents,accidents,breathing_other,emergency_admission,
+W79,hes_apc,diag,icd10,inhalation and ingestion of food causing obstruction of respiratory tract,accidents,breathing_other,emergency_admission,
+W80,hes_apc,diag,icd10,inhalation and ingestion of other objects causing obstruction of respiratory tract,accidents,breathing_other,emergency_admission,
+W81,hes_apc,diag,icd10,confined to or trapped in a low-oxygen environment,accidents,breathing_other,emergency_admission,
+W83,hes_apc,diag,icd10,other specified threats to breathing,accidents,breathing_other,emergency_admission,
+W84,hes_apc,diag,icd10,unspecified threat to breathing,accidents,breathing_other,emergency_admission,
+W85,hes_apc,diag,icd10,exposure to electric transmission lines,accidents,electric_radiation,emergency_admission,
+W86,hes_apc,diag,icd10,exposure to other specified electric current,accidents,electric_radiation,emergency_admission,
+W87,hes_apc,diag,icd10,exposure to unspecified electric current,accidents,electric_radiation,emergency_admission,
+W88,hes_apc,diag,icd10,exposure to ionizing radiation,accidents,electric_radiation,emergency_admission,
+W89,hes_apc,diag,icd10,exposure to man-made visible and ultraviolet light,accidents,electric_radiation,emergency_admission,
+W90,hes_apc,diag,icd10,exposure to other nonionizing radiation,accidents,electric_radiation,emergency_admission,
+W91,hes_apc,diag,icd10,exposure to unspecified type of radiation,accidents,electric_radiation,emergency_admission,
+W92,hes_apc,diag,icd10,exposure to excessive heat of man-made origin,accidents,electric_radiation,emergency_admission,
+W93,hes_apc,diag,icd10,exposure to excessive cold of man-made origin,accidents,electric_radiation,emergency_admission,
+W94,hes_apc,diag,icd10,exposure to high and low air pressure and changes in air pressure,accidents,electric_radiation,emergency_admission,
+W99,hes_apc,diag,icd10,exposure to other and unspecified man-made environmental factors,accidents,electric_radiation,emergency_admission,
+X00,hes_apc,diag,icd10,exposure to uncontrolled fire in building or structure,accidents,smoke_fire,emergency_admission,
+X01,hes_apc,diag,icd10,exposure to uncontrolled fire not in building or structure,accidents,smoke_fire,emergency_admission,
+X02,hes_apc,diag,icd10,exposure to controlled fire in building or structure,accidents,smoke_fire,emergency_admission,
+X03,hes_apc,diag,icd10,exposure to controlled fire not in building or structure,accidents,smoke_fire,emergency_admission,
+X04,hes_apc,diag,icd10,exposure to ignition of highly flammable material,accidents,smoke_fire,emergency_admission,
+X05,hes_apc,diag,icd10,exposure to ignition or melting of nightwear,accidents,smoke_fire,emergency_admission,
+X06,hes_apc,diag,icd10,exposure to ignition or melting of other clothing and apparel,accidents,smoke_fire,emergency_admission,
+X08,hes_apc,diag,icd10,exposure to other specified smoke fire and flames,accidents,smoke_fire,emergency_admission,
+X09,hes_apc,diag,icd10,exposure to unspecified smoke fire and flames,accidents,smoke_fire,emergency_admission,
+X10,hes_apc,diag,icd10,contact with hot drinks food fats and cooking oils,accidents,heat,emergency_admission,
+X11,hes_apc,diag,icd10,contact with hot tap-water,accidents,heat,emergency_admission,
+X12,hes_apc,diag,icd10,contact with other hot fluids,accidents,heat,emergency_admission,
+X13,hes_apc,diag,icd10,contact with steam and hot vapours,accidents,heat,emergency_admission,
+X14,hes_apc,diag,icd10,contact with hot air and gases,accidents,heat,emergency_admission,
+X15,hes_apc,diag,icd10,contact with hot household appliances,accidents,heat,emergency_admission,
+X16,hes_apc,diag,icd10,contact with hot heating appliances radiators and pipes,accidents,heat,emergency_admission,
+X17,hes_apc,diag,icd10,contact with hot engines machinery and tools,accidents,heat,emergency_admission,
+X18,hes_apc,diag,icd10,contact with other hot metals,accidents,heat,emergency_admission,
+X19,hes_apc,diag,icd10,contact with other and unspecified heat and hot substances,accidents,heat,emergency_admission,
+X20,hes_apc,diag,icd10,contact with venomous snakes and lizards,accidents,venom,emergency_admission,
+X21,hes_apc,diag,icd10,contact with venomous spiders,accidents,venom,emergency_admission,
+X22,hes_apc,diag,icd10,contact with scorpions,accidents,venom,emergency_admission,
+X23,hes_apc,diag,icd10,contact with hornets wasps and bees,accidents,venom,emergency_admission,
+X24,hes_apc,diag,icd10,contact with centipedes and venomous millipedes (tropical),accidents,venom,emergency_admission,
+X25,hes_apc,diag,icd10,contact with other venomous arthropods,accidents,venom,emergency_admission,
+X26,hes_apc,diag,icd10,contact with venomous marine animals and plants,accidents,venom,emergency_admission,
+X27,hes_apc,diag,icd10,contact with other specified venomous animals,accidents,venom,emergency_admission,
+X28,hes_apc,diag,icd10,contact with other specified venomous plants,accidents,venom,emergency_admission,
+X29,hes_apc,diag,icd10,contact with unspecified venomous animal or plant,accidents,venom,emergency_admission,
+X30,hes_apc,diag,icd10,exposure to excessive natural heat,accidents,force_nature,emergency_admission,
+X31,hes_apc,diag,icd10,exposure to excessive natural cold,accidents,force_nature,emergency_admission,
+X32,hes_apc,diag,icd10,exposure to sunlight,accidents,force_nature,emergency_admission,
+X33,hes_apc,diag,icd10,victim of lightning,accidents,force_nature,emergency_admission,
+X34,hes_apc,diag,icd10,victim of earthquake,accidents,force_nature,emergency_admission,
+X35,hes_apc,diag,icd10,victim of volcanic eruption,accidents,force_nature,emergency_admission,
+X36,hes_apc,diag,icd10,victim of avalanche landslide and other earth movements,accidents,force_nature,emergency_admission,
+X37,hes_apc,diag,icd10,victim of cataclysmic storm,accidents,force_nature,emergency_admission,
+X38,hes_apc,diag,icd10,victim of flood,accidents,force_nature,emergency_admission,
+X39,hes_apc,diag,icd10,exposure to other and unspecified forces of nature,accidents,force_nature,emergency_admission,
+X40,hes_apc,diag,icd10,accidental poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,accidents,poison,emergency_admission,
+X41,hes_apc,diag,icd10,accidental poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,accidents,poison,emergency_admission,
+X42,hes_apc,diag,icd10,accidental poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,accidents,poison,emergency_admission,
+X43,hes_apc,diag,icd10,accidental poisoning by and exposure to other drugs acting on the autonomic nervous system,accidents,poison,emergency_admission,
+X44,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified drugs medicaments and biological substances,accidents,poison,emergency_admission,
+X45,hes_apc,diag,icd10,accidental poisoning by and exposure to alcohol,accidents,poison,emergency_admission,
+X46,hes_apc,diag,icd10,accidental poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,accidents,poison,emergency_admission,
+X47,hes_apc,diag,icd10,accidental poisoning by and exposure to other gases and vapours,accidents,poison,emergency_admission,
+X48,hes_apc,diag,icd10,accidental poisoning by and exposure to pesticides,accidents,poison,emergency_admission,
+X49,hes_apc,diag,icd10,accidental poisoning by and exposure to other and unspecified chemicals and noxious substances,accidents,poison,emergency_admission,
+X50,hes_apc,diag,icd10,overexertion and strenuous or repetitive movements,accidents,overexertion,emergency_admission,
+X51,hes_apc,diag,icd10,travel and motion,accidents,overexertion,emergency_admission,
+X52,hes_apc,diag,icd10,prolonged stay in weightless environment,accidents,overexertion,emergency_admission,
+X53,hes_apc,diag,icd10,lack of food,accidents,overexertion,emergency_admission,
+X54,hes_apc,diag,icd10,lack of water,accidents,overexertion,emergency_admission,
+X57,hes_apc,diag,icd10,unspecified privation,accidents,overexertion,emergency_admission,
+X58,hes_apc,diag,icd10,exposure to other specified factors,accidents,other [accidents],emergency_admission,
+X59,hes_apc,diag,icd10,exposure to unspecified factor,accidents,other [accidents],emergency_admission,

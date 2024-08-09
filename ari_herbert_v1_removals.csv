@@ -1,0 +1,2 @@
+code,dataset,field,code_type,group,subgroup,flag1,flag2,reason_for_removal
+I42.1,hes_apc,diag,icd10,drug_alc,codes_mentioning,emergency_admission,,included in error - replaced with I42.6 (alcoholic cardiomyopathy)
