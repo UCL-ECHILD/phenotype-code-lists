@@ -339,7 +339,7 @@ E26.8,hes_apc,diag,icd10,other hyperaldosteronism,metab,endocrine,
 Z46.8,hes_apc,diag,icd10,fitting and adjustment of other specified devices,metab,devices [metab],code_truncated
 Z96.4,hes_apc,diag,icd10,presence of endocrine implants,metab,devices [metab],code_truncated
 Q90.9,hes_apc,diag,icd10,down syndrome unspecified,other_congen,chromo,
-Q91.3,hes_apc,diag,icd10,edwards' syndrome unspecified,other_congen,chromo,
+Q91.3,hes_apc,diag,icd10,edwards syndrome unspecified,other_congen,chromo,
 Q91.4,hes_apc,diag,icd10,trisomy 13 meiotic nondisjunction,other_congen,chromo,
 Q91.7,hes_apc,diag,icd10,patau syndrome unspecified,other_congen,chromo,
 Q92.8,hes_apc,diag,icd10,other specified trisomies and partial trisomies of autosomes,other_congen,chromo,
