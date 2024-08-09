@@ -1,0 +1,26 @@
+code,dataset,field,code_type,description,group
+Z37.2,hes_apc,diag,icd10,twins both liveborn,multiple_births
+Z37.3,hes_apc,diag,icd10,twins one liveborn and one stillborn,multiple_births
+Z37.4,hes_apc,diag,icd10,twins both stillborn,multiple_births
+Z37.5,hes_apc,diag,icd10,other multiple births all liveborn,multiple_births
+Z37.6,hes_apc,diag,icd10,other multiple births some liveborn,multiple_births
+Z37.7,hes_apc,diag,icd10,other multiple births all stillborn,multiple_births
+Z38.3,hes_apc,diag,icd10,twin born in hospital,multiple_births
+Z38.4,hes_apc,diag,icd10,twin born outside hospital,multiple_births
+Z38.5,hes_apc,diag,icd10,twin unspecified as to place of birth,multiple_births
+Z38.6,hes_apc,diag,icd10,other multiple born in hospital,multiple_births
+Z38.7,hes_apc,diag,icd10,other multiple born outside hospital,multiple_births
+Z38.8,hes_apc,diag,icd10,other multiple unspecified as to place of birth,multiple_births
+>1,hes_apc,birorder,birorder,birorder >1,multiple_births
+>1,hes_apc,numbaby,numbaby,numbaby >1,multiple_births
+P96.4,hes_apc,diag,icd10,termination of pregnancy affecting fetus and newborn,termination
+P95,hes_apc,diag,icd10,fetal death of unspecified cause,stillbirth
+Z37.1,hes_apc,diag,icd10,single stillbirth,stillbirth
+Z37.3,hes_apc,diag,icd10,twins one liveborn and one stillborn,stillbirth
+Z37.4,hes_apc,diag,icd10,twins both stillborn,stillbirth
+Z37.6,hes_apc,diag,icd10,other multiple births some liveborn,stillbirth
+Z37.7,hes_apc,diag,icd10,other multiple births all stillborn,stillbirth
+5,hes_apc,dismeth,dismeth,stillbirth,stillbirth
+2,hes_apc,birtstat,birtstat,stillbirth: ante-partum,stillbirth
+3,hes_apc,birtstat,birtstat,stillbirth: post-partum,stillbirth
+4,hes_apc,birtstat,birtstat,stillbirth: indeterminate,stillbirth
