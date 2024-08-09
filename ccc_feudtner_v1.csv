@@ -11,7 +11,7 @@ G90.1,hes_apc,diag,icd10,familial dysautonomia [riley-day],neuro,brain_spc_malfo
 F71,hes_apc,diag,icd10,moderate mental retardation,neuro,mental_ret,
 F72,hes_apc,diag,icd10,severe mental retardation,neuro,mental_ret,
 F73,hes_apc,diag,icd10,profound mental retardation,neuro,mental_ret,
-E75.0,hes_apc,diag,icd10,gmôéé gangliosidosis,neuro,cns_degeneration,
+E75.0,hes_apc,diag,icd10,gm2 gangliosidosis,neuro,cns_degeneration,
 E75.1,hes_apc,diag,icd10,other gangliosidosis,neuro,cns_degeneration,
 E75.2,hes_apc,diag,icd10,other sphingolipidosis,neuro,cns_degeneration,
 E75.4,hes_apc,diag,icd10,neuronal ceroid lipofuscinosis,neuro,cns_degeneration,
