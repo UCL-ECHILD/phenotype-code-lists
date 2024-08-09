@@ -1,0 +1,5 @@
+code,dataset,field,code_type,description
+Y06.0,hes_apc,diag,icd10,neglect and abandonment by spouse or partner
+Y07.0,hes_apc,diag,icd10,other maltreatment by spouse or partner
+T74.1,hes_apc,diag,icd10,maltreatment syndromes - physical abuse
+Z63.0,hes_apc,diag,icd10,problems in relationship with spouse or partner
