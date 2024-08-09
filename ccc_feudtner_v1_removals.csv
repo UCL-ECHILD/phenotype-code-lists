@@ -1,0 +1,1098 @@
+code,dataset,field,code_type,group,subgroup,reason_for_removal
+G31.89,hes_apc,diag,icd-10-cm,neuro,cns_degeneration,would be truncated but code G31.8 already present independently
+G25.3,hes_apc,diag,icd10,neuro,cns_degeneration,removed from this group/subgroup only; it is included under movement diseases
+G82.9,hes_apc,diag,not_found,neuro,other_cns,code not found in icd-10 or icd-10-cm
+R40.3,hes_apc,diag,icd-10-cm,neuro,other_cns,icd-10-cm not used in HES
+_0016070,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016071,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016072,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016073,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016074,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016075,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016076,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016077,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016078,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001607B,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016075,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016076,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016078,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001607B,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016370,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016371,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016372,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016375,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016376,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016377,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_0016378,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001637B,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U074,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U076,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U077,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U079,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U374,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U376,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_001U377,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_00B70ZZ,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_00B74ZZ,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_00T70ZZ,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_00T73ZZ,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+_00T74ZZ,hes_apc,diag,icd-10-pcs,neuro,other_cns,icd-10-pcs codes not used in HES
+Z45.41,hes_apc,diag,icd-10-cm,neuro,devices [neuro],code (including Z45.4) only exists in icd-10-cm
+Z45.42,hes_apc,diag,icd-10-cm,neuro,devices [neuro],code (including Z45.4) only exists in icd-10-cm
+_00160J0,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J1,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J2,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J3,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J5,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160J8,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160JB,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K0,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K1,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K2,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K3,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K5,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160K8,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00160KB,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J0,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J1,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J2,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J3,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J5,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163J8,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163JB,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K0,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K1,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K2,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K3,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K5,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163K8,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00163KB,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0J4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0J6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0J7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0J9,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0K4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0K6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0K7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U0K9,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3J4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3J6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3J7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3J9,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3K4,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3K6,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3K7,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_001U3K9,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_009600Z,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_009630Z,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_009640Z,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H00MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H03MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H04MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H60MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H63MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00H64MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HE0MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HE3MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HE4MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HU0MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HU3MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HU4MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HV0MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HV3MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00HV4MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00W60JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00W63JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00W64JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00WU0JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00WU3JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_00WU4JZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_01HY0MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_01HY3MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_01HY4MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0DH60MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0DH63MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0DH64MZ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0W110J9,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0W110JB,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0W110JG,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_0W110JJ,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_3E1Q38X,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_3E1Q38Z,hes_apc,diag,icd-10-pcs,neuro,devices [neuro],icd-10-pcs codes not used in HES
+_02170ZQ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02170ZR,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02BK0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02LR0ZT,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02LS0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02LT0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02NH0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RK0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RL0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RM0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RP0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RQ07Z,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RQ0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RR07Z,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02RR0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02SP0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02SW0ZZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02U70JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02UA0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02UA3JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02UA4JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02VR0ZT,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02WA0JZ,hes_apc,diag,icd-10-pcs,cardio,cardio_malformations,icd-10-pcs codes not used in HES
+_02H40JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H40KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H43JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H44JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H44KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H60JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H60KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H63JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H63KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H63MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H64JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H64KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H70KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H73JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H73KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H73MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02H74KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA0QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA0RS,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA0RZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA3QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA3RS,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA4QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HA4RS,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK0JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK0KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK3JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK3KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK4JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HK4KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL0JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL0KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL3JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL3KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL4JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL4KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HL4MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN0JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN0KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN3JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN3KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN4JZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN4KZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02HN4MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA0QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA0RZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA3QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA3RZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA4QZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02WA4RZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HK0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HK3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HK4MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HL0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HL3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03HL4MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03WY0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03WY3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_03WY4MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH600Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH605Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH606Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH607Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH608Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH609Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH60AZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH60MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH60PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH630Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH635Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH636Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH637Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH638Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH639Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH63AZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH63MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH63PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH70MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH73MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH800Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH805Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH806Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH807Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH808Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH809Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH80AZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH80MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH80PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH830Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH835Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH836Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH837Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH838Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH839Z,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH83AZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH83MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JH83PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JWT0MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JWT0PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JWT3MZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JWT3PZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_0JWTXMZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_4B02XSZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_4B02XTZ,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A02110,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A02116,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A0211D,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A02210,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A02216,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_5A0221D,hes_apc,diag,icd-10-pcs,cardio,devices [cardio],icd-10-pcs codes not used in HES
+_02YA0Z0,hes_apc,diag,icd-10-pcs,cardio,transplantation [cardio],icd-10-pcs codes not used in HES
+_02YA0Z1,hes_apc,diag,icd-10-pcs,cardio,transplantation [cardio],icd-10-pcs codes not used in HES
+_02YA0Z2,hes_apc,diag,icd-10-pcs,cardio,transplantation [cardio],icd-10-pcs codes not used in HES
+_0B110Z4,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0B113Z4,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0B114Z4,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTC0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTC4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTD0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTD4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTF0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTF4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTG0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTG4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTJ0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTJ4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTK0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTK4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTL0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTL4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTM0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0BTM4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0CTS0ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0CTS4ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0CTS7ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+_0CTS8ZZ,hes_apc,diag,icd-10-pcs,resp,other [resp],icd-10-pcs codes not used in HES
+J96.20,hes_apc,diag,icd-10-cm,resp,chronic_resp_dis,icd-10-cm (including J96.2) not used in HES
+_0BHR3MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BHR4MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BHS0MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BHS3MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BHS4MZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BW10FZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BW13FZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BW14FZ,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0JH604Z,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0JH634Z,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0JH804Z,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0JH834Z,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0WQ6XZ2,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_3E1F78Z,hes_apc,diag,icd-10-pcs,resp,devices [resp],icd-10-pcs codes not used in HES
+_0BYC0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYC0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYC0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYD0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYD0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYD0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYF0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYF0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYF0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYG0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYG0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYG0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYH0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYH0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYH0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYJ0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYJ0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYJ0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYK0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYK0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYK0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYL0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYL0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYL0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYM0Z0,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYM0Z1,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0BYM0Z2,hes_apc,diag,icd-10-pcs,resp,transplantation [resp],icd-10-pcs codes not used in HES
+_0T160Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T160ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T164Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T164ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T170Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T170ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T174Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T174ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T180Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T180ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T184Z8,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0T184ZA,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB60ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB63ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB64ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB67ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB68ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB70ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB73ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB74ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB77ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TB78ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT00ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT04ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT10ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT14ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT20ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT24ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT60ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT64ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT67ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT68ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT70ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT74ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT77ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TT78ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTB0ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTB4ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTB7ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTB8ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTD0ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTD4ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTD7ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_0TTD8ZZ,hes_apc,diag,icd-10-pcs,renal_urol,other [renal_urol],icd-10-pcs codes not used in HES
+_031209D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031209F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03120ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031309D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031309F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03130ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031409D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031409F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03140ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031509D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031509F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03150ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031609D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031609F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03160ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031709D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031709F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03170ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031809D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031809F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180AD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03180ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031909F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03190AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03190JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03190KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03190ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031A09F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031A0AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031A0JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031A0KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031A0ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031B09F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031B0AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031B0JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031B0KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031B0ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031C09F,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031C0AF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031C0JF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031C0KF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_031C0ZF,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03WY0JZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03WY3JZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03WY4JZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_03WYXJZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_05HY33Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_06HY33Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH60WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH60XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH63WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH63XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH80WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH80XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH83WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JH83XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHD0WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHD0XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHD3WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHD3XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHF0WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHF0XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHF3WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHF3XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHL0WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHL0XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHL3WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHL3XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHM0WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHM0XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHM3WZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0JHM3XZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T130ZB,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T134ZB,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T140ZB,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T144ZB,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T16079,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1607C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1607D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T160ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T163JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T16479,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1647C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1647D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T164ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T17079,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1707C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1707D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T170ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T173JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T17479,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1747C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1747D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T174ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T18079,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1807C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1807D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T180ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T183JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T18479,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1847C,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1847D,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184J9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184JC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184JD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184K9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184KC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184KD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184Z9,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184ZC,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T184ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1B0ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T1B4ZD,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T25X0Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T29X0Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T29XYZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T2BX0Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9000Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9030Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9040Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9070Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9080Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9100Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9130Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9140Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9170Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9180Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9370Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9380Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9470Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0T9480Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0TQ67ZZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0TQ77ZZ,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_3E1K38Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_3E1M39Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_5A1D60Z,hes_apc,diag,icd-10-pcs,renal_urol,devices [renal_urol],icd-10-pcs codes not used in HES
+_0TY00Z0,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0TY00Z1,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0TY00Z2,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0TY10Z0,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0TY10Z1,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0TY10Z2,hes_apc,diag,icd-10-pcs,renal_urol,transplantation [renal_urol],icd-10-pcs codes not used in HES
+_0CT70ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0CT7XZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0D13079,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0D1307A,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0D1307B,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0D1607A,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0D160ZA,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT50ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT54ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT57ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT58ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT60ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT64ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT67ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT68ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT80ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT84ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT87ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT88ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT90ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT94ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT97ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DT98ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DTE0ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DTE4ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DTE7ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0DTE8ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0FT00ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0FT04ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0FTG0ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+_0FTG4ZZ,hes_apc,diag,icd-10-pcs,gastro,other [gastro],icd-10-pcs codes not used in HES
+K94.2,hes_apc,diag,icd-10-cm,gastro,devices [gastro],icd-10-cm not used in HES
+_0D11074,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D110J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D110K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D110Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D113J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D11474,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D114J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D114K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D114Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D15074,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D150J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D150K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D150Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D153J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D15474,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D154J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D154K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D154Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D16074,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160J9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160JA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160K9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160KA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D160Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D163J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D16474,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164J9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164JA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164K9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164KA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D164Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D16874,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168J4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168J9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168JA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168K4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168K9,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168KA,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D168Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1B0Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1B4Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1B8Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1H0Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1H4Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1H8Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1K0Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1K4Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1K8Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1L0Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1L4Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1L8Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1N0Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1N4Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D1N8Z4,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D20X0Z,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D20XUZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D20XYZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D787ZZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0D7E7ZZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DBB7ZZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH50DZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH50UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH53DZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH53UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH54DZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH54UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH57DZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH57UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH58DZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH58UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH63UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DH64UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DHA3UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DHA4UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DHA8UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DN87ZZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DNE7ZZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DW04UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DW08UZ,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0WQFXZ2,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_3E1G78Z,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_3E1H78Z,hes_apc,diag,icd-10-pcs,gastro,devices [gastro],icd-10-pcs codes not used in HES
+_0DY80Z0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0DY80Z1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0DY80Z2,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0DYE0Z0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0DYE0Z1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0DYE0Z2,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FY00Z0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FY00Z1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FY00Z2,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FYG0Z0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FYG0Z1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_0FYG0Z2,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E030U0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E030U1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E033U0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E033U1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J3U0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J3U1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J7U0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J7U1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J8U0,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+_3E0J8U1,hes_apc,diag,icd-10-pcs,gastro,transplantation [gastro],icd-10-pcs codes not used in HES
+D70.0,hes_apc,diag,icd-10-cm,hema_imm,leukopenia,icd-10-cm not used in HES
+D70.4,hes_apc,diag,icd-10-cm,hema_imm,leukopenia,icd-10-cm not used in HES
+_07TP0ZZ,hes_apc,diag,icd-10-pcs,hema_imm,other [hema_imm],icd-10-pcs codes not used in HES
+_07TP4ZZ,hes_apc,diag,icd-10-pcs,hema_imm,other [hema_imm],icd-10-pcs codes not used in HES
+_07YP0Z0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_07YP0Z1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_07YP0Z2,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230AZ,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30230Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233AZ,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30233Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240AZ,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30240Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243AZ,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30243Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30250Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30253Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30260Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263G0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263G1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263X0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263X1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263Y0,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+_30263Y1,hes_apc,diag,icd-10-pcs,hema_imm,transplantion [hema_imm],icd-10-pcs codes not used in HES
+E70.4,hes_apc,diag,icd-10-cm,metab,amino_acid,icd-10-cm not used in HES
+E71.4,hes_apc,diag,icd-10-cm,metab,amino_acid,icd-10-cm not used in HES
+E71.5,hes_apc,diag,icd-10-cm,metab,amino_acid,icd-10-cm not used in HES
+E78.8,hes_apc,diag,icd-10-cm,metab,lipid,icd-10-cm not used in HES
+277.4,hes_apc,diag,not_found,metab,other [metab],might be a typo for code E77.4 but this code does not exist either
+_0GT00ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GT04ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GT40ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GT44ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GTK0ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GTK4ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GTR0ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0GTR4ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT20ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT24ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT27ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT28ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT2FZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT40ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT44ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT47ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT48ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT70ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT74ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT90ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT94ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT97ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT98ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UT9FZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UTC0ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UTC7ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0UTC8ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0VTC0ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0VTC4ZZ,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4M070,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4M0J0,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4M0K0,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4M0Z0,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4N071,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4N0J1,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4N0K1,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0W4N0Z1,hes_apc,diag,icd-10-pcs,metab,endocrine,icd-10-pcs codes not used in HES
+_0JH60VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JH63VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JH70VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JH73VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JH80VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JH83VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHD0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHD3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHF0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHF3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHG0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHG3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHH0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHH3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHL0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHL3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHM0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHM3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHN0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHN3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHP0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHP3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHT0VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+_0JHT3VZ,hes_apc,diag,icd-10-pcs,metab,devices [metab],icd-10-pcs codes not used in HES
+Q79.59,hes_apc,diag,icd-10-cm,other_congen,diaph_abdominal,would be truncated but code Q79.5 already present independently
+D3A.0,hes_apc,diag,icd-10-cm,malignancy,neoplasms,icd-10-cm not used in HES
+_3E00X05,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E01305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E02305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E03005,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E03305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E04005,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E04305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E05005,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E05305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E06005,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E06305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0A305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0F305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0F705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0F805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0G305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0G705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0G805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0H305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0H705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0H805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0J305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0J705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0J805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0K305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0K705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0K805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0L305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0L705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0M305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0M705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0N305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0N705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0N805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0P305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0P705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0P805,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0Q305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0Q705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0R305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0S305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0V305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0W305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0Y305,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+_3E0Y705,hes_apc,diag,icd-10-pcs,malignancy,neoplasms,icd-10-pcs codes not used in HES
+P84,hes_apc,diag,icd-10-cm,prem_neonatal,asphyxia,icd-10-cm not used in HES
+P77.3,hes_apc,diag,icd-10-cm,prem_neonatal,other [prem_neonatal],icd-10-cm not used in HES
+T86.5,hes_apc,diag,icd-10-cm,misc,devices [misc],icd-10-cm not used in HES
+_0RG00J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG00ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG03ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG04ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG10ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG13ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG14ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG40ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG43ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG44ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG60ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG63ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RG64ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA0ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA3ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0RGA4ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG00ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG03ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04J0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04J1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04JJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04K0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04K1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04KJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04Z0,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04Z1,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+_0SG04ZJ,hes_apc,diag,icd-10-pcs,misc,devices [misc],icd-10-pcs codes not used in HES
+T86.5,hes_apc,diag,icd-10-cm,misc,transplantation [misc],icd-10-cm not used in HES + all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.90,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.91,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.92,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.99,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.890,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.891,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]
+T86.899,hes_apc,diag,icd-10-cm,misc,transplantation [misc],all misc transplant codes removed as truncated forms already in misc devices [misc]

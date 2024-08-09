@@ -1,0 +1,195 @@
+code,dataset,group,subgroup,truncated_to
+G31.01,hes_apc,neuro,cns_degeneration,G31.0
+G31.09,hes_apc,neuro,cns_degeneration,G31.0
+G32.89,hes_apc,neuro,cns_degeneration,G32.8
+G95.19,hes_apc,neuro,cns_degeneration,G95.1
+G85.89,hes_apc,neuro,cns_degeneration,G95.8
+G40.311,hes_apc,neuro,epilepsy,G40.3
+G40.301,hes_apc,neuro,epilepsy,G40.3
+G40.211,hes_apc,neuro,epilepsy,G40.2
+G40.219,hes_apc,neuro,epilepsy,G40.2
+G40.411,hes_apc,neuro,epilepsy,G40.4
+G40.419,hes_apc,neuro,epilepsy,G40.4
+G40.111,hes_apc,neuro,epilepsy,G40.1
+G40.119,hes_apc,neuro,epilepsy,G40.1
+G40.804,hes_apc,neuro,epilepsy,G40.8
+G40.911,hes_apc,neuro,epilepsy,G40.9
+G40.919,hes_apc,neuro,epilepsy,G40.9
+G81.90,hes_apc,neuro,other_cns,G81.9
+G82.90,hes_apc,neuro,other_cns,G82.9
+G82.50,hes_apc,neuro,other_cns,G82.5
+G82.51,hes_apc,neuro,other_cns,G82.5
+G82.52,hes_apc,neuro,other_cns,G82.5
+G82.53,hes_apc,neuro,other_cns,G82.5
+G82.54,hes_apc,neuro,other_cns,G82.5
+I63.30,hes_apc,neuro,occlusion_cer_art,I63.3
+I63.50,hes_apc,neuro,occlusion_cer_art,I63.5
+G21.11,hes_apc,neuro,movement_disorders,G21.1
+G21.19,hes_apc,neuro,movement_disorders,G21.1
+G24.02,hes_apc,neuro,movement_disorders,G24.0
+G25.81,hes_apc,neuro,movement_disorders,G25.8
+G25.82,hes_apc,neuro,movement_disorders,G25.8
+G25.83,hes_apc,neuro,movement_disorders,G25.8
+G25.89,hes_apc,neuro,movement_disorders,G25.8
+T85.09XA,hes_apc,neuro,devices [neuro],T85.0
+T85.190A,hes_apc,neuro,devices [neuro],T85.1
+T85.192A,hes_apc,neuro,devices [neuro],T85.1
+T85.199A,hes_apc,neuro,devices [neuro],T85.1
+T85.79XA,hes_apc,neuro,devices [neuro],T85.7
+I27.81,hes_apc,cardio,other [cardio],I27.8
+I27.89,hes_apc,cardio,other [cardio],I27.8
+I51.81,hes_apc,cardio,other [cardio],I51.8
+I63.139,hes_apc,cardio,other [cardio],I63.1
+I63.239,hes_apc,cardio,other [cardio],I63.2
+T82.519A,hes_apc,cardio,devices [cardio],T82.5
+T82.529A,hes_apc,cardio,devices [cardio],T82.5
+T82.539A,hes_apc,cardio,devices [cardio],T82.5
+T82.599A,hes_apc,cardio,devices [cardio],T82.5
+T82.110A,hes_apc,cardio,devices [cardio],T82.1
+T82.111A,hes_apc,cardio,devices [cardio],T82.1
+T82.120A,hes_apc,cardio,devices [cardio],T82.1
+T82.121A,hes_apc,cardio,devices [cardio],T82.1
+T82.190A,hes_apc,cardio,devices [cardio],T82.1
+T82.191A,hes_apc,cardio,devices [cardio],T82.1
+T82.01XA,hes_apc,cardio,devices [cardio],T82.0
+T82.02XA,hes_apc,cardio,devices [cardio],T82.0
+T82.03XA,hes_apc,cardio,devices [cardio],T82.0
+T82.09XA,hes_apc,cardio,devices [cardio],T82.0
+T82.211A,hes_apc,cardio,devices [cardio],T82.2
+T82.212A,hes_apc,cardio,devices [cardio],T82.2
+T82.213A,hes_apc,cardio,devices [cardio],T82.2
+T82.218A,hes_apc,cardio,devices [cardio],T82.2
+T82.222A,hes_apc,cardio,devices [cardio],T82.2
+T82.223A,hes_apc,cardio,devices [cardio],T82.2
+T82.228A,hes_apc,cardio,devices [cardio],T82.2
+T82.518A,hes_apc,cardio,devices [cardio],T82.5
+T82.528A,hes_apc,cardio,devices [cardio],T82.5
+T82.538A,hes_apc,cardio,devices [cardio],T82.5
+T82.598A,hes_apc,cardio,devices [cardio],T82.5
+T82.6XXA,hes_apc,cardio,devices [cardio],T82.6
+T82.7XXA,hes_apc,cardio,devices [cardio],T82.7
+Z95.810,hes_apc,cardio,devices [cardio],Z95.8
+Z95.811,hes_apc,cardio,devices [cardio],Z95.8
+Z95.812,hes_apc,cardio,devices [cardio],Z95.8
+Z95.818,hes_apc,cardio,devices [cardio],Z95.8
+Z45.010,hes_apc,cardio,devices [cardio],Z45.0
+Z45.018,hes_apc,cardio,devices [cardio],Z45.0
+T86.20,hes_apc,cardio,transplantation [cardio],T86.2
+T86.21,hes_apc,cardio,transplantation [cardio],T86.3
+T86.22,hes_apc,cardio,transplantation [cardio],T86.4
+G47.35,hes_apc,resp,chronic_resp_dis,G47.3
+G27.82,hes_apc,resp,chronic_resp_dis,G27.8
+J84.112,hes_apc,resp,chronic_resp_dis,J84.1
+J95.00,hes_apc,resp,devices [resp],J95.0
+J95.01,hes_apc,resp,devices [resp],J95.0
+J95.02,hes_apc,resp,devices [resp],J95.0
+J95.03,hes_apc,resp,devices [resp],J95.0
+J95.04,hes_apc,resp,devices [resp],J95.0
+J95.09,hes_apc,resp,devices [resp],J95.0
+J95.850,hes_apc,resp,devices [resp],J95.8
+Z99.11,hes_apc,resp,devices [resp],Z99.1
+Z99.12,hes_apc,resp,devices [resp],Z99.1
+T86.810,hes_apc,resp,transplantation [resp],T86.8
+T86.811,hes_apc,resp,transplantation [resp],T86.9
+T86.819,hes_apc,resp,transplantation [resp],T86.1
+T85.71XA,hes_apc,renal_urol,devices [renal_urol],T85.7
+Z93.50,hes_apc,renal_urol,devices [renal_urol],T93.5
+Z93.51,hes_apc,renal_urol,devices [renal_urol],T93.5
+Z93.52,hes_apc,renal_urol,devices [renal_urol],T93.5
+Z93.59,hes_apc,renal_urol,devices [renal_urol],T93.5
+Z91.15,hes_apc,renal_urol,devices [renal_urol],Z91.1
+T86.10,hes_apc,renal_urol,transplantation [renal_urol],T86.1
+T86.11,hes_apc,renal_urol,transplantation [renal_urol],T86.2
+T86.12,hes_apc,renal_urol,transplantation [renal_urol],T86.3
+Z46.59,hes_apc,gastro,devices [gastro],Z46.5
+T86.40,hes_apc,gastro,transplantation [gastro],T86.4
+T86.41,hes_apc,gastro,transplantation [gastro],T86.4
+T86.42,hes_apc,gastro,transplantation [gastro],T86.4
+T86.890,hes_apc,gastro,transplantation [gastro],T86.8
+T86.891,hes_apc,gastro,transplantation [gastro],T86.8
+T86.899,hes_apc,gastro,transplantation [gastro],T86.8
+T86.850,hes_apc,gastro,transplantation [gastro],T86.8
+T86.851,hes_apc,gastro,transplantation [gastro],T86.8
+T86.859,hes_apc,gastro,transplantation [gastro],T86.8
+Z94.82,hes_apc,gastro,transplantation [gastro],Z94.8
+Z94.83,hes_apc,gastro,transplantation [gastro],Z94.8
+D69.41,hes_apc,hema_imm,coagulation_hemor,D69.4
+D69.42,hes_apc,hema_imm,coagulation_hemor,D69.5
+D69.49,hes_apc,hema_imm,coagulation_hemor,D69.6
+M31.30,hes_apc,hema_imm,polyarteritis_and_rel,M31.3
+M32.10,hes_apc,hema_imm,diff_dis_connective,M32.1
+M33.90,hes_apc,hema_imm,diff_dis_connective,M33.9
+E26.81,hes_apc,metab,endocrine,E26.8
+Z46.81,hes_apc,metab,devices [metab],Z46.8
+Z96.41,hes_apc,metab,devices [metab],Z96.4
+M41.30,hes_apc,other_congen,bonejoint,M41.3
+M43.30,hes_apc,other_congen,bonejoint,M43.3
+Q87.40,hes_apc,other_congen,other [other_congen],Q87.4
+Q87.81,hes_apc,other_congen,other [other_congen],Q87.8
+Q87.89,hes_apc,other_congen,other [other_congen],Q87.8
+T86.00,hes_apc,malignancy,transplantation [malignancy],T86.0
+T86.01,hes_apc,malignancy,transplantation [malignancy],T86.0
+T86.02,hes_apc,malignancy,transplantation [malignancy],T86.0
+T86.09,hes_apc,malignancy,transplantation [malignancy],T86.0
+Z94.81,hes_apc,malignancy,transplantation [malignancy],Z94.8
+Z94.84,hes_apc,malignancy,transplantation [malignancy],Z94.8
+P05.01,hes_apc,prem_neonatal,fet_malnutrition,P05.0
+P05.11,hes_apc,prem_neonatal,fet_malnutrition,P05.1
+P05.02,hes_apc,prem_neonatal,fet_malnutrition,P05.0
+P05.12,hes_apc,prem_neonatal,fet_malnutrition,P05.1
+P07.01,hes_apc,prem_neonatal,extr_immaturity,P07.0
+P07.02,hes_apc,prem_neonatal,extr_immaturity,P07.0
+P07.21,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P07.22,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P07.23,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P07.24,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P07.25,hes_apc,prem_neonatal,extr_immaturity,P07.2
+P25.22,hes_apc,prem_neonatal,other [prem_neonatal],P25.2
+T84.019A,hes_apc,misc,devices [misc],T84.0
+T84.029A,hes_apc,misc,devices [misc],T84.0
+T84.039A,hes_apc,misc,devices [misc],T84.0
+T84.049A,hes_apc,misc,devices [misc],T84.0
+T84.059A,hes_apc,misc,devices [misc],T84.0
+T84.069A,hes_apc,misc,devices [misc],T84.0
+T84.099A,hes_apc,misc,devices [misc],T84.0
+T84.498A,hes_apc,misc,devices [misc],T84.4
+T84.119A,hes_apc,misc,devices [misc],T84.1
+T84.129A,hes_apc,misc,devices [misc],T84.1
+T84.199A,hes_apc,misc,devices [misc],T84.1
+T84.498A,hes_apc,misc,devices [misc],T84.4
+T84.50XA,hes_apc,misc,devices [misc],T84.5
+T84.60XA,hes_apc,misc,devices [misc],T84.6
+T84.7XXA,hes_apc,misc,devices [misc],T84.7
+T86.90,hes_apc,misc,devices [misc],T86.9
+T86.91,hes_apc,misc,devices [misc],T86.9
+T86.92,hes_apc,misc,devices [misc],T86.9
+T86.99,hes_apc,misc,devices [misc],T86.9
+T86.10,hes_apc,misc,devices [misc],T86.1
+T86.11,hes_apc,misc,devices [misc],T86.1
+T86.12,hes_apc,misc,devices [misc],T86.1
+T86.40,hes_apc,misc,devices [misc],T86.4
+T86.41,hes_apc,misc,devices [misc],T86.4
+T86.42,hes_apc,misc,devices [misc],T86.4
+T86.20,hes_apc,misc,devices [misc],T86.2
+T86.21,hes_apc,misc,devices [misc],T86.2
+T86.22,hes_apc,misc,devices [misc],T86.2
+T86.810,hes_apc,misc,devices [misc],T86.8
+T86.811,hes_apc,misc,devices [misc],T86.8
+T86.819,hes_apc,misc,devices [misc],T86.8
+T86.00,hes_apc,misc,devices [misc],T86.0
+T86.01,hes_apc,misc,devices [misc],T86.0
+T86.02,hes_apc,misc,devices [misc],T86.0
+T86.09,hes_apc,misc,devices [misc],T86.0
+T86.890,hes_apc,misc,devices [misc],T86.8
+T86.891,hes_apc,misc,devices [misc],T86.8
+T86.899,hes_apc,misc,devices [misc],T86.8
+T86.850,hes_apc,misc,devices [misc],T86.8
+T86.851,hes_apc,misc,devices [misc],T86.8
+T86.859,hes_apc,misc,devices [misc],T86.8
+T86.5,hes_apc,misc,devices [misc],T86.5
+T86.890,hes_apc,misc,devices [misc],T86.8
+T86.891,hes_apc,misc,devices [misc],T86.8
+T86.899,hes_apc,misc,devices [misc],T86.8
+T87.0X9,hes_apc,misc,devices [misc],T87.0
+T87.1X9,hes_apc,misc,devices [misc],T87.1
+Z99.8,hes_apc,misc,devices [misc],Z99.8
