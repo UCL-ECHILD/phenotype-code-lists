@@ -1,5 +1,5 @@
 code,dataset,field,code_type,description
-21,hes_apc,admimeth,admimeth,emergency care department or acute or emergency dental service
+21,hes_apc,admimeth,admimeth,emergency care department or acute or emergency dental service
 22,hes_apc,admimeth,admimeth,general practitioner: after a request for immediate admission has been made direct to a hospital provider i.e. not through a bed bureau by a gp or deputy
 23,hes_apc,admimeth,admimeth,bed bureau
 24,hes_apc,admimeth,admimeth,consultant clinic of this or another health care provider
