@@ -1,0 +1,9 @@
+code,dataset,field,code_type,description
+21,hes_apc,admimeth,admimeth,emergency care department or acute or emergency dental service
+22,hes_apc,admimeth,admimeth,general practitioner:  after a request for immediate admission has been made direct to a hospital provider i.e. not through a bed bureau by a gp or deputy
+23,hes_apc,admimeth,admimeth,bed bureau
+24,hes_apc,admimeth,admimeth,consultant clinic of this or another health care provider
+25,hes_apc,admimeth,admimeth,admission via mental health crisis resolution team (available from 2013/14)
+2A,hes_apc,admimeth,admimeth,emergency care department of another provider where the patient had not been admitted (available from 2013/14)
+2D,hes_apc,admimeth,admimeth,transfer of an admitted patient from another hospital provider in an emergency (available from 2013/14)
+28,hes_apc,admimeth,admimeth,other means
