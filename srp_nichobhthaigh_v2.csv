@@ -1,0 +1,183 @@
+code,dataset,field,code_type,description,group,subgroup,diag_position,flag1,flag2
+R10,hes_apc,diag,icd10,abdominal and pelvic pain,potentially_psych,pain,first,emergency_admission,med_surg
+R51,hes_apc,diag,icd10,headache,potentially_psych,headache,first,emergency_admission,med_surg
+G43,hes_apc,diag,icd10,migraine,potentially_psych,headache,first,emergency_admission,med_surg
+G44,hes_apc,diag,icd10,other headache syndromes,potentially_psych,headache,first,emergency_admission,med_surg
+M54,hes_apc,diag,icd10,dorsalgia,potentially_psych,headache,first,emergency_admission,med_surg
+M62.6,hes_apc,diag,icd10,muscle strain,potentially_psych,other pain,first,emergency_admission,med_surg
+M79.6,hes_apc,diag,icd10,pain in limb,potentially_psych,other pain,first,emergency_admission,med_surg
+R52,hes_apc,diag,icd10,pain not elsewhere classified,potentially_psych,other pain,first,emergency_admission,med_surg
+R00,hes_apc,diag,icd10,abnormalities of heart beat,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
+R03,hes_apc,diag,icd10,abnormal blood-pressure reading without diagnosis,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
+R05,hes_apc,diag,icd10,cough,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
+R06,hes_apc,diag,icd10,abnormalities of breathing,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
+R07,hes_apc,diag,icd10,pain in throat and chest,potentially_psych,circulatory/respiratory signs,first,emergency_admission,med_surg
+R11,hes_apc,diag,icd10,nausea and vomiting,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R12,hes_apc,diag,icd10,heartburn,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R13,hes_apc,diag,icd10,dysphagia,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R14,hes_apc,diag,icd10,flatulence and related conditions,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R63,hes_apc,diag,icd10,symptoms and signs concerning food and fluid intake,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R19.4,hes_apc,diag,icd10,change in bowel habit,potentially_psych,digestive symptoms,first,emergency_admission,med_surg
+R20,hes_apc,diag,icd10,disturbances of skin sensation,potentially_psych,skin symptoms,first,emergency_admission,med_surg
+R21,hes_apc,diag,icd10,rash and other nonspecific skin eruption,potentially_psych,skin symptoms,first,emergency_admission,med_surg
+R23.1,hes_apc,diag,icd10,pallor,potentially_psych,skin symptoms,first,emergency_admission,med_surg
+R23.4,hes_apc,diag,icd10,changes in skin texture,potentially_psych,skin symptoms,first,emergency_admission,med_surg
+R23.8,hes_apc,diag,icd10,other and unspecified skin changes,potentially_psych,skin symptoms,first,emergency_admission,med_surg
+R25,hes_apc,diag,icd10,abnormal involuntary movements,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R26,hes_apc,diag,icd10,abnormalities of gait and mobility,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R27,hes_apc,diag,icd10,other lack of coordination,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R29.2,hes_apc,diag,icd10,abnormal reflex,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R29.3,hes_apc,diag,icd10,abnormal posture,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R29.4,hes_apc,diag,icd10,clicking hip,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R29.8,hes_apc,diag,icd10,other and unspecified symptoms and signs involving the nervous and musculoskeletal systems,potentially_psych,nervous/musculoskeletal symptoms,first,emergency_admission,med_surg
+R41,hes_apc,diag,icd10,other symptoms and signs involving cognitive functions and awareness,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
+R42,hes_apc,diag,icd10,dizziness and giddiness,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
+F05,hes_apc,hes_apc,hes_apc,delirium not induced by alcohol and other psychoactive substances,potentially_psych,cognitive symptoms,first,emergency_admission,med_surg
+R40.0,hes_apc,hes_apc,hes_apc,somnolence,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R40.1,hes_apc,hes_apc,hes_apc,stupor,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R53,hes_apc,hes_apc,hes_apc,malaise and fatigue,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+R55,hes_apc,hes_apc,hes_apc,syncope and collapse,potentially_psych,malaise/fatigue/syncope,first,emergency_admission,med_surg
+N39.3,hes_apc,hes_apc,hes_apc,stress incontinence,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+R44,hes_apc,diag,icd10,other symptoms and signs involving general sensations and perceptions,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+R45,hes_apc,diag,icd10,symptoms and signs involving emotional state,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+R46,hes_apc,diag,icd10,symptoms and signs involving appearance and behaviour,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+R47,hes_apc,diag,icd10,speech disturbances not elsewhere classified,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+R49,hes_apc,diag,icd10,voice disturbances,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+Z56.3,hes_apc,diag,icd10,stressful work schedule,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+Z56.4,hes_apc,diag,icd10,discord with boss and workmates,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+Z71.1,hes_apc,diag,icd10,person with feared complaint in whom no diagnosis is made,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+Z73.3,hes_apc,diag,icd10,stress not elsewhere classified,potentially_psych,other/general symptoms,first,emergency_admission,med_surg
+F51,hes_apc,diag,icd10,nonorganic sleep disorders,potentially_psych,sleep disorders,first,emergency_admission,med_surg
+G47,hes_apc,diag,icd10,sleep disorders,potentially_psych,sleep disorders,first,emergency_admission,med_surg
+F32.0,hes_apc,diag,icd10,mild depressive episode,internalising,mood disorders,first,emergency_admission,
+F32.1,hes_apc,diag,icd10,moderate depressive episode,internalising,mood disorders,first,emergency_admission,
+F32.2,hes_apc,diag,icd10,severe depressive episode without psychotic symptoms,internalising,mood disorders,first,emergency_admission,
+F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,internalising,mood disorders,first,emergency_admission,
+F32.8,hes_apc,diag,icd10,other depressive episodes,internalising,mood disorders,first,emergency_admission,
+F32.9,hes_apc,diag,icd10,depressive episode unspecified,internalising,mood disorders,first,emergency_admission,
+F33.0,hes_apc,diag,icd10,recurrent depressive disorder current episode mild,internalising,mood disorders,first,emergency_admission,
+F33.1,hes_apc,diag,icd10,recurrent depressive disorder current episode moderate,internalising,mood disorders,first,emergency_admission,
+F33.2,hes_apc,diag,icd10,recurrent depressive disorder current episode severe without psychotic symptoms,internalising,mood disorders,first,emergency_admission,
+F33.3,hes_apc,diag,icd10,recurrent depressive disorder current episode severe with psychotic symptoms,internalising,mood disorders,first,emergency_admission,
+F33.8,hes_apc,diag,icd10,other recurrent depressive disorders,internalising,mood disorders,first,emergency_admission,
+F33.9,hes_apc,diag,icd10,recurrent depressive disorder unspecified,internalising,mood disorders,first,emergency_admission,
+F34.1,hes_apc,diag,icd10,dysthymia,internalising,mood disorders,first,emergency_admission,
+F40,hes_apc,diag,icd10,phobic anxiety disorders,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F41,hes_apc,diag,icd10,other anxiety disorders,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F94.0,hes_apc,diag,icd10,elective mutism,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F42,hes_apc,diag,icd10,obsessive-compulsive disorder,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F44,hes_apc,diag,icd10,dissociative [conversion] disorders,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F45,hes_apc,diag,icd10,somatoform disorders,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F48,hes_apc,diag,icd10,other neurotic disorders,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F54,hes_apc,diag,icd10,psychological and behavioural factors associated with disorders or diseases classified elsewhere,internalising,anxiety/fear/oc/diss,first,emergency_admission,
+F43,hes_apc,diag,icd10,reaction to severe stress and adjustment disorders,internalising,stress/trauma,first,emergency_admission,
+F62,hes_apc,diag,icd10,enduring personality changes not attributable to brain damage and disease,internalising,stress/trauma,first,emergency_admission,
+F94.1,hes_apc,diag,icd10,reactive attachment disorder of childhood,internalising,stress/trauma,first,emergency_admission,
+F94.2,hes_apc,diag,icd10,disinhibited attachment disorder of childhood,internalising,stress/trauma,first,emergency_admission,
+F50,hes_apc,diag,icd10,eating disorders,internalising,eating disorders,first,emergency_admission,
+F93,hes_apc,diag,icd10,emotional disorders with onset specific to childhood,internalising,emotional_dis,first,emergency_admission,
+F98,hes_apc,diag,icd10,other behavioural and emotional disorders with onset usually occurring in childhood and adolescence,internalising,emotional_dis,first,emergency_admission,
+F63,hes_apc,diag,icd10,habit and impulse disorders,externalising,impulse_control,first,emergency_admission,
+F90,hes_apc,diag,icd10,hyperkinetic disorders,externalising,impulse_control,first,emergency_admission,
+F91,hes_apc,diag,icd10,conduct disorders,externalising,impulse_control,first,emergency_admission,
+F92,hes_apc,diag,icd10,mixed disorders of conduct and emotions,externalising,impulse_control,first,emergency_admission,
+F10,hes_apc,diag,icd10,mental and behavioural disorders due to use of alcohol,externalising,substance_use,first,emergency_admission,
+F11,hes_apc,diag,icd10,mental and behavioural disorders due to use of opioids,externalising,substance_use,first,emergency_admission,
+F12,hes_apc,diag,icd10,mental and behavioural disorders due to use of cannabinoids,externalising,substance_use,first,emergency_admission,
+F13,hes_apc,diag,icd10,mental and behavioural disorders due to use of sedatives or hypnotics,externalising,substance_use,first,emergency_admission,
+F14,hes_apc,diag,icd10,mental and behavioural disorders due to use of cocaine,externalising,substance_use,first,emergency_admission,
+F15,hes_apc,diag,icd10,mental and behavioural disorders due to use of other stimulants including caffeine,externalising,substance_use,first,emergency_admission,
+F16,hes_apc,diag,icd10,mental and behavioural disorders due to use of hallucinogens,externalising,substance_use,first,emergency_admission,
+F17,hes_apc,diag,icd10,mental and behavioural disorders due to use of tobacco,externalising,substance_use,first,emergency_admission,
+F18,hes_apc,diag,icd10,mental and behavioural disorders due to use of volatile solvents,externalising,substance_use,first,emergency_admission,
+F19,hes_apc,diag,icd10,mental and behavioural disorders due to multiple drug use and use of other psychoactive substances,externalising,substance_use,first,emergency_admission,
+F55,hes_apc,diag,icd10,abuse of non-dependence-producing substances,externalising,substance_use,first,emergency_admission,
+R78.0,hes_apc,diag,icd10,finding of alcohol in blood,externalising,substance_use,first,emergency_admission,
+R78.1,hes_apc,diag,icd10,finding of opiate drug in blood,externalising,substance_use,first,emergency_admission,
+R78.2,hes_apc,diag,icd10,finding of cocaine in blood,externalising,substance_use,first,emergency_admission,
+R78.3,hes_apc,diag,icd10,finding of hallucinogen in blood,externalising,substance_use,first,emergency_admission,
+R78.4,hes_apc,diag,icd10,finding of other drugs of addictive potential in blood,externalising,substance_use,first,emergency_admission,
+R78.5,hes_apc,diag,icd10,finding of psychotropic drug in blood,externalising,substance_use,first,emergency_admission,
+T51,hes_apc,diag,icd10,toxic effect of alcohol,externalising,substance_use,first,emergency_admission,
+Y90,hes_apc,diag,icd10,evidence of alcohol involvement determined by blood alcohol level,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Y91,hes_apc,diag,icd10,evidence of alcohol involvement determined by level of intoxication,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z04.0,hes_apc,diag,icd10,blood-alcohol and blood-drug test,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z50.2,hes_apc,diag,icd10,alcohol rehabilitation,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z50.3,hes_apc,diag,icd10,drug rehabilitation,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z72.1,hes_apc,diag,icd10,alcohol use,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+Z72.2,hes_apc,diag,icd10,drug use,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
+F30,hes_apc,diag,icd10,manic episode,externalising,mood_mania_psych,first,emergency_admission,
+F31,hes_apc,diag,icd10,bipolar affective disorder,externalising,mood_mania_psych,first,emergency_admission,
+F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,externalising,mood_mania_psych,first,emergency_admission,
+F20,hes_apc,diag,icd10,schizophrenia,externalising,schiz_or_other,first,emergency_admission,
+F21,hes_apc,diag,icd10,schizotypal disorder,externalising,schiz_or_other,first,emergency_admission,
+F22,hes_apc,diag,icd10,persistent delusional disorders,externalising,schiz_or_other,first,emergency_admission,
+F23,hes_apc,diag,icd10,acute and transient psychotic disorders,externalising,schiz_or_other,first,emergency_admission,
+F24,hes_apc,diag,icd10,induced delusional disorder,externalising,schiz_or_other,first,emergency_admission,
+F25,hes_apc,diag,icd10,schizoaffective disorders,externalising,schiz_or_other,first,emergency_admission,
+F28,hes_apc,diag,icd10,other nonorganic psychotic disorders,externalising,schiz_or_other,first,emergency_admission,
+F29,hes_apc,diag,icd10,unspecified nonorganic psychosis,externalising,schiz_or_other,first,emergency_admission,
+T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T38,hes_apc,diag,icd10,poisoning by hormones and their synthetic substitutes and antagonists not elsewhere classified,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T39,hes_apc,diag,icd10,poisoning by nonopioid analgesics antipyretics and antirheumatics,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T40,hes_apc,diag,icd10,poisoning by narcotics and psychodysleptics [hallucinogens],selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T41,hes_apc,diag,icd10,poisoning by anaesthetics and therapeutic gases,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T42,hes_apc,diag,icd10,poisoning by antiepileptic sedative-hypnotic and antiparkinsonism drugs,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T43,hes_apc,diag,icd10,poisoning by psychotropic drugs not elsewhere classified,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T44,hes_apc,diag,icd10,poisoning by drugs primarily affecting the autonomic nervous system,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T45,hes_apc,diag,icd10,poisoning by primarily systemic and haematological agents not elsewhere classified,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T46,hes_apc,diag,icd10,poisoning by agents primarily affecting the cardiovascular system,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T47,hes_apc,diag,icd10,poisoning by agents primarily affecting the gastrointestinal system,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T48,hes_apc,diag,icd10,poisoning by agents primarily acting on smooth and skeletal muscles and the respiratory system,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T49,hes_apc,diag,icd10,poisoning by topical agents primarily affecting skin and mucous membrane and by ophthalmological otorhinolaryngological and dental drugs,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+T50,hes_apc,diag,icd10,poisoning by diuretics and other and unspecified drugs medicaments and biological substances,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+Y10,hes_apc,diag,icd10,poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y11,hes_apc,diag,icd10,poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y12,hes_apc,diag,icd10,poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y13,hes_apc,diag,icd10,poisoning by and exposure to other drugs acting on the autonomic nervous system undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y14,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified drugs medicaments and biological substances undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y15,hes_apc,diag,icd10,poisoning by and exposure to alcohol undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y16,hes_apc,diag,icd10,poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y17,hes_apc,diag,icd10,poisoning by and exposure to other gases and vapours undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y18,hes_apc,diag,icd10,poisoning by and exposure to pesticides undetermined intent,selfharm,selfharm,any,emergency_admission,
+Y19,hes_apc,diag,icd10,poisoning by and exposure to other and unspecified chemicals and noxious substances undetermined intent,selfharm,selfharm,any,emergency_admission,
+S00,hes_apc,diag,icd10,superficial injury of head,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S10,hes_apc,diag,icd10,superficial injury of neck,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S20,hes_apc,diag,icd10,superficial injury of thorax,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S30,hes_apc,diag,icd10,superficial injury of abdomen lower back and pelvis,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S40,hes_apc,diag,icd10,superficial injury of shoulder and upper arm,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S50,hes_apc,diag,icd10,superficial injury of forearm,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S60,hes_apc,diag,icd10,superficial injury of wrist and hand,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S70,hes_apc,diag,icd10,superficial injury of hip and thigh,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S80,hes_apc,diag,icd10,superficial injury of lower leg,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+S90,hes_apc,diag,icd10,superficial injury of ankle and foot,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
+X60,hes_apc,diag,icd10,intentional self-poisoning by and exposure to nonopioid analgesics antipyretics and antirheumatics,selfharm,selfharm,any,emergency_admission,
+X61,hes_apc,diag,icd10,intentional self-poisoning by and exposure to antiepileptic sedative-hypnotic antiparkinsonism and psychotropic drugs not elsewhere classified,selfharm,selfharm,any,emergency_admission,
+X62,hes_apc,diag,icd10,intentional self-poisoning by and exposure to narcotics and psychodysleptics [hallucinogens] not elsewhere classified,selfharm,selfharm,any,emergency_admission,
+X63,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other drugs acting on the autonomic nervous system,selfharm,selfharm,any,emergency_admission,
+X64,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified drugs medicaments and biological substances,selfharm,selfharm,any,emergency_admission,
+X65,hes_apc,diag,icd10,intentional self-poisoning by and exposure to alcohol,selfharm,selfharm,any,emergency_admission,
+X66,hes_apc,diag,icd10,intentional self-poisoning by and exposure to organic solvents and halogenated hydrocarbons and their vapours,selfharm,selfharm,any,emergency_admission,
+X67,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other gases and vapours,selfharm,selfharm,any,emergency_admission,
+X68,hes_apc,diag,icd10,intentional self-poisoning by and exposure to pesticides,selfharm,selfharm,any,emergency_admission,
+X69,hes_apc,diag,icd10,intentional self-poisoning by and exposure to other and unspecified chemicals and noxious substances,selfharm,selfharm,any,emergency_admission,
+X70,hes_apc,diag,icd10,intentional self-harm by hanging strangulation and suffocation,selfharm,selfharm,any,emergency_admission,
+X71,hes_apc,diag,icd10,intentional self-harm by drowning and submersion,selfharm,selfharm,any,emergency_admission,
+X72,hes_apc,diag,icd10,intentional self-harm by handgun discharge,selfharm,selfharm,any,emergency_admission,
+X73,hes_apc,diag,icd10,intentional self-harm by rifle shotgun and larger firearm discharge,selfharm,selfharm,any,emergency_admission,
+X74,hes_apc,diag,icd10,intentional self-harm by other and unspecified firearm discharge,selfharm,selfharm,any,emergency_admission,
+X75,hes_apc,diag,icd10,intentional self-harm by explosive material,selfharm,selfharm,any,emergency_admission,
+X76,hes_apc,diag,icd10,intentional self-harm by smoke fire and flames,selfharm,selfharm,any,emergency_admission,
+X77,hes_apc,diag,icd10,intentional self-harm by steam hot vapours and hot objects,selfharm,selfharm,any,emergency_admission,
+X78,hes_apc,diag,icd10,intentional self-harm by sharp object,selfharm,selfharm,any,emergency_admission,
+X79,hes_apc,diag,icd10,intentional self-harm by blunt object,selfharm,selfharm,any,emergency_admission,
+X80,hes_apc,diag,icd10,intentional self-harm by jumping from a high place,selfharm,selfharm,any,emergency_admission,
+X81,hes_apc,diag,icd10,intentional self-harm by jumping or lying before moving object,selfharm,selfharm,any,emergency_admission,
+X82,hes_apc,diag,icd10,intentional self-harm by crashing of motor vehicle,selfharm,selfharm,any,emergency_admission,
+X83,hes_apc,diag,icd10,intentional self-harm by other specified means,selfharm,selfharm,any,emergency_admission,
+X84,hes_apc,diag,icd10,intentional self-harm by unspecified means,selfharm,selfharm,any,emergency_admission,
+Z64.2,hes_apc,diag,icd10,seeking and accepting physical nutritional and chemical interventions known to be hazardous and harmful,selfharm,selfharm,any,emergency_admission,
+Z91.5,hes_apc,diag,icd10,personal history of self-harm,selfharm,selfharm,any,emergency_admission,

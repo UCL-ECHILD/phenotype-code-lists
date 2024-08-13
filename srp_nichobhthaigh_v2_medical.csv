@@ -1,0 +1,110 @@
+﻿code,dataset,field,code_type,description
+A00,hes_apc,diag,icd10,cholera
+A01,hes_apc,diag,icd10,typhoid and paratyphoid fevers
+A02,hes_apc,diag,icd10,other salmonella infections
+A03,hes_apc,diag,icd10,shigellosis
+A04,hes_apc,diag,icd10,other bacterial intestinal infections
+A05,hes_apc,diag,icd10,other bacterial foodborne intoxications not elsewhere classified
+A06,hes_apc,diag,icd10,amoebiasis
+A07,hes_apc,diag,icd10,other protozoal intestinal diseases
+A08,hes_apc,diag,icd10,viral and other specified intestinal infections
+A09,hes_apc,diag,icd10,other gastroenteritis and colitis of infectious and unspecified origin
+K52.0,hes_apc,diag,icd10,gastroenteritis and colitis due to radiation
+K52.1,hes_apc,diag,icd10,toxic gastroenteritis and colitis
+K52.9,hes_apc,diag,icd10,noninfective gastroenteritis and colitis unspecified
+J09,hes_apc,diag,icd10,influenza due to identified zoonotic or pandemic influenza virus
+J10,hes_apc,diag,icd10,influenza due to identified seasonal influenza virus
+J13,hes_apc,diag,icd10,pneumonia due to streptococcus pneumoniae
+J14,hes_apc,diag,icd10,pneumonia due to haemophilus influenzae
+J15,hes_apc,diag,icd10,bacterial pneumonia not elsewhere classified
+J16,hes_apc,diag,icd10,pneumonia due to other infectious organisms not elsewhere classified
+J17,hes_apc,diag,icd10,pneumonia in diseases classified elsewhere
+J18,hes_apc,diag,icd10,pneumonia organism unspecified
+N81,hes_apc,diag,icd10,female genital prolapse
+N83,hes_apc,diag,icd10,noninflammatory disorders of ovary fallopian tube and broad ligament
+N85,hes_apc,diag,icd10,other noninflammatory disorders of uterus except cervix
+N86,hes_apc,diag,icd10,erosion and ectropion of cervix uteri
+N87,hes_apc,diag,icd10,dysplasia of cervix uteri
+N88,hes_apc,diag,icd10,other noninflammatory disorders of cervix uteri
+N89,hes_apc,diag,icd10,other noninflammatory disorders of vagina
+N90,hes_apc,diag,icd10,other noninflammatory disorders of vulva and perineum
+E28.2,hes_apc,diag,icd10,polycystic ovarian syndrome
+N31,hes_apc,diag,icd10,neuromuscular dysfunction of bladder not elsewhere classified
+N39.0,hes_apc,diag,icd10,urinary tract infection site not specified
+K55,hes_apc,diag,icd10,vascular disorders of intestine
+K56,hes_apc,diag,icd10,paralytic ileus and intestinal obstruction without hernia
+G40,hes_apc,diag,icd10,epilepsy
+G41,hes_apc,diag,icd10,status epilepticus
+G45,hes_apc,diag,icd10,transient cerebral ischaemic attacks and related syndromes
+G46,hes_apc,diag,icd10,vascular syndromes of brain in cerebrovascular diseases
+I60,hes_apc,diag,icd10,subarachnoid haemorrhage
+I61,hes_apc,diag,icd10,intracerebral haemorrhage
+I62,hes_apc,diag,icd10,other nontraumatic intracranial haemorrhage
+I63,hes_apc,diag,icd10,cerebral infarction
+I64,hes_apc,diag,icd10,stroke not specified as haemorrhage or infarction
+I65,hes_apc,diag,icd10,occlusion and stenosis of precerebral arteries not resulting in cerebral infarction
+I66,hes_apc,diag,icd10,occlusion and stenosis of cerebral arteries not resulting in cerebral infarction
+I67,hes_apc,diag,icd10,other cerebrovascular diseases
+I68,hes_apc,diag,icd10,cerebrovascular disorders in diseases classified elsewhere
+I69,hes_apc,diag,icd10,sequelae of cerebrovascular disease
+C15,hes_apc,diag,icd10,malignant neoplasm of oesophagus
+C16,hes_apc,diag,icd10,malignant neoplasm of stomach
+C17,hes_apc,diag,icd10,malignant neoplasm of small intestine
+C18,hes_apc,diag,icd10,malignant neoplasm of colon
+C19,hes_apc,diag,icd10,malignant neoplasm of rectosigmoid junction
+C20,hes_apc,diag,icd10,malignant neoplasm of rectum
+C21,hes_apc,diag,icd10,malignant neoplasm of anus and anal canal
+C22,hes_apc,diag,icd10,malignant neoplasm of liver and intrahepatic bile ducts
+C23,hes_apc,diag,icd10,malignant neoplasm of gallbladder
+C24,hes_apc,diag,icd10,malignant neoplasm of other and unspecified parts of biliary tract
+C25,hes_apc,diag,icd10,malignant neoplasm of pancreas
+C26,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined digestive organs
+C30,hes_apc,diag,icd10,malignant neoplasm of nasal cavity and middle ear
+C31,hes_apc,diag,icd10,malignant neoplasm of accessory sinuses
+C32,hes_apc,diag,icd10,malignant neoplasm of larynx
+C33,hes_apc,diag,icd10,malignant neoplasm of trachea
+C34,hes_apc,diag,icd10,malignant neoplasm of bronchus and lung
+C37,hes_apc,diag,icd10,malignant neoplasm of thymus
+C38,hes_apc,diag,icd10,malignant neoplasm of heart mediastinum and pleura
+C39,hes_apc,diag,icd10,malignant neoplasm of other and ill-defined sites in the respiratory system and intrathoracic organs
+C40,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of limbs
+C41,hes_apc,diag,icd10,malignant neoplasm of bone and articular cartilage of other and unspecified sites
+C45,hes_apc,diag,icd10,mesothelioma
+C46,hes_apc,diag,icd10,kaposi sarcoma
+C47,hes_apc,diag,icd10,malignant neoplasm of peripheral nerves and autonomic nervous system
+C48,hes_apc,diag,icd10,malignant neoplasm of retroperitoneum and peritoneum
+C49,hes_apc,diag,icd10,malignant neoplasm of other connective and soft tissue
+C51,hes_apc,diag,icd10,malignant neoplasm of vulva
+C52,hes_apc,diag,icd10,malignant neoplasm of vagina
+C53,hes_apc,diag,icd10,malignant neoplasm of cervix uteri
+C54,hes_apc,diag,icd10,malignant neoplasm of corpus uteri
+C55,hes_apc,diag,icd10,malignant neoplasm of uterus part unspecified
+C56,hes_apc,diag,icd10,malignant neoplasm of ovary
+C57,hes_apc,diag,icd10,malignant neoplasm of other and unspecified female genital organs
+C58,hes_apc,diag,icd10,malignant neoplasm of placenta
+C64,hes_apc,diag,icd10,malignant neoplasm of kidney except renal pelvis
+C65,hes_apc,diag,icd10,malignant neoplasm of renal pelvis
+C66,hes_apc,diag,icd10,malignant neoplasm of ureter
+C67,hes_apc,diag,icd10,malignant neoplasm of bladder
+C68,hes_apc,diag,icd10,malignant neoplasm of other and unspecified urinary organs
+C69,hes_apc,diag,icd10,malignant neoplasm of eye and adnexa
+C70,hes_apc,diag,icd10,malignant neoplasm of meninges
+C71,hes_apc,diag,icd10,malignant neoplasm of brain
+C72,hes_apc,diag,icd10,malignant neoplasm of spinal cord cranial nerves and other parts of central nervous system
+C73,hes_apc,diag,icd10,malignant neoplasm of thyroid gland
+C74,hes_apc,diag,icd10,malignant neoplasm of adrenal gland
+C75,hes_apc,diag,icd10,malignant neoplasm of other endocrine glands and related structures
+K35,hes_apc,diag,icd10,acute appendicitis
+K36,hes_apc,diag,icd10,other appendicitis
+K37,hes_apc,diag,icd10,unspecified appendicitis
+K38,hes_apc,diag,icd10,other diseases of appendix
+Y75.2,hes_apc,opertn,opcs4,laparoscopic approach to abdominal cavity nec
+H01.3,hes_apc,opertn,opcs4,emergency excision of normal appendix
+H02.9,hes_apc,opertn,opcs4,unspecified other excision of appendix
+H01.2,hes_apc,opertn,opcs4,emergency excision of abnormal appendix nec
+H01.9,hes_apc,opertn,opcs4,unspecified emergency excision of appendix
+H02.1,hes_apc,opertn,opcs4,interval appendicectomy
+H02.3,hes_apc,opertn,opcs4,prophylactic appendicectomy nec
+H02.4,hes_apc,opertn,opcs4,incidental appendicectomy
+H02.8,hes_apc,opertn,opcs4,other specified other excision of appendix
+H01.1,hes_apc,opertn,opcs4,emergency excision of abnormal appendix and drainage hfq
