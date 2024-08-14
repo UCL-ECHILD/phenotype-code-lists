@@ -1,0 +1,89 @@
+code,dataset,field,code_type,description,flag
+Q20.0,hes_apc,diag,icd10,common arterial trunk,
+Q20.1,hes_apc,diag,icd10,double outlet right ventricle,
+Q20.3,hes_apc,diag,icd10,discordant ventricoarterial connection,
+Q20.4,hes_apc,diag,icd10,double inlet ventricle,
+Q21.1,hes_apc,diag,icd10,atrioventricular septal defect,
+Q21.3,hes_apc,diag,icd10,tetralogy of fallot,
+Q22.0,hes_apc,diag,icd10,pulmonary valve atresia,
+Q22.4,hes_apc,diag,icd10,congenital tricuspid stenosis,
+Q22.5,hes_apc,diag,icd10,ebstein’s anomaly,
+Q22.6,hes_apc,diag,icd10,hypoplastic right heart syndrome,
+Q23.0,hes_apc,diag,icd10,congenital stenosis of aortic valve,
+Q23.2,hes_apc,diag,icd10,congenital mitral stenosis,
+Q23.3,hes_apc,diag,icd10,congenital mitral insufficiency,
+Q23.4,hes_apc,diag,icd10,hypoplastic left heart syndrome,
+Q25.1,hes_apc,diag,icd10,coarctation of the aorta,
+Q25.2,hes_apc,diag,icd10,atresia of the aorta,
+Q26.2,hes_apc,diag,icd10,total anomalous pulmonary venous connection,
+K19.6,hes_apc,opertn,opcs4,revision of cardiac conduit nec,less_than_age_5
+K04,hes_apc,opertn,opcs4,repair of tetralogy of fallot,less_than_age_5
+K05,hes_apc,opertn,opcs4,atrial inversion operations for transposition of great arteries,less_than_age_5
+K06,hes_apc,opertn,opcs4,other repair of transposition of great arteries,less_than_age_5
+K07,hes_apc,opertn,opcs4,correction of total anomalous pulmonary venous connection,less_than_age_5
+K08,hes_apc,opertn,opcs4,repair of double outlet ventricle,less_than_age_5
+K09,hes_apc,opertn,opcs4,repair of defect of atrioventricular septum,less_than_age_5
+K10,hes_apc,opertn,opcs4,repair of defect of interatrial septum,less_than_age_5
+K11,hes_apc,opertn,opcs4,repair of defect of interventricular septum,less_than_age_5
+K12,hes_apc,opertn,opcs4,repair of defect of unspecified septum of heart,less_than_age_5
+K13,hes_apc,opertn,opcs4,transluminal repair of defect of septum,less_than_age_5
+K14,hes_apc,opertn,opcs4,other open operations on septum of heart,less_than_age_5
+K15,hes_apc,opertn,opcs4,closed operations on septum of heart,less_than_age_5
+K16,hes_apc,opertn,opcs4,other therapeutic transluminal operations on septum of heart,less_than_age_5
+K17,hes_apc,opertn,opcs4,repair of univentricular heart,less_than_age_5
+K18,hes_apc,opertn,opcs4,creation of valved cardiac conduit,less_than_age_5
+K19.1,hes_apc,opertn,opcs4,creation of conduit between atrium and ventricle of heart nec,less_than_age_5
+K19.2,hes_apc,opertn,opcs4,creation of conduit between right atrium and pulmonary artery nec,less_than_age_5
+K19.3,hes_apc,opertn,opcs4,creation of conduit between right ventricle of heart and pulmonary artery nec,less_than_age_5
+K19.4,hes_apc,opertn,opcs4,creation of conduit between right ventricle of heart and vena cava,less_than_age_5
+K19.5,hes_apc,opertn,opcs4,creation of conduit between left ventricle of heart and aorta nec,less_than_age_5
+K19.8,hes_apc,opertn,opcs4,other specified creation of other cardiac conduit,less_than_age_5
+K19.9,hes_apc,opertn,opcs4,unspecified creation of other cardiac conduit,less_than_age_5
+K20,hes_apc,opertn,opcs4,refashioning of atrium,less_than_age_5
+K22,hes_apc,opertn,opcs4,other operations on wall of atrium,less_than_age_5
+K23,hes_apc,opertn,opcs4,other operations of wall of heart,less_than_age_5
+K24,hes_apc,opertn,opcs4,other operations on ventricles of heart,less_than_age_5
+K25,hes_apc,opertn,opcs4,plastic repair of mitral valve,less_than_age_5
+K26,hes_apc,opertn,opcs4,plastic repair of aortic valve,less_than_age_5
+K27,hes_apc,opertn,opcs4,plastic repair of tricuspid valve,less_than_age_5
+K28,hes_apc,opertn,opcs4,plastic repair of pulmonary valve,less_than_age_5
+K29,hes_apc,opertn,opcs4,plastic repair of unspecified valve of heart,less_than_age_5
+K30,hes_apc,opertn,opcs4,revision of plastic repair of valve of heart,less_than_age_5
+K31,hes_apc,opertn,opcs4,open incision of valve of heart,less_than_age_5
+K32,hes_apc,opertn,opcs4,closed incision of valve of heart,less_than_age_5
+K33,hes_apc,opertn,opcs4,operations on aortic root,less_than_age_5
+K34,hes_apc,opertn,opcs4,other open operations on valve of heart,less_than_age_5
+K35,hes_apc,opertn,opcs4,therapeutic transluminal operations on valve of heart,less_than_age_5
+K36,hes_apc,opertn,opcs4,excision of valve of heart,less_than_age_5
+K37,hes_apc,opertn,opcs4,removal of obstruction from structure adjacent to valve of heart,less_than_age_5
+K38,hes_apc,opertn,opcs4,other operations on structure adjacent to valve of heart,less_than_age_5
+L01,hes_apc,opertn,opcs4,open operations for combined abnormality of great vessels,less_than_age_5
+L03.8,hes_apc,opertn,opcs4,other specified transluminal operations on abnormality of great vessel,less_than_age_5
+L03.9,hes_apc,opertn,opcs4,unspecified transluminal operations on abnormality of great vessel,less_than_age_5
+L04,hes_apc,opertn,opcs4,open operations on pulmonary arterial tree,less_than_age_5
+L05,hes_apc,opertn,opcs4,creation of shunt to pulmonary artery from aorta using interposition tube prosthesis,less_than_age_5
+L06,hes_apc,opertn,opcs4,other connection to pulmonary artery from aorta,less_than_age_5
+L07,hes_apc,opertn,opcs4,creation of shunt to pulmonary artery from subclavian artery using interposition tube prosthesis,less_than_age_5
+L08,hes_apc,opertn,opcs4,other connection to pulmonary artery from subclavian artery,less_than_age_5
+L09,hes_apc,opertn,opcs4,other connection to pulmonary artery,less_than_age_5
+L10,hes_apc,opertn,opcs4,repair of pulmonary artery,less_than_age_5
+L12.1,hes_apc,opertn,opcs4,application of band to pulmonary artery,less_than_age_5
+L12.2,hes_apc,opertn,opcs4,adjustment of band to pulmonary artery,less_than_age_5
+L12.3,hes_apc,opertn,opcs4,removal of band from pulmonary artery,less_than_age_5
+L12.6,hes_apc,opertn,opcs4,pulmonary artery ligation,less_than_age_5
+L12.8,hes_apc,opertn,opcs4,other specified other open operations on pulmonary artery,less_than_age_5
+L12.9,hes_apc,opertn,opcs4,unspecified other open operations on pulmonary artery,less_than_age_5
+L13.3,hes_apc,opertn,opcs4,arteriography of pulmonary artery,less_than_age_5
+L13.4,hes_apc,opertn,opcs4,percutaneous transluminal cutting balloon angioplasty of pulmonary artery,less_than_age_5
+L13.5,hes_apc,opertn,opcs4,percutaneous transluminal balloon angioplasty of pulmonary artery nec,less_than_age_5
+L13.6,hes_apc,opertn,opcs4,percutaneous transluminal insertion of stent into pulmonary artery,less_than_age_5
+L13.8,hes_apc,opertn,opcs4,other specified transluminal operations on pulmonary artery,less_than_age_5
+L13.9,hes_apc,opertn,opcs4,unspecified transluminal operations on pulmonary artery,less_than_age_5
+L23,hes_apc,opertn,opcs4,plastic repair of aorta,less_than_age_5
+L69.1,hes_apc,opertn,opcs4,major systemic to pulmonary collateral artery occlusion,less_than_age_5
+L69.2,hes_apc,opertn,opcs4,pulmonary unifocalisation,less_than_age_5
+L69.4,hes_apc,opertn,opcs4,percutaneous transluminal balloon angioplasty of major systemic to pulmonary collateral artery,less_than_age_5
+L69.5,hes_apc,opertn,opcs4,percutaneous transluminal insertion of stent into major systemic to pulmonary collateral artery,less_than_age_5
+L69.8,hes_apc,opertn,opcs4,other specified operations on major systemic to pulmonary collateral arteries,less_than_age_5
+L69.9,hes_apc,opertn,opcs4,unspecified operations on major systemic to pulmonary collateral arteries,less_than_age_5
+L80,hes_apc,opertn,opcs4,operations on individual pulmonary veins,less_than_age_5
