@@ -7,5 +7,5 @@ code,dataset,field,code_type,description,flag
 2A,hes_apc,admimeth,admimeth,emergency admission - emergency care department of another provider where the patient had not been admitted (available from 2013/14),
 2B,hes_apc,admimeth,admimeth,emergency admission - transfer of an admitted patient from another hospital provider in an emergency (available from 2013/14),transfer
 2C,hes_apc,admimeth,admimeth,emergency admission - baby born at home as intended (available from 2013/14),
-2D,hes_apc,admimeth,admimeth,emergency admission - transfer of an admitted patient from another hospital provider in an emergency (available from 2013/14),
+2D,hes_apc,admimeth,admimeth,emergency admission - other emergency admission,
 28,hes_apc,admimeth,admimeth,emergency admission - other means,
