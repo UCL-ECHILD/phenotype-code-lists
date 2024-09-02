@@ -1,3 +1,3 @@
-code,dataset,field,code_type,description
-J45,hes_apc,diag,icd10,asthma
-J46,hes_apc,diag,icd10,status asthmaticus
+code,dataset,field,code_type,description,flag
+J45,hes_apc,diag,icd10,asthma,exclusion_codes
+J46,hes_apc,diag,icd10,status asthmaticus,exclusion_codes
