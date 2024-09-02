@@ -1,0 +1,3 @@
+code,dataset,field,code_type,description
+J45,hes_apc,diag,icd10,asthma
+J46,hes_apc,diag,icd10,status asthmaticus
