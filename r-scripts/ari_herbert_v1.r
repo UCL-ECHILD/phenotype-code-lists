@@ -33,7 +33,7 @@ rm(conn_str)
 # subcodes, you will need to run the following.
 
 new_f17 <- data.table(
-  code = c("F17.0", paste0("F17.", 2:9)),
+  code = paste0("F17.", c(0, 2:9)),
   dataset = "hes_apc",
   field = "diag",
   code_type = "icd10",
