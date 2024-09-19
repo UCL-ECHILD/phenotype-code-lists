@@ -35,7 +35,7 @@ rm(conn_str)
 # identify birth episodes. After subsetting to episodes with startage 7001 or 
 # 7002 (startage_7001_7002, i.e. those aged less than 6 days),
 # we will start with the diagnoses, which are the most complex simply
-# because there are 20 diag columns, and then deal eith the others.
+# because there are 20 diag columns, and then deal with the others.
 
 # We will start by defining a flag that indicates birth episodes, setting it
 # to TRUE each time we find a relevant code.
