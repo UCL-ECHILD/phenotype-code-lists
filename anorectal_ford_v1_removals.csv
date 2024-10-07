@@ -1,0 +1,3 @@
+code,dataset,field,code_type,group,reason_for_removal
+H504.2,hes_apc,opertn,opcs4,specific,Not an OPCS-4 code (Clinical Code and Schedule Development Group)
+H504.3,hes_apc,opertn,opcs4,specific,Not an OPCS-4 code (Clinical Code and Schedule Development Group)

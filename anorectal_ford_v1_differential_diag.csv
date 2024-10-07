@@ -1,0 +1,10 @@
+code,dataset,field,code_type,description
+Q41.2,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of ileum
+Q42.8,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of other parts of large intestine
+Q42.9,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of large intestine part unspecified
+Q43.1,hes_apc or mortality,diag,icd10,hirschsprung disease
+P76.0,hes_apc or mortality,diag,icd10,meconium plug syndrome
+P75,hes_apc or mortality,diag,icd10,meconium ileus in cystic fibrosis
+E84,hes_apc or mortality,diag,icd10,cystic fibrosis
+P76.8,hes_apc or mortality,diag,icd10,other specified intestinal obstruction of newborn
+P76.9,hes_apc or mortality,diag,icd10,intestinal obstruction of newborn unspecified

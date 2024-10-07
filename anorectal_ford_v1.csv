@@ -1,0 +1,42 @@
+code,dataset,field,code_type,description,group,flag1,flag2
+Q42.0,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of rectum with fistula,specific,age_less_than_1,differential_diag
+Q42.1,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of rectum without fistula,specific,age_less_than_1,differential_diag
+Q42.2,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of anus with fistula,specific,age_less_than_1,differential_diag
+Q42.3,hes_apc or mortality,diag,icd10,congenital absence atresia and stenosis of anus without fistula,specific,age_less_than_1,differential_diag
+Q43.5,hes_apc or mortality,diag,icd10,ectopic anus,specific,age_less_than_1,differential_diag
+Q43.6,hes_apc or mortality,diag,icd10,congenital fistula of rectum and anus,specific,age_less_than_1,differential_diag
+Q43.7,hes_apc or mortality,diag,icd10,persistent cloaca,specific,age_less_than_1,differential_diag
+Q52.2,hes_apc or mortality,diag,icd10,congenital rectovaginal fistula,specific,age_less_than_1,differential_diag
+K60.4,hes_apc or mortality,diag,icd10,rectal fistula,specific,age_less_than_1,differential_diag
+K60.5,hes_apc or mortality,diag,icd10,anorectal fistula,specific,age_less_than_1,differential_diag
+K62.4,hes_apc or mortality,diag,icd10,stenosis of anus and rectum,specific,age_less_than_1,differential_diag
+N32.1,hes_apc or mortality,diag,icd10,vesicointestinal fistula,specific,age_less_than_1,differential_diag
+N36.0,hes_apc or mortality,diag,icd10,urethral fistula,specific,age_less_than_1,differential_diag
+N82.3,hes_apc or mortality,diag,icd10,fistula of vagina to large intestine,specific,age_less_than_1,differential_diag
+N82.4,hes_apc or mortality,diag,icd10,other female intestinal-genital tract fistulae,specific,age_less_than_1,differential_diag
+Q43.8,hes_apc or mortality,diag,icd10,other specified congenital malformations of intestine,generic,age_less_than_1,differential_diag
+Q43.9,hes_apc or mortality,diag,icd10,congenital malformation of intestine unspecified,generic,age_less_than_1,differential_diag
+H50.4,hes_apc,opertn,opcs4,reanastomosis of rectum to anal canal for correction of congenital atresia of rectum nec,specific,age_less_than_1,differential_diag
+H50.1,hes_apc,opertn,opcs4,posterior repair of anal sphincter,specific,age_less_than_1,differential_diag
+H50.9,hes_apc,opertn,opcs4,unspecified repair of anus,specific,age_less_than_1,differential_diag
+N24.2,hes_apc,opertn,opcs4,operations on skin of male perineum nec,specific,age_less_than_1,differential_diag
+N24.8,hes_apc,opertn,opcs4,other specified operations on male perineum,specific,age_less_than_1,differential_diag
+N24.9,hes_apc,opertn,opcs4,unspecified operations on male perineum,specific,age_less_than_1,differential_diag
+M37.5,hes_apc,opertn,opcs4,repair of fistula of bladder nec,specific,age_less_than_1,differential_diag
+M45.9,hes_apc,opertn,opcs4,unspecified diagnostic endoscopic examination of bladder,specific,age_less_than_1,differential_diag
+M73.3,hes_apc,opertn,opcs4,closure of fistula of urethra,specific,age_less_than_1,differential_diag
+P13.4,hes_apc,opertn,opcs4,closure of fistula of female perineum,specific,age_less_than_1,differential_diag
+P13.8,hes_apc,opertn,opcs4,other specified other operations on female perineum,specific,age_less_than_1,differential_diag
+P13.9,hes_apc,opertn,opcs4,unspecified other operations on female perineum,specific,age_less_than_1,differential_diag
+P25.3,hes_apc,opertn,opcs4,repair of rectovaginal fistula,specific,age_less_than_1,differential_diag
+P27.4,hes_apc,opertn,opcs4,endoscopic examination of vagina,specific,age_less_than_1,differential_diag
+H56.8,hes_apc,opertn,opcs4,other specified other operations on anus,generic,age_less_than_1,differential_diag
+H15.1,hes_apc,opertn,opcs4,loop colostomy,generic_stoma_creation,age_less_than_1,differential_diag
+H15.2,hes_apc,opertn,opcs4,end colostomy,generic_stoma_creation,age_less_than_1,differential_diag
+H15.8,hes_apc,opertn,opcs4,other specified other exteriorisation of colon,generic_stoma_creation,age_less_than_1,differential_diag
+H15.9,hes_apc,opertn,opcs4,unspecified other exteriorisation of colon,generic_stoma_creation,age_less_than_1,differential_diag
+H32.1,hes_apc,opertn,opcs4,resiting of colostomy,generic_stoma_creation,age_less_than_1,differential_diag
+G74.2,hes_apc,opertn,opcs4,creation of temporary ileostomy,generic_stoma_creation,age_less_than_1,differential_diag
+G74.3,hes_apc,opertn,opcs4,creation of defunctioning ileostomy,generic_stoma_creation,age_less_than_1,differential_diag
+G74.8,hes_apc,opertn,opcs4,other specified creation of artificial opening into ileum,generic_stoma_creation,age_less_than_1,differential_diag
+G74.9,hes_apc,opertn,opcs4,unspecified creation of artificial opening into ileum,generic_stoma_creation,age_less_than_1,differential_diag
