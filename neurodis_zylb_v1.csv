@@ -1,0 +1,894 @@
+code,dataset,field,code_type,description,group,subgroup1,subgroup2,subgroup3,certitude,certitude_numeric,flag
+F70,hes_apc,diag,icd10,mild mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F71,hes_apc,diag,icd10,moderate mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F72,hes_apc,diag,icd10,severe mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F73,hes_apc,diag,icd10,profound mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F78,hes_apc,diag,icd10,other mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F79,hes_apc,diag,icd10,unspecified mental retardation,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80,hes_apc,diag,icd10,specific developmental disorders of speech and language,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80.0,hes_apc,diag,icd10,specific speech articulation disorder,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80.1,hes_apc,diag,icd10,expressive language disorder,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80.2,hes_apc,diag,icd10,receptive language disorder,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80.8,hes_apc,diag,icd10,other developmental disorders of speech and language,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F80.9,hes_apc,diag,icd10,developmental disorder of speech and language unspecified,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F81,hes_apc,diag,icd10,specific developmental disorders of scholastic skills,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.0,hes_apc,diag,icd10,specific reading disorder,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.1,hes_apc,diag,icd10,specific spelling disorder,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.2,hes_apc,diag,icd10,specific disorder of arithmetical skills,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.3,hes_apc,diag,icd10,mixed disorder of scholastic skills,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.8,hes_apc,diag,icd10,other developmental disorders of scholastic skills,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F81.9,hes_apc,diag,icd10,developmental disorder of scholastic skills unspecified,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F82,hes_apc,diag,icd10,specific developmental disorder of motor function,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F83,hes_apc,diag,icd10,mixed specific developmental disorders,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F84.2,hes_apc,diag,icd10,rett syndrome,non_perinatal,a_neurodisab,a1_dd_ld,,definite,3,
+F88,hes_apc,diag,icd10,other disorders of psychological development,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F89,hes_apc,diag,icd10,unspecified disorder of psychological development,non_perinatal,a_neurodisab,a1_dd_ld,,definite,2.75,
+F84.0,hes_apc,diag,icd10,childhood autism,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.1,hes_apc,diag,icd10,atypical autism,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.3,hes_apc,diag,icd10,other childhood disintegrative disorder,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.4,hes_apc,diag,icd10,overactive disorder associated with mental retardation and stereotyped movements,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.5,hes_apc,diag,icd10,asperger syndrome,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.8,hes_apc,diag,icd10,other pervasive developmental disorders,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+F84.9,hes_apc,diag,icd10,pervasive developmental disorder unspecified,non_perinatal,a_neurodisab,a2_autism,,definite,3,
+G80,hes_apc,diag,icd10,cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.0,hes_apc,diag,icd10,spastic quadriplegic cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.1,hes_apc,diag,icd10,spastic diplegic cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.2,hes_apc,diag,icd10,spastic hemiplegic cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.3,hes_apc,diag,icd10,dyskinetic cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.4,hes_apc,diag,icd10,ataxic cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.8,hes_apc,diag,icd10,other cerebral palsy,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G80.9,hes_apc,diag,icd10,cerebral palsy unspecified,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G81,hes_apc,diag,icd10,hemiplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G81.0,hes_apc,diag,icd10,flaccid hemiplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G81.1,hes_apc,diag,icd10,spastic hemiplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G81.9,hes_apc,diag,icd10,hemiplegia unspecified,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82,hes_apc,diag,icd10,paraplegia and tetraplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.0,hes_apc,diag,icd10,flaccid paraplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.1,hes_apc,diag,icd10,spastic paraplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.2,hes_apc,diag,icd10,paraplegia unspecified,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.3,hes_apc,diag,icd10,flaccid tetraplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.4,hes_apc,diag,icd10,spastic tetraplegia,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G82.5,hes_apc,diag,icd10,tetraplegia unspecified,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G83,hes_apc,diag,icd10,other paralytic syndromes,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G83.0,hes_apc,diag,icd10,diplegia of upper limbs,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G83.1,hes_apc,diag,icd10,monoplegia of lower limb,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G83.2,hes_apc,diag,icd10,monoplegia of upper limb,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+G83.3,hes_apc,diag,icd10,monoplegia unspecified,non_perinatal,a_neurodisab,a3_cerebral_palsy,,definite,3,
+F80.3,hes_apc,diag,icd10,acquired aphasia with epilepsy [landau-kleffner],non_perinatal,a_neurodisab,a4_epilepsy,,definite,3,
+G40,hes_apc,diag,icd10,epilepsy,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.0,hes_apc,diag,icd10,localization-related (focal)(partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.1,hes_apc,diag,icd10,localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.2,hes_apc,diag,icd10,localization-related (focal)(partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.3,hes_apc,diag,icd10,generalized idiopathic epilepsy and epileptic syndromes,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.4,hes_apc,diag,icd10,other generalized epilepsy and epileptic syndromes,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.5,hes_apc,diag,icd10,special epileptic syndromes,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G40.6,hes_apc,diag,icd10,grand mal seizures unspecified (with or without petit mal),non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.7,hes_apc,diag,icd10,petit mal unspecified without grand mal seizures,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.8,hes_apc,diag,icd10,other epilepsy,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G40.9,hes_apc,diag,icd10,epilepsy unspecified,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+G41,hes_apc,diag,icd10,status epilepticus,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G41.0,hes_apc,diag,icd10,grand mal status epilepticus,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G41.1,hes_apc,diag,icd10,petit mal status epilepticus,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G41.2,hes_apc,diag,icd10,complex partial status epilepticus,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G41.8,hes_apc,diag,icd10,other status epilepticus,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+G41.9,hes_apc,diag,icd10,status epilepticus unspecified,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.5,
+Y46.0,hes_apc,diag,icd10,succinimides,non_perinatal,a_neurodisab,a4_epilepsy,,maybe,1.5,
+Y46.1,hes_apc,diag,icd10,oxazolidinediones,non_perinatal,a_neurodisab,a4_epilepsy,,maybe,1.5,
+Y46.2,hes_apc,diag,icd10,hydantoin derivatives,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+Y46.3,hes_apc,diag,icd10,deoxybarbiturates,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+Y46.4,hes_apc,diag,icd10,iminostilbenes,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+Y46.5,hes_apc,diag,icd10,valproic acid,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+Y46.6,hes_apc,diag,icd10,other and unspecified antiepileptics,non_perinatal,a_neurodisab,a4_epilepsy,,definite,2.25,
+F90,hes_apc,diag,icd10,hyperkinetic disorders,non_perinatal,a_neurodisab,a5_adhd,,definite,3,
+F90.0,hes_apc,diag,icd10,disturbance of activity and attention,non_perinatal,a_neurodisab,a5_adhd,,definite,3,
+F90.1,hes_apc,diag,icd10,hyperkinetic conduct disorder,non_perinatal,a_neurodisab,a5_adhd,,definite,3,
+F90.8,hes_apc,diag,icd10,other hyperkinetic disorders,non_perinatal,a_neurodisab,a5_adhd,,definite,3,
+F90.9,hes_apc,diag,icd10,hyperkinetic disorder unspecified,non_perinatal,a_neurodisab,a5_adhd,,definite,3,
+F84,hes_apc,diag,icd10,pervasive developmental disorders,non_perinatal,a_neurodisab,,,definite,3,
+Q90,hes_apc,diag,icd10,down syndrome,non_perinatal,b_cong_inherit,b1_chromos_anom,b1a_down_synd,definite,3,
+Q90.0,hes_apc,diag,icd10,trisomy 21 meiotic nondisjunction,non_perinatal,b_cong_inherit,b1_chromos_anom,b1a_down_synd,definite,3,
+Q90.1,hes_apc,diag,icd10,trisomy 21 mosaicism (mitotic nondisjunction),non_perinatal,b_cong_inherit,b1_chromos_anom,b1a_down_synd,definite,2.75,
+Q90.2,hes_apc,diag,icd10,trisomy 21 translocation,non_perinatal,b_cong_inherit,b1_chromos_anom,b1a_down_synd,definite,3,
+Q90.9,hes_apc,diag,icd10,down syndrome unspecified,non_perinatal,b_cong_inherit,b1_chromos_anom,b1a_down_synd,definite,3,
+Q91,hes_apc,diag,icd10,edwards' syndrome and patau syndrome,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,3,
+Q91.0,hes_apc,diag,icd10,trisomy 18 meiotic nondisjunction,non_perinatal,b_cong_inherit,b1_chromos_anom,b1b_edwards,definite,3,
+Q91.1,hes_apc,diag,icd10,trisomy 18 mosaicism (mitotic nondisjunction),non_perinatal,b_cong_inherit,b1_chromos_anom,b1b_edwards,definite,2.75,
+Q91.2,hes_apc,diag,icd10,trisomy 18 translocation,non_perinatal,b_cong_inherit,b1_chromos_anom,b1b_edwards,definite,3,
+Q91.3,hes_apc,diag,icd10,edwards' syndrome unspecified,non_perinatal,b_cong_inherit,b1_chromos_anom,b1b_edwards,definite,3,
+Q91.4,hes_apc,diag,icd10,trisomy 13 meiotic nondisjunction,non_perinatal,b_cong_inherit,b1_chromos_anom,b1c_patau,definite,3,
+Q91.5,hes_apc,diag,icd10,trisomy 13 mosaicism (mitotic nondisjunction),non_perinatal,b_cong_inherit,b1_chromos_anom,b1c_patau,definite,2.75,
+Q91.6,hes_apc,diag,icd10,trisomy 13 translocation,non_perinatal,b_cong_inherit,b1_chromos_anom,b1c_patau,definite,3,
+Q91.7,hes_apc,diag,icd10,patau syndrome unspecified,non_perinatal,b_cong_inherit,b1_chromos_anom,b1c_patau,definite,3,
+Q92,hes_apc,diag,icd10,other trisomies and partial trisomies of the autosomes not elsewhere classified,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,3,
+Q92.0,hes_apc,diag,icd10,whole chromosome trisomy meiotic nondisjunction,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,3,
+Q92.1,hes_apc,diag,icd10,whole chromosome trisomy mosaicism (mitotic nondisjunction),non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.75,
+Q92.2,hes_apc,diag,icd10,major partial trisomy,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q92.3,hes_apc,diag,icd10,minor partial trisomy,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q92.4,hes_apc,diag,icd10,duplications seen only at prometaphase,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q92.5,hes_apc,diag,icd10,duplications with other complex rearrangements,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.75,
+Q92.6,hes_apc,diag,icd10,extra marker chromosomes,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.75,
+Q92.7,hes_apc,diag,icd10,triploidy and polyploidy,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,3,
+Q92.8,hes_apc,diag,icd10,other specified trisomies and partial trisomies of autosomes,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.75,
+Q92.9,hes_apc,diag,icd10,trisomy and partial trisomy of autosomes unspecified,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.75,
+Q93,hes_apc,diag,icd10,monosomies and deletions from the autosomes not elsewhere classified,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.0,hes_apc,diag,icd10,whole chromosome monosomy meiotic nondisjunction,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q93.1,hes_apc,diag,icd10,whole chromosome monosomy mosaicism (mitotic nondisjunction),non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.2,hes_apc,diag,icd10,chromosome replaced with ring or dicentric,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.3,hes_apc,diag,icd10,deletion of short arm of chromosome 4,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.4,hes_apc,diag,icd10,deletion of short arm of chromosome 5,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.5,hes_apc,diag,icd10,other deletions of part of a chromosome,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q93.6,hes_apc,diag,icd10,deletions seen only at prometaphase,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q93.7,hes_apc,diag,icd10,deletions with other complex rearrangements,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.25,
+Q93.8,hes_apc,diag,icd10,other deletions from the autosomes,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q93.9,hes_apc,diag,icd10,deletion from autosomes unspecified,non_perinatal,b_cong_inherit,b1_chromos_anom,,definite,2.5,
+Q00,hes_apc,diag,icd10,anencephaly and similar malformations,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2a_anancephaly,definite,3,
+Q00.0,hes_apc,diag,icd10,anencephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2a_anancephaly,definite,3,
+Q00.1,hes_apc,diag,icd10,craniorachischisis,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2a_anancephaly,definite,3,
+Q00.2,hes_apc,diag,icd10,iniencephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2a_anancephaly,definite,3,
+Q01,hes_apc,diag,icd10,encephalocele,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q01.0,hes_apc,diag,icd10,frontal encephalocele,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q01.1,hes_apc,diag,icd10,nasofrontal encephalocele,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q01.2,hes_apc,diag,icd10,occipital encephalocele,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q01.8,hes_apc,diag,icd10,encephalocele of other sites,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q01.9,hes_apc,diag,icd10,encephalocele unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2b_encephalocele,definite,3,
+Q02,hes_apc,diag,icd10,microcephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2c_microcephaly,definite,3,
+Q03,hes_apc,diag,icd10,congenital hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2d_cong_hydrocephalus,definite,3,
+Q03.0,hes_apc,diag,icd10,malformations of aqueduct of sylvius,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2d_cong_hydrocephalus,definite,2.75,
+Q03.1,hes_apc,diag,icd10,atresia of foramina of magendie and luschka,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2d_cong_hydrocephalus,definite,2.75,
+Q03.8,hes_apc,diag,icd10,other congenital hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2d_cong_hydrocephalus,definite,3,
+Q03.9,hes_apc,diag,icd10,congenital hydrocephalus unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2d_cong_hydrocephalus,definite,3,
+Q04,hes_apc,diag,icd10,other congenital malformations of brain,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.0,hes_apc,diag,icd10,congenital malformations of corpus callosum,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.75,
+Q04.1,hes_apc,diag,icd10,arhinencephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.2,hes_apc,diag,icd10,holoprosencephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.3,hes_apc,diag,icd10,other reduction deformities of brain,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.4,hes_apc,diag,icd10,septo-optic dysplasia,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.5,hes_apc,diag,icd10,megalencephaly,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q04.6,hes_apc,diag,icd10,congenital cerebral cysts,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.75,
+Q04.8,hes_apc,diag,icd10,other specified congenital malformations of brain,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.75,
+Q04.9,hes_apc,diag,icd10,congenital malformation of brain unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.75,
+Q05,hes_apc,diag,icd10,spina bifida,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.0,hes_apc,diag,icd10,cervical spina bifida with hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.1,hes_apc,diag,icd10,thoracic spina bifida with hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.2,hes_apc,diag,icd10,lumbar spina bifida with hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.3,hes_apc,diag,icd10,sacral spina bifida with hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.4,hes_apc,diag,icd10,unspecified spina bifida with hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.5,hes_apc,diag,icd10,cervical spina bifida without hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.6,hes_apc,diag,icd10,thoracic spina bifida without hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.7,hes_apc,diag,icd10,lumbar spina bifida without hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.8,hes_apc,diag,icd10,sacral spina bifida without hydrocephalus,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q05.9,hes_apc,diag,icd10,spina bifida unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,b2e_spina_bifida,definite,3,
+Q06.0,hes_apc,diag,icd10,amyelia,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q06.1,hes_apc,diag,icd10,hypoplasia and dysplasia of spinal cord,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q06.2,hes_apc,diag,icd10,diastematomyelia,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,3,
+Q06.3,hes_apc,diag,icd10,other congenital cauda equina malformations,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2,
+Q06.4,hes_apc,diag,icd10,hydromyelia,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,1.75,
+Q06.8,hes_apc,diag,icd10,other specified congenital malformations of spinal cord,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,maybe,1.5,
+Q06.9,hes_apc,diag,icd10,congenital malformation of spinal cord unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.25,
+Q07.8,hes_apc,diag,icd10,other specified congenital malformations of nervous system,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.25,
+Q07.9,hes_apc,diag,icd10,congenital malformation of nervous system unspecified,non_perinatal,b_cong_inherit,b2_ca_nerv_systm,,definite,2.25,
+E00,hes_apc,diag,icd10,congenital iodine-deficiency syndrome,non_perinatal,b_cong_inherit,b3_cong_hypothyroid,,definite,2.75,
+E00.0,hes_apc,diag,icd10,congenital iodine-deficiency syndrome neurological type,non_perinatal,b_cong_inherit,b3_cong_hypothyroid,,definite,2.75,
+E00.1,hes_apc,diag,icd10,congenital iodine-deficiency syndrome myxoedematous type,non_perinatal,b_cong_inherit,b3_cong_hypothyroid,,definite,2.75,
+E00.2,hes_apc,diag,icd10,congenital iodine-deficiency syndrome mixed type,non_perinatal,b_cong_inherit,b3_cong_hypothyroid,,definite,2.75,
+E00.9,hes_apc,diag,icd10,congenital iodine-deficiency syndrome unspecified,non_perinatal,b_cong_inherit,b3_cong_hypothyroid,,definite,2.75,
+Q86.0,hes_apc,diag,icd10,fetal alcohol syndrome (dysmorphic),non_perinatal,b_cong_inherit,b4_fas,,definite,3,
+Q97.0,hes_apc,diag,icd10,karyotype 47xxx,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.75,
+Q97.1,hes_apc,diag,icd10,female with more than three x chromosomes,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.75,
+Q97.2,hes_apc,diag,icd10,mosaicism lines with various numbers of x chromosomes,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q97.8,hes_apc,diag,icd10,other specified sex chromosome abnormalities female phenotype,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q97.9,hes_apc,diag,icd10,sex chromosome abnormality female phenotype unspecified,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q98.0,hes_apc,diag,icd10,klinefelter syndrome karyotype 47xxy,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.75,
+Q98.1,hes_apc,diag,icd10,klinefelter syndrome male with more than two x chromosomes,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,3,
+Q98.2,hes_apc,diag,icd10,klinefelter syndrome male with 46xx karyotype,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,3,
+Q98.3,hes_apc,diag,icd10,other male with 46xx karyotype,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.75,
+Q98.4,hes_apc,diag,icd10,klinefelter syndrome unspecified,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.75,
+Q98.5,hes_apc,diag,icd10,karyotype 47xyy,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.75,
+Q98.6,hes_apc,diag,icd10,male with structurally abnormal sex chromosome,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q98.7,hes_apc,diag,icd10,male with sex chromosome mosaicism,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q98.8,hes_apc,diag,icd10,other specified sex chromosome abnormalities male phenotype,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q98.9,hes_apc,diag,icd10,sex chromosome abnormality male phenotype unspecified,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,
+Q99.2,hes_apc,diag,icd10,fragile x chromosome,non_perinatal,b_cong_inherit,b5_sex_chromosome,b5a_fragile_x,definite,3,
+Q99.8,hes_apc,diag,icd10,other specified chromosome abnormalities,non_perinatal,b_cong_inherit,b5_sex_chromosome,,definite,2.25,
+Q99.9,hes_apc,diag,icd10,chromosomal abnormality unspecified,non_perinatal,b_cong_inherit,b5_sex_chromosome,,maybe,1.5,overlap_perinatal
+E70.2,hes_apc,diag,icd10,disorders of tyrosine metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.5,
+E70.3,hes_apc,diag,icd10,albinism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E70.8,hes_apc,diag,icd10,other disorders of aromatic amino-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E70.9,hes_apc,diag,icd10,disorder of aromatic amino-acid metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E71,hes_apc,diag,icd10,disorders of branched-chain amino-acid metabolism and fatty-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E71.0,hes_apc,diag,icd10,maple-syrup-urine disease,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E71.1,hes_apc,diag,icd10,other disorders of branched-chain amino-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E71.2,hes_apc,diag,icd10,disorder of branched-chain amino-acid metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E71.3,hes_apc,diag,icd10,disorders of fatty-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E72,hes_apc,diag,icd10,other disorders of amino-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.0,hes_apc,diag,icd10,disorders of amino-acid transport,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.1,hes_apc,diag,icd10,disorders of sulfur-bearing amino-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.2,hes_apc,diag,icd10,disorders of urea cycle metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.3,hes_apc,diag,icd10,disorders of lysine and hydroxylysine metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.4,hes_apc,diag,icd10,disorders of ornithine metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.5,hes_apc,diag,icd10,disorders of glycine metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.8,hes_apc,diag,icd10,other specified disorders of amino-acid metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E72.9,hes_apc,diag,icd10,disorder of amino-acid metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E74,hes_apc,diag,icd10,other disorders of carbohydrate metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E74.0,hes_apc,diag,icd10,glycogen storage disease,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E74.1,hes_apc,diag,icd10,disorders of fructose metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E74.2,hes_apc,diag,icd10,disorders of galactose metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2,
+E74.3,hes_apc,diag,icd10,other disorders of intestinal carbohydrate absorption,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E74.4,hes_apc,diag,icd10,disorders of pyruvate metabolism and gluconeogenesis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2,
+E74.8,hes_apc,diag,icd10,other specified disorders of carbohydrate metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,maybe,1.75,
+E74.9,hes_apc,diag,icd10,disorder of carbohydrate metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E75,hes_apc,diag,icd10,disorders of sphingolipid metabolism and other lipid storage disorders,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.0,hes_apc,diag,icd10,gmôéé gangliosidosis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.1,hes_apc,diag,icd10,other gangliosidosis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.2,hes_apc,diag,icd10,other sphingolipidosis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.3,hes_apc,diag,icd10,sphingolipidosis unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.4,hes_apc,diag,icd10,neuronal ceroid lipofuscinosis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.5,hes_apc,diag,icd10,other lipid storage disorders,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E75.6,hes_apc,diag,icd10,lipid storage disorder unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E76,hes_apc,diag,icd10,disorders of glycosaminoglycan metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E76.0,hes_apc,diag,icd10,mucopolysaccharidosis type i,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E76.1,hes_apc,diag,icd10,mucopolysaccharidosis type ii,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E76.2,hes_apc,diag,icd10,other mucopolysaccharidoses,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E76.3,hes_apc,diag,icd10,mucopolysaccharidosis unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E76.8,hes_apc,diag,icd10,other disorders of glucosaminoglycan metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E76.9,hes_apc,diag,icd10,disorder of glucosaminoglycan metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E77,hes_apc,diag,icd10,disorders of glycoprotein metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E77.0,hes_apc,diag,icd10,defects in post-translational modification of lysosomal enzymes,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E77.1,hes_apc,diag,icd10,defects in glycoprotein degradation,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E77.8,hes_apc,diag,icd10,other disorders of glycoprotein metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E77.9,hes_apc,diag,icd10,disorder of glycoprotein metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.75,
+E79.1,hes_apc,diag,icd10,lesch-nyhan syndrome,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E79.8,hes_apc,diag,icd10,other disorders of purine and pyrimidine metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E79.9,hes_apc,diag,icd10,disorder of purine and pyrimidine metabolism unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E83.0,hes_apc,diag,icd10,disorders of copper metabolism,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E85.1,hes_apc,diag,icd10,neuropathic heredofamilial amyloidosis,non_perinatal,b_cong_inherit,b6_metabolic,,definite,3,
+E88.8,hes_apc,diag,icd10,other specified metabolic disorders,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+E88.9,hes_apc,diag,icd10,metabolic disorder unspecified,non_perinatal,b_cong_inherit,b6_metabolic,,definite,2.5,
+D82.1,hes_apc,diag,icd10,di george syndrome,non_perinatal,b_cong_inherit,,,definite,3,
+Q75.0,hes_apc,diag,icd10,craniosynostosis,non_perinatal,b_cong_inherit,,,maybe,1.75,
+Q85,hes_apc,diag,icd10,phakomatoses not elsewhere classified,non_perinatal,b_cong_inherit,,,definite,2.75,
+Q85.0,hes_apc,diag,icd10,neurofibromatosis (nonmalignant),non_perinatal,b_cong_inherit,,,definite,3,
+Q85.1,hes_apc,diag,icd10,tuberous sclerosis,non_perinatal,b_cong_inherit,,,definite,3,
+Q85.8,hes_apc,diag,icd10,other phakomatoses not elsewhere classified,non_perinatal,b_cong_inherit,,,definite,3,
+Q85.9,hes_apc,diag,icd10,phakomatosis unspecified,non_perinatal,b_cong_inherit,,,definite,3,
+Q86.1,hes_apc,diag,icd10,fetal hydantoin syndrome,non_perinatal,b_cong_inherit,,,definite,3,
+Q86.2,hes_apc,diag,icd10,dysmorphism due to warfarin,non_perinatal,b_cong_inherit,,,definite,3,
+Q86.8,hes_apc,diag,icd10,other congenital malformation syndromes due to known exogenous causes,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q87.0,hes_apc,diag,icd10,congenital malformation syndromes predominantly affecting facial appearance,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q87.1,hes_apc,diag,icd10,congenital malformation syndromes predominantly associated with short stature,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q87.2,hes_apc,diag,icd10,congenital malformation syndromes predominantly involving limbs,non_perinatal,b_cong_inherit,,,definite,2.5,
+Q87.3,hes_apc,diag,icd10,congenital malformation syndromes involving early overgrowth,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q87.5,hes_apc,diag,icd10,other congenital malformation syndromes with other skeletal changes,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q87.8,hes_apc,diag,icd10,other specified congenital malformation syndromes not elsewhere classified,non_perinatal,b_cong_inherit,,,definite,2.25,
+Q89.9,hes_apc,diag,icd10,congenital malformation unspecified,non_perinatal,b_cong_inherit,,,definite,2.25,
+A12,hes_apc,diag,opcs4,creation of connection from ventricle of brain,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+A13,hes_apc,diag,opcs4,attention to component of connection from ventricle of brain,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.5,overlap_perinatal
+A14,hes_apc,diag,opcs4,other operations on connection from ventricle of brain,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+A16,hes_apc,diag,opcs4,other open operations on ventricle of brain,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.5,overlap_perinatal
+G91,hes_apc,diag,icd10,hydrocephalus,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+G91.0,hes_apc,diag,icd10,communicating hydrocephalus,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G91.1,hes_apc,diag,icd10,obstructive hydrocephalus,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G91.2,hes_apc,diag,icd10,normal-pressure hydrocephalus,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2,overlap_perinatal
+G91.3,hes_apc,diag,icd10,post-traumatic hydrocephalus unspecified,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G91.8,hes_apc,diag,icd10,other hydrocephalus,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G91.9,hes_apc,diag,icd10,hydrocephalus unspecified,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G94.0,hes_apc,diag,icd10,hydrocephalus in infectious and parasitic diseases classified elsewhere,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+G94.1,hes_apc,diag,icd10,hydrocephalus in neoplastic disease,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+G94.2,hes_apc,diag,icd10,hydrocephalus in other diseases classified elsewhere,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,2.75,overlap_perinatal
+G97.2,hes_apc,diag,icd10,intracranial hypotension following ventricular shunting,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+T85.0,hes_apc,diag,icd10,mechanical complication of ventricular intracranial (communicating) shunt,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+Z98.2,hes_apc,diag,icd10,presence of cerebrospinal fluid drainage device,non_perinatal,c_high_risk,c1_hydrocephalus,,definite,3,overlap_perinatal
+G46,hes_apc,diag,icd10,vascular syndromes of brain in cerebrovascular diseases,non_perinatal,c_high_risk,c2_stroke,,definite,2,overlap_perinatal
+G46.0,hes_apc,diag,icd10,middle cerebral artery syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.1,hes_apc,diag,icd10,anterior cerebral artery syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.2,hes_apc,diag,icd10,posterior cerebral artery syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.3,hes_apc,diag,icd10,brain stem stroke syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.4,hes_apc,diag,icd10,cerebellar stroke syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.5,hes_apc,diag,icd10,pure motor lacunar syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+G46.6,hes_apc,diag,icd10,pure sensory lacunar syndrome,non_perinatal,c_high_risk,c2_stroke,,definite,2,overlap_perinatal
+G46.7,hes_apc,diag,icd10,other lacunar syndromes,non_perinatal,c_high_risk,c2_stroke,,definite,2.75,overlap_perinatal
+G46.8,hes_apc,diag,icd10,other vascular syndromes of brain in cerebrovascular diseases,non_perinatal,c_high_risk,c2_stroke,,definite,2.75,overlap_perinatal
+I60,hes_apc,diag,icd10,subarachnoid haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.0,hes_apc,diag,icd10,subarachnoid haemorrhage from carotid siphon and bifurcation,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.1,hes_apc,diag,icd10,subarachnoid haemorrhage from middle cerebral artery,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.2,hes_apc,diag,icd10,subarachnoid haemorrhage from anterior communicating artery,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.3,hes_apc,diag,icd10,subarachnoid haemorrhage from posterior communicating artery,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.4,hes_apc,diag,icd10,subarachnoid haemorrhage from basilar artery,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.5,hes_apc,diag,icd10,subarachnoid haemorrhage from vertebral artery,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.6,hes_apc,diag,icd10,subarachnoid haemorrhage from other intracranial arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.7,hes_apc,diag,icd10,subarachnoid haemorrhage from intracranial artery unspecified,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.8,hes_apc,diag,icd10,other subarachnoid haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I60.9,hes_apc,diag,icd10,subarachnoid haemorrhage unspecified,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61,hes_apc,diag,icd10,intracerebral haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.0,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere subcortical,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.1,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere cortical,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.2,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere unspecified,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.3,hes_apc,diag,icd10,intracerebral haemorrhage in brain stem,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.4,hes_apc,diag,icd10,intracerebral haemorrhage in cerebellum,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.5,hes_apc,diag,icd10,intracerebral haemorrhage intraventricular,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.6,hes_apc,diag,icd10,intracerebral haemorrhage multiple localized,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.8,hes_apc,diag,icd10,other intracerebral haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I61.9,hes_apc,diag,icd10,intracerebral haemorrhage unspecified,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63,hes_apc,diag,icd10,cerebral infarction,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.0,hes_apc,diag,icd10,cerebral infarction due to thrombosis of precerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.1,hes_apc,diag,icd10,cerebral infarction due to embolism of precerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.2,hes_apc,diag,icd10,cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.3,hes_apc,diag,icd10,cerebral infarction due to thrombosis of cerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.4,hes_apc,diag,icd10,cerebral infarction due to embolism of cerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.5,hes_apc,diag,icd10,cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.6,hes_apc,diag,icd10,cerebral infarction due to cerebral venous thrombosis nonpyogenic,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.8,hes_apc,diag,icd10,other cerebral infarction,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I63.9,hes_apc,diag,icd10,cerebral infarction unspecified,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I64,hes_apc,diag,icd10,stroke not specified as haemorrhage or infarction,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I67,hes_apc,diag,icd10,other cerebrovascular diseases,non_perinatal,c_high_risk,c2_stroke,,definite,2.75,
+I67.0,hes_apc,diag,icd10,dissection of cerebral arteries nonruptured,non_perinatal,c_high_risk,c2_stroke,,definite,2,overlap_perinatal
+I67.1,hes_apc,diag,icd10,cerebral aneurysm nonruptured,non_perinatal,c_high_risk,c2_stroke,,maybe,1.75,overlap_perinatal
+I67.2,hes_apc,diag,icd10,cerebral atherosclerosis,non_perinatal,c_high_risk,c2_stroke,,maybe,1.75,
+I67.3,hes_apc,diag,icd10,progressive vascular leukoencephalopathy,non_perinatal,c_high_risk,c2_stroke,,definite,2,overlap_perinatal
+I67.4,hes_apc,diag,icd10,hypertensive encephalopathy,non_perinatal,c_high_risk,c2_stroke,,definite,3,
+I67.5,hes_apc,diag,icd10,moyamoya disease,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I67.6,hes_apc,diag,icd10,nonpyogenic thrombosis of intracranial venous system,non_perinatal,c_high_risk,c2_stroke,,definite,2,overlap_perinatal
+I67.7,hes_apc,diag,icd10,cerebral arteritis not elsewhere classified,non_perinatal,c_high_risk,c2_stroke,,maybe,1.75,overlap_perinatal
+I67.8,hes_apc,diag,icd10,other specified cerebrovascular diseases,non_perinatal,c_high_risk,c2_stroke,,maybe,1.75,overlap_perinatal
+I67.9,hes_apc,diag,icd10,cerebrovascular disease unspecified,non_perinatal,c_high_risk,c2_stroke,,maybe,1.75,overlap_perinatal
+I68.0,hes_apc,diag,icd10,cerebral amyloid angiopathy,non_perinatal,c_high_risk,c2_stroke,,definite,3,
+I69,hes_apc,diag,icd10,sequelae of cerebrovascular disease,non_perinatal,c_high_risk,c2_stroke,,definite,3,
+I69.0,hes_apc,diag,icd10,sequelae of subarachnoid haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I69.1,hes_apc,diag,icd10,sequelae of intracerebral haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I69.2,hes_apc,diag,icd10,sequelae of other nontraumatic intracranial haemorrhage,non_perinatal,c_high_risk,c2_stroke,,definite,3,
+I69.3,hes_apc,diag,icd10,sequelae of cerebral infarction,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I69.4,hes_apc,diag,icd10,sequelae of stroke not specified as haemorrhage or infarction,non_perinatal,c_high_risk,c2_stroke,,definite,3,overlap_perinatal
+I69.8,hes_apc,diag,icd10,sequelae of other and unspecified cerebrovascular diseases,non_perinatal,c_high_risk,c2_stroke,,definite,3,
+I78.0,hes_apc,diag,icd10,hereditary haemorrhagic telangiectasia,non_perinatal,c_high_risk,c2_stroke,,definite,2,
+C70,hes_apc,diag,icd10,malignant neoplasm of meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C70.0,hes_apc,diag,icd10,malignant neoplasm: cerebral meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C70.1,hes_apc,diag,icd10,malignant neoplasm: spinal meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C70.9,hes_apc,diag,icd10,malignant neoplasm: meninges unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71,hes_apc,diag,icd10,malignant neoplasm of brain,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.0,hes_apc,diag,icd10,malignant neoplasm: cerebrum except lobes and ventricles,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.1,hes_apc,diag,icd10,malignant neoplasm: frontal lobe,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.2,hes_apc,diag,icd10,malignant neoplasm: temporal lobe,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.3,hes_apc,diag,icd10,malignant neoplasm: parietal lobe,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.4,hes_apc,diag,icd10,malignant neoplasm: occipital lobe,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.5,hes_apc,diag,icd10,malignant neoplasm: cerebral ventricle,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.6,hes_apc,diag,icd10,malignant neoplasm: cerebellum,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.7,hes_apc,diag,icd10,malignant neoplasm: brain stem,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.8,hes_apc,diag,icd10,malignant neoplasm: overlapping lesion of brain,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C71.9,hes_apc,diag,icd10,malignant neoplasm: brain unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72,hes_apc,diag,icd10,malignant neoplasm of spinal cord cranial nerves and other parts of central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.0,hes_apc,diag,icd10,malignant neoplasm: spinal cord,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.1,hes_apc,diag,icd10,malignant neoplasm: cauda equina,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.2,hes_apc,diag,icd10,malignant neoplasm: olfactory nerve,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.3,hes_apc,diag,icd10,malignant neoplasm: optic nerve,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.4,hes_apc,diag,icd10,malignant neoplasm: acoustic nerve,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.5,hes_apc,diag,icd10,malignant neoplasm: other and unspecified cranial nerves,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.8,hes_apc,diag,icd10,malignant neoplasm: overlapping lesion of brain and other parts of central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+C72.9,hes_apc,diag,icd10,malignant neoplasm: central nervous system unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D32,hes_apc,diag,icd10,benign neoplasm of meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D32.0,hes_apc,diag,icd10,benign neoplasm: cerebral meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D32.1,hes_apc,diag,icd10,benign neoplasm: spinal meninges,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D32.9,hes_apc,diag,icd10,benign neoplasm: meninges unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D33,hes_apc,diag,icd10,benign neoplasm of brain and other parts of central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D33.0,hes_apc,diag,icd10,benign neoplasm: brain supratentorial,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D33.1,hes_apc,diag,icd10,benign neoplasm: brain infratentorial,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D33.2,hes_apc,diag,icd10,benign neoplasm: brain unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D33.3,hes_apc,diag,icd10,benign neoplasm: cranial nerves,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D33.4,hes_apc,diag,icd10,benign neoplasm: spinal cord,non_perinatal,c_high_risk,c3_tumours,,definite,2.75,
+D33.7,hes_apc,diag,icd10,benign neoplasm: other specified parts of central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D33.9,hes_apc,diag,icd10,benign neoplasm: central nervous system unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour of brain and central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.0,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: brain supratentorial,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.1,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: brain infratentorial,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.2,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: brain unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.3,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: cranial nerves,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.4,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: spinal cord,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.7,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: other parts of central nervous system,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+D43.9,hes_apc,diag,icd10,neoplasm of uncertain or unknown behaviour: central nervous system unspecified,non_perinatal,c_high_risk,c3_tumours,,definite,2.5,
+A06.6,hes_apc,diag,icd10,amoebic brain abscess,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A17,hes_apc,diag,icd10,tuberculosis of nervous system,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A17.0,hes_apc,diag,icd10,tuberculous meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+A17.1,hes_apc,diag,icd10,meningeal tuberculoma,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+A17.8,hes_apc,diag,icd10,other tuberculosis of nervous system,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A17.9,hes_apc,diag,icd10,tuberculosis of nervous system unspecified,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A20.3,hes_apc,diag,icd10,plague meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+A32.1,hes_apc,diag,icd10,listerial meningitis and meningoencephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+A39.0,hes_apc,diag,icd10,meningococcal meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+A52.1,hes_apc,diag,icd10,symptomatic neurosyphilis,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A52.2,hes_apc,diag,icd10,asymptomatic neurosyphilis,non_perinatal,c_high_risk,c4_inflammatory,,definite,2.75,
+A52.3,hes_apc,diag,icd10,neurosyphilis unspecified,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A80.0,hes_apc,diag,icd10,acute paralytic poliomyelitis vaccine-associated,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A80.1,hes_apc,diag,icd10,acute paralytic poliomyelitis wild virus imported,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A80.2,hes_apc,diag,icd10,acute paralytic poliomyelitis wild virus indigenous,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A80.3,hes_apc,diag,icd10,acute paralytic poliomyelitis other and unspecified,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A80.9,hes_apc,diag,icd10,acute poliomyelitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+A82,hes_apc,diag,icd10,rabies,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A82.0,hes_apc,diag,icd10,sylvatic rabies,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A82.1,hes_apc,diag,icd10,urban rabies,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A82.9,hes_apc,diag,icd10,rabies unspecified,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+A83,hes_apc,diag,icd10,mosquito-borne viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+A83.0,hes_apc,diag,icd10,japanese encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+A83.1,hes_apc,diag,icd10,western equine encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+A83.2,hes_apc,diag,icd10,eastern equine encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+A83.3,hes_apc,diag,icd10,st louis encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A83.4,hes_apc,diag,icd10,australian encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A83.5,hes_apc,diag,icd10,california encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A83.6,hes_apc,diag,icd10,rocio virus disease,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A83.8,hes_apc,diag,icd10,other mosquito-borne viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A83.9,hes_apc,diag,icd10,mosquito-borne viral encephalitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A84,hes_apc,diag,icd10,tick-borne viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A84.0,hes_apc,diag,icd10,far eastern tick-borne encephalitis [russian spring-summer encephalitis],non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A84.1,hes_apc,diag,icd10,central european tick-borne encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A84.8,hes_apc,diag,icd10,other tick-borne viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A84.9,hes_apc,diag,icd10,tick-borne viral encephalitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A85,hes_apc,diag,icd10,other viral encephalitis not elsewhere classified,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A85.0,hes_apc,diag,icd10,enteroviral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A85.1,hes_apc,diag,icd10,adenoviral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A85.2,hes_apc,diag,icd10,arthropod-borne viral encephalitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A85.8,hes_apc,diag,icd10,other specified viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+A86,hes_apc,diag,icd10,unspecified viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+B00.3,hes_apc,diag,icd10,herpesviral meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+B00.4,hes_apc,diag,icd10,herpesviral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,overlap_perinatal
+B01.0,hes_apc,diag,icd10,varicella meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+B01.1,hes_apc,diag,icd10,varicella encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,overlap_perinatal
+B02.0,hes_apc,diag,icd10,zoster encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+B02.1,hes_apc,diag,icd10,zoster meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,
+B05.0,hes_apc,diag,icd10,measles complicated by encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+B05.1,hes_apc,diag,icd10,measles complicated by meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.75,
+B06.0,hes_apc,diag,icd10,rubella with neurological complications,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,overlap_perinatal
+B26.1,hes_apc,diag,icd10,mumps meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.75,
+B26.2,hes_apc,diag,icd10,mumps encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,maybe,1.75,
+B37.5,hes_apc,diag,icd10,candidal meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+B38.4,hes_apc,diag,icd10,coccidioidomycosis meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,
+B43.1,hes_apc,diag,icd10,phaeomycotic brain abscess,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+B45.1,hes_apc,diag,icd10,cerebral cryptococcosis,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+B50.0,hes_apc,diag,icd10,plasmodium falciparum malaria with cerebral complications,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+B58.2,hes_apc,diag,icd10,toxoplasma meningoencephalitis,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,overlap_perinatal
+B69.0,hes_apc,diag,icd10,cysticercosis of central nervous system,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+B90.0,hes_apc,diag,icd10,sequelae of central nervous system tuberculosis,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+B91,hes_apc,diag,icd10,sequelae of poliomyelitis,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+B94.1,hes_apc,diag,icd10,sequelae of viral encephalitis,non_perinatal,c_high_risk,c4_inflammatory,c4a_encephalitis,definite,2,
+G00,hes_apc,diag,icd10,bacterial meningitis not elsewhere classified,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.0,hes_apc,diag,icd10,haemophilus meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.1,hes_apc,diag,icd10,pneumococcal meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.2,hes_apc,diag,icd10,streptococcal meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.3,hes_apc,diag,icd10,staphylococcal meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.8,hes_apc,diag,icd10,other bacterial meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G00.9,hes_apc,diag,icd10,bacterial meningitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G01,hes_apc,diag,icd10,meningitis in bacterial diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G02.1,hes_apc,diag,icd10,meningitis in mycoses,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G02.8,hes_apc,diag,icd10,meningitis in other specified infectious and parasitic diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.75,overlap_perinatal
+G03,hes_apc,diag,icd10,meningitis due to other and unspecified causes,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.75,overlap_perinatal
+G03.0,hes_apc,diag,icd10,nonpyogenic meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.75,overlap_perinatal
+G03.1,hes_apc,diag,icd10,chronic meningitis,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,definite,2,overlap_perinatal
+G03.2,hes_apc,diag,icd10,benign recurrent meningitis [mollaret],non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.5,overlap_perinatal
+G03.8,hes_apc,diag,icd10,meningitis due to other specified causes,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.5,overlap_perinatal
+G03.9,hes_apc,diag,icd10,meningitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,c4b_meningitis,maybe,1.5,overlap_perinatal
+G04,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G04.0,hes_apc,diag,icd10,acute disseminated encephalitis,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+G04.1,hes_apc,diag,icd10,tropical spastic paraplegia,non_perinatal,c_high_risk,c4_inflammatory,,definite,3,
+G04.2,hes_apc,diag,icd10,bacterial meningoencephalitis and meningomyelitis not elsewhere classified,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+G04.8,hes_apc,diag,icd10,other encephalitis myelitis and encephalomyelitis,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G04.9,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis unspecified,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G05,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,overlap_perinatal
+G05.0,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in bacterial diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,overlap_perinatal
+G05.1,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in viral diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,overlap_perinatal
+G05.2,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in other infectious and parasitic diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,overlap_perinatal
+G05.8,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in other diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,overlap_perinatal
+G06,hes_apc,diag,icd10,intracranial and intraspinal abscess and granuloma,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G06.0,hes_apc,diag,icd10,intracranial abscess and granuloma,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G06.1,hes_apc,diag,icd10,intraspinal abscess and granuloma,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G06.2,hes_apc,diag,icd10,extradural and subdural abscess unspecified,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G07,hes_apc,diag,icd10,intracranial and intraspinal abscess and granuloma in diseases classified elsewhere,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.5,
+G08,hes_apc,diag,icd10,intracranial and intraspinal phlebitis and thrombophlebitis,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+G09,hes_apc,diag,icd10,sequelae of inflammatory diseases of central nervous system,non_perinatal,c_high_risk,c4_inflammatory,,definite,2,
+M89.6,hes_apc,diag,icd10,osteopathy after poliomyelitis,non_perinatal,c_high_risk,c4_inflammatory,,maybe,1.75,
+G92,hes_apc,diag,icd10,toxic encephalopathy,non_perinatal,c_high_risk,,,definite,2.5,
+G93.0,hes_apc,diag,icd10,cerebral cysts,non_perinatal,c_high_risk,,,maybe,1.5,
+G93.1,hes_apc,diag,icd10,anoxic brain damage not elsewhere classified,non_perinatal,c_high_risk,,,definite,3,
+G93.4,hes_apc,diag,icd10,encephalopathy unspecified,non_perinatal,c_high_risk,,,definite,2.5,
+G93.5,hes_apc,diag,icd10,compression of brain,non_perinatal,c_high_risk,,,definite,2.5,
+G93.6,hes_apc,diag,icd10,cerebral oedema,non_perinatal,c_high_risk,,,definite,2.5,
+G93.6,hes_apc,diag,icd10,cerebral oedema,non_perinatal,c_high_risk,,,definite,2.5,
+G93.7,hes_apc,diag,icd10,reye syndrome,non_perinatal,c_high_risk,,,definite,2,
+G93.8,hes_apc,diag,icd10,other specified disorders of brain,non_perinatal,c_high_risk,,,definite,2.25,
+G93.9,hes_apc,diag,icd10,disorder of brain unspecified,non_perinatal,c_high_risk,,,definite,2.25,
+G94,hes_apc,diag,icd10,other disorders of brain in diseases classified elsewhere,non_perinatal,c_high_risk,,,definite,2.5,
+G94.8,hes_apc,diag,icd10,other specified disorders of brain in diseases classified elsewhere,non_perinatal,c_high_risk,,,definite,2.5,
+H90.3,hes_apc,diag,icd10,sensorineural hearing loss bilateral,non_perinatal,d_hearing_imp,d1_bilateral_hi,,definite,3,
+H90.6,hes_apc,diag,icd10,mixed conductive and sensorineural hearing loss bilateral,non_perinatal,d_hearing_imp,d1_bilateral_hi,,definite,3,
+H91.3,hes_apc,diag,icd10,deaf mutism not elsewhere classified,non_perinatal,d_hearing_imp,d1_bilateral_hi,,definite,3,
+D05,hes_apc,diag,opcs4,attachment of auricular prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D13,hes_apc,diag,opcs4,attachment of bone anchored hearing prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D16,hes_apc,diag,opcs4,reconstruction of ossicular chain,non_perinatal,d_hearing_imp,d2_cochlear,,definite,2.75,
+D24,hes_apc,diag,opcs4,operations on cochlea,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D24.1,hes_apc,diag,opcs4,implantation of intracochlear prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D24.2,hes_apc,diag,opcs4,implantation of extracochlear prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D24.3,hes_apc,diag,opcs4,attention to cochlear prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,3,
+D24.4,hes_apc,diag,opcs4,neurectomy of cochlea,non_perinatal,d_hearing_imp,d2_cochlear,,definite,2.75,
+D24.6,hes_apc,diag,opcs4,removal of cochlear prosthesis,non_perinatal,d_hearing_imp,d2_cochlear,,definite,2,
+D24.8,hes_apc,diag,opcs4,other specified operations on cochlea,non_perinatal,d_hearing_imp,d2_cochlear,,maybe,1.75,
+D24.9,hes_apc,diag,opcs4,unspecified operations on cochlea,non_perinatal,d_hearing_imp,d2_cochlear,,definite,2,
+Z45.3,hes_apc,diag,icd10,adjustment and management of implanted hearing device,non_perinatal,d_hearing_imp,d3_hearing_aid,,definite,2.75,
+Z46.1,hes_apc,diag,icd10,fitting and adjustment of hearing aid,non_perinatal,d_hearing_imp,d3_hearing_aid,,definite,2.75,
+Z96.2,hes_apc,diag,icd10,presence of otological and audiological implants,non_perinatal,d_hearing_imp,d3_hearing_aid,,definite,2.75,
+Z97.4,hes_apc,diag,icd10,presence of external hearing-aid,non_perinatal,d_hearing_imp,d3_hearing_aid,,definite,2.75,
+H90.4,hes_apc,diag,icd10,sensorineural hearing loss unilateral with unrestricted hearing on the contralateral side,non_perinatal,d_hearing_imp,,,definite,2,
+H90.5,hes_apc,diag,icd10,sensorineural hearing loss unspecified,non_perinatal,d_hearing_imp,,,definite,3,
+H90.7,hes_apc,diag,icd10,mixed conductive and sensorineural hearing loss unilateral with unrestricted hearing on the contralateral side,non_perinatal,d_hearing_imp,,,definite,2,
+H90.8,hes_apc,diag,icd10,mixed conductive and sensorineural hearing loss unspecified,non_perinatal,d_hearing_imp,,,definite,3,
+H54.0,hes_apc,diag,icd10,blindness binocular,non_perinatal,e_visual_imp,e1_bilateral_vi,,definite,3,
+H54.1,hes_apc,diag,icd10,severe visual impairment binocular,non_perinatal,e_visual_imp,e1_bilateral_vi,,definite,3,
+H54.2,hes_apc,diag,icd10,moderate visual impairment binocular,non_perinatal,e_visual_imp,e1_bilateral_vi,,definite,3,
+H18.5,hes_apc,diag,icd10,hereditary corneal dystrophies,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,3,
+H31.2,hes_apc,diag,icd10,hereditary choroidal dystrophy,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,3,
+H35.1,hes_apc,diag,icd10,retinopathy of prematurity,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2,
+H36.0,hes_apc,diag,icd10,diabetic retinopathy,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2,
+H36.8,hes_apc,diag,icd10,other retinal disorders in diseases classified elsewhere,non_perinatal,e_visual_imp,e2_high_risk_vi,,maybe,1.5,
+H47.2,hes_apc,diag,icd10,optic atrophy,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,3,
+H47.3,hes_apc,diag,icd10,other disorders of optic disc,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.5,
+H47.4,hes_apc,diag,icd10,disorders of optic chiasm,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.75,
+H47.5,hes_apc,diag,icd10,disorders of other visual pathways,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.75,
+H47.6,hes_apc,diag,icd10,disorders of visual cortex,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.75,
+H47.7,hes_apc,diag,icd10,disorder of visual pathways unspecified,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.5,
+H48.0,hes_apc,diag,icd10,optic atrophy in diseases classified elsewhere,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,3,
+H48.8,hes_apc,diag,icd10,other disorders of optic nerve and visual pathways in diseases classified elsewhere,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.75,
+Q13.4,hes_apc,diag,icd10,other congenital corneal malformations,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.5,
+Q13.8,hes_apc,diag,icd10,other congenital malformations of anterior segment of eye,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.5,
+Q13.9,hes_apc,diag,icd10,congenital malformation of anterior segment of eye unspecified,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,2.5,
+Q15.0,hes_apc,diag,icd10,congenital glaucoma,non_perinatal,e_visual_imp,e2_high_risk_vi,,definite,3,
+H54.5,hes_apc,diag,icd10,severe visual impairment monocular,non_perinatal,e_visual_imp,e3_other,,definite,2,
+H54.9,hes_apc,diag,icd10,unspecified visual impairment (binocular),non_perinatal,e_visual_imp,e3_other,,maybe,1.75,
+A81.0,hes_apc,diag,icd10,creutzfeldt-jakob disease,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+A81.1,hes_apc,diag,icd10,subacute sclerosing panencephalitis,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+A81.2,hes_apc,diag,icd10,progressive multifocal leukoencephalopathy,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+A81.8,hes_apc,diag,icd10,other atypical virus infections of central nervous system,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,2.5,
+G10,hes_apc,diag,icd10,huntington disease,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11,hes_apc,diag,icd10,hereditary ataxia,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.0,hes_apc,diag,icd10,congenital nonprogressive ataxia,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.1,hes_apc,diag,icd10,early-onset cerebellar ataxia,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.2,hes_apc,diag,icd10,late-onset cerebellar ataxia,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.3,hes_apc,diag,icd10,cerebellar ataxia with defective dna repair,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.4,hes_apc,diag,icd10,hereditary spastic paraplegia,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.8,hes_apc,diag,icd10,other hereditary ataxias,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G11.9,hes_apc,diag,icd10,hereditary ataxia unspecified,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G12,hes_apc,diag,icd10,spinal muscular atrophy and related syndromes,non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G12.0,hes_apc,diag,icd10,infantile spinal muscular atrophy type i [werdnig-hoffman],non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G12.1,hes_apc,diag,icd10,other inherited spinal muscular atrophy,non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G12.2,hes_apc,diag,icd10,motor neuron disease,non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G12.8,hes_apc,diag,icd10,other spinal muscular atrophies and related syndromes,non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G12.9,hes_apc,diag,icd10,spinal muscular atrophy unspecified,non_perinatal,f_motor_funct,f1_cns_degenrative,f1a_sma,definite,3,
+G13,hes_apc,diag,icd10,systemic atrophies primarily affecting central nervous system in diseases classified elsewhere,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G13.0,hes_apc,diag,icd10,paraneoplastic neuromyopathy and neuropathy,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G13.0,hes_apc,diag,icd10,paraneoplastic neuromyopathy and neuropathy,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G13.1,hes_apc,diag,icd10,other systemic atrophy primarily affecting central nervous system in neoplastic disease,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G13.2,hes_apc,diag,icd10,systemic atrophy primarily affecting central nervous system in myxoedema,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G13.8,hes_apc,diag,icd10,systemic atrophy primarily affecting central nervous system in other diseases classified elsewhere,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G14,hes_apc,diag,icd10,postpolio syndrome,non_perinatal,f_motor_funct,f1_cns_degenrative,,definite,3,
+G35,hes_apc,diag,icd10,multiple sclerosis,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G36,hes_apc,diag,icd10,other acute disseminated demyelination,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G36.0,hes_apc,diag,icd10,neuromyelitis optica [devic],non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G36.1,hes_apc,diag,icd10,acute and subacute haemorrhagic leukoencephalitis [hurst],non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G36.8,hes_apc,diag,icd10,other specified acute disseminated demyelination,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G36.9,hes_apc,diag,icd10,acute disseminated demyelination unspecified,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37,hes_apc,diag,icd10,other demyelinating diseases of central nervous system,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.0,hes_apc,diag,icd10,diffuse sclerosis,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.1,hes_apc,diag,icd10,central demyelination of corpus callosum,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.2,hes_apc,diag,icd10,central pontine myelinolysis,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.3,hes_apc,diag,icd10,acute transverse myelitis in demyelinating disease of central nervous system,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.4,hes_apc,diag,icd10,subacute necrotizing myelitis,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.5,hes_apc,diag,icd10,concentric sclerosis [bal??],non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.8,hes_apc,diag,icd10,other specified demyelinating diseases of central nervous system,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G37.9,hes_apc,diag,icd10,demyelinating disease of central nervous system unspecified,non_perinatal,f_motor_funct,f2_cns_demyelianating,,definite,3,
+G70,hes_apc,diag,icd10,myasthenia gravis and other myoneural disorders,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G70.0,hes_apc,diag,icd10,myasthenia gravis,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G70.1,hes_apc,diag,icd10,toxic myoneural disorders,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G70.2,hes_apc,diag,icd10,congenital and developmental myasthenia,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G70.8,hes_apc,diag,icd10,other specified myoneural disorders,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G70.9,hes_apc,diag,icd10,myoneural disorder unspecified,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G71,hes_apc,diag,icd10,primary disorders of muscles,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G71.0,hes_apc,diag,icd10,muscular dystrophy,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G71.1,hes_apc,diag,icd10,myotonic disorders,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G71.2,hes_apc,diag,icd10,congenital myopathies,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G71.3,hes_apc,diag,icd10,mitochondrial myopathy not elsewhere classified,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G71.8,hes_apc,diag,icd10,other primary disorders of muscles,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G71.9,hes_apc,diag,icd10,primary disorder of muscle unspecified,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G72.3,hes_apc,diag,icd10,periodic paralysis,non_perinatal,f_motor_funct,f3_myoneural,,maybe,1.75,
+G72.4,hes_apc,diag,icd10,inflammatory myopathy not elsewhere classified,non_perinatal,f_motor_funct,f3_myoneural,,maybe,1.75,
+G72.8,hes_apc,diag,icd10,other specified myopathies,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G72.9,hes_apc,diag,icd10,myopathy unspecified,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G73,hes_apc,diag,icd10,disorders of myoneural junction and muscle in diseases classified elsewhere,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G73.0,hes_apc,diag,icd10,myasthenic syndromes in endocrine diseases,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G73.1,hes_apc,diag,icd10,lambert-eaton syndrome,non_perinatal,f_motor_funct,f3_myoneural,,definite,3,
+G73.2,hes_apc,diag,icd10,other myasthenic syndromes in neoplastic disease,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G73.3,hes_apc,diag,icd10,myasthenic syndromes in other diseases classified elsewhere,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.75,
+G73.4,hes_apc,diag,icd10,myopathy in infectious and parasitic diseases classified elsewhere,non_perinatal,f_motor_funct,f3_myoneural,,maybe,1.75,
+G73.5,hes_apc,diag,icd10,myopathy in endocrine diseases,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.5,
+G73.6,hes_apc,diag,icd10,myopathy in metabolic diseases,non_perinatal,f_motor_funct,f3_myoneural,,definite,2.5,
+G73.7,hes_apc,diag,icd10,myopathy in other diseases classified elsewhere,non_perinatal,f_motor_funct,f3_myoneural,,maybe,1.75,
+G20,hes_apc,diag,icd10,parkinson disease,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G21,hes_apc,diag,icd10,secondary parkinsonism,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G21.0,hes_apc,diag,icd10,malignant neuroleptic syndrome,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G21.1,hes_apc,diag,icd10,other drug-induced secondary parkinsonism,non_perinatal,f_motor_funct,f4_movement,,definite,2.25,
+G21.2,hes_apc,diag,icd10,secondary parkinsonism due to other external agents,non_perinatal,f_motor_funct,f4_movement,,definite,2.25,
+G21.3,hes_apc,diag,icd10,postencephalitic parkinsonism,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G21.4,hes_apc,diag,icd10,vascular parkinsonism,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G21.8,hes_apc,diag,icd10,other secondary parkinsonism,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G21.9,hes_apc,diag,icd10,secondary parkinsonism unspecified,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G22,hes_apc,diag,icd10,parkinsonism in diseases classified elsewhere,non_perinatal,f_motor_funct,f4_movement,,definite,2.5,
+G23,hes_apc,diag,icd10,other degenerative diseases of basal ganglia,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.0,hes_apc,diag,icd10,hallervorden-spatz disease,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.1,hes_apc,diag,icd10,progressive supranuclear ophthalmoplegia [steele-richardson-olszewski],non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.2,hes_apc,diag,icd10,multiple system atrophy parkinsonian type [msa-p],non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.3,hes_apc,diag,icd10,multiple system atrophy cerebellar type [msa-c],non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.8,hes_apc,diag,icd10,other specified degenerative diseases of basal ganglia,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G23.9,hes_apc,diag,icd10,degenerative disease of basal ganglia unspecified,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G24.0,hes_apc,diag,icd10,drug-induced dystonia,non_perinatal,f_motor_funct,f4_movement,,maybe,1.5,
+G24.1,hes_apc,diag,icd10,idiopathic familial dystonia,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G24.2,hes_apc,diag,icd10,idiopathic nonfamilial dystonia,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G24.3,hes_apc,diag,icd10,spasmodic torticollis,non_perinatal,f_motor_funct,f4_movement,,maybe,1.75,
+G24.4,hes_apc,diag,icd10,idiopathic orofacial dystonia,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G24.8,hes_apc,diag,icd10,other dystonia,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G24.9,hes_apc,diag,icd10,dystonia unspecified,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G25.2,hes_apc,diag,icd10,other specified forms of tremor,non_perinatal,f_motor_funct,f4_movement,,maybe,1.5,
+G25.4,hes_apc,diag,icd10,drug-induced chorea,non_perinatal,f_motor_funct,f4_movement,,maybe,1.5,
+G25.5,hes_apc,diag,icd10,other chorea,non_perinatal,f_motor_funct,f4_movement,,definite,2.5,
+G25.8,hes_apc,diag,icd10,other specified extrapyramidal and movement disorders,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G25.9,hes_apc,diag,icd10,extrapyramidal and movement disorder unspecified,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+G26,hes_apc,diag,icd10,extrapyramidal and movement disorders in diseases classified elsewhere,non_perinatal,f_motor_funct,f4_movement,,definite,3,
+Y46.7,hes_apc,diag,icd10,antiparkinsonism drugs,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+Y46.8,hes_apc,diag,icd10,antispasticity drugs,non_perinatal,f_motor_funct,f4_movement,,definite,2.75,
+G60,hes_apc,diag,icd10,hereditary and idiopathic neuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.0,hes_apc,diag,icd10,hereditary motor and sensory neuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.1,hes_apc,diag,icd10,refsum disease,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.2,hes_apc,diag,icd10,neuropathy in association with hereditary ataxia,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.3,hes_apc,diag,icd10,idiopathic progressive neuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.8,hes_apc,diag,icd10,other hereditary and idiopathic neuropathies,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G60.9,hes_apc,diag,icd10,hereditary and idiopathic neuropathy unspecified,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,3,
+G61.1,hes_apc,diag,icd10,serum neuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.75,
+G61.8,hes_apc,diag,icd10,other inflammatory polyneuropathies,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G61.9,hes_apc,diag,icd10,inflammatory polyneuropathy unspecified,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G62,hes_apc,diag,icd10,other polyneuropathies,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G62.0,hes_apc,diag,icd10,drug-induced polyneuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.5,
+G62.1,hes_apc,diag,icd10,alcoholic polyneuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G62.2,hes_apc,diag,icd10,polyneuropathy due to other toxic agents,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G62.8,hes_apc,diag,icd10,other specified polyneuropathies,non_perinatal,f_motor_funct,f5_polyneuropathies,,maybe,1.75,
+G62.9,hes_apc,diag,icd10,polyneuropathy unspecified,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.5,
+G63,hes_apc,diag,icd10,polyneuropathy in diseases classified elsewhere,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.5,
+G63.0,hes_apc,diag,icd10,polyneuropathy in infectious and parasitic diseases classified elsewhere,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.5,
+G63.1,hes_apc,diag,icd10,polyneuropathy in neoplastic disease,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.5,
+G63.2,hes_apc,diag,icd10,diabetic polyneuropathy,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2,
+G63.3,hes_apc,diag,icd10,polyneuropathy in other endocrine and metabolic diseases,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.75,
+G63.4,hes_apc,diag,icd10,polyneuropathy in nutritional deficiency,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.5,
+G63.5,hes_apc,diag,icd10,polyneuropathy in systemic connective tissue disorders,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.75,
+G63.6,hes_apc,diag,icd10,polyneuropathy in other musculoskeletal disorders,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.75,
+G63.8,hes_apc,diag,icd10,polyneuropathy in other diseases classified elsewhere,non_perinatal,f_motor_funct,f5_polyneuropathies,,definite,2.75,
+G31,hes_apc,diag,icd10,other degenerative diseases of nervous system not elsewhere classified,non_perinatal,f_motor_funct,,,definite,2.5,
+G31.0,hes_apc,diag,icd10,circumscribed brain atrophy,non_perinatal,f_motor_funct,,,definite,2.75,
+G31.1,hes_apc,diag,icd10,senile degeneration of brain not elsewhere classified,non_perinatal,f_motor_funct,,,definite,2.75,
+G31.2,hes_apc,diag,icd10,degeneration of nervous system due to alcohol,non_perinatal,f_motor_funct,,,definite,3,
+G31.8,hes_apc,diag,icd10,other specified degenerative diseases of nervous system,non_perinatal,f_motor_funct,,,definite,2.75,
+G31.9,hes_apc,diag,icd10,degenerative disease of nervous system unspecified,non_perinatal,f_motor_funct,,,definite,2.75,
+G32,hes_apc,diag,icd10,other degenerative disorders of nervous system in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.75,
+G32.0,hes_apc,diag,icd10,subacute combined degeneration of spinal cord in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.75,
+G32.8,hes_apc,diag,icd10,other specified degenerative disorders of nervous system in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.75,
+G83.4,hes_apc,diag,icd10,cauda equina syndrome,non_perinatal,f_motor_funct,,,definite,3,
+G83.5,hes_apc,diag,icd10,locked-in syndrome,non_perinatal,f_motor_funct,,,definite,3,
+G83.8,hes_apc,diag,icd10,other specified paralytic syndromes,non_perinatal,f_motor_funct,,,definite,3,
+G83.9,hes_apc,diag,icd10,paralytic syndrome unspecified,non_perinatal,f_motor_funct,,,definite,3,
+G90.0,hes_apc,diag,icd10,idiopathic peripheral autonomic neuropathy,non_perinatal,f_motor_funct,,,definite,2,
+G90.1,hes_apc,diag,icd10,familial dysautonomia [riley-day],non_perinatal,f_motor_funct,,,definite,2.75,
+G90.4,hes_apc,diag,icd10,autonomic dysreflexia,non_perinatal,f_motor_funct,,,maybe,1.75,
+G90.8,hes_apc,diag,icd10,other disorders of autonomic nervous system,non_perinatal,f_motor_funct,,,maybe,1.5,
+G90.9,hes_apc,diag,icd10,disorder of autonomic nervous system unspecified,non_perinatal,f_motor_funct,,,definite,2.5,
+G95,hes_apc,diag,icd10,other diseases of spinal cord,non_perinatal,f_motor_funct,,,definite,2.5,
+G95.0,hes_apc,diag,icd10,syringomyelia and syringobulbia,non_perinatal,f_motor_funct,,,definite,2.5,
+G95.1,hes_apc,diag,icd10,vascular myelopathies,non_perinatal,f_motor_funct,,,definite,2.75,
+G95.1,hes_apc,diag,icd10,vascular myelopathies,non_perinatal,f_motor_funct,,,definite,2.75,
+G95.2,hes_apc,diag,icd10,cord compression unspecified,non_perinatal,f_motor_funct,,,definite,2.75,
+G95.8,hes_apc,diag,icd10,other specified diseases of spinal cord,non_perinatal,f_motor_funct,,,definite,2.5,
+G95.9,hes_apc,diag,icd10,disease of spinal cord unspecified,non_perinatal,f_motor_funct,,,definite,2.5,
+G99,hes_apc,diag,icd10,other disorders of nervous system in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.5,
+G99.0,hes_apc,diag,icd10,autonomic neuropathy in endocrine and metabolic diseases,non_perinatal,f_motor_funct,,,definite,2.25,
+G99.1,hes_apc,diag,icd10,other disorders of autonomic nervous system in other diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.25,
+G99.2,hes_apc,diag,icd10,myelopathy in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.5,
+G99.8,hes_apc,diag,icd10,other specified disorders of nervous system in diseases classified elsewhere,non_perinatal,f_motor_funct,,,definite,2.5,
+F91,hes_apc,diag,icd10,conduct disorders,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.0,hes_apc,diag,icd10,conduct disorder confined to the family context,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.1,hes_apc,diag,icd10,unsocialized conduct disorder,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.2,hes_apc,diag,icd10,socialized conduct disorder,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.3,hes_apc,diag,icd10,oppositional defiant disorder,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.8,hes_apc,diag,icd10,other conduct disorders,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F91.9,hes_apc,diag,icd10,conduct disorder unspecified,non_perinatal,g_behav_disord,g1_conduct,,definite,2,
+F92,hes_apc,diag,icd10,mixed disorders of conduct and emotions,non_perinatal,g_behav_disord,g2_behav_cond_mixed,,definite,2,
+F92.0,hes_apc,diag,icd10,depressive conduct disorder,non_perinatal,g_behav_disord,g2_behav_cond_mixed,,definite,2,
+F92.8,hes_apc,diag,icd10,other mixed disorders of conduct and emotions,non_perinatal,g_behav_disord,g2_behav_cond_mixed,,definite,2,
+F92.9,hes_apc,diag,icd10,mixed disorder of conduct and emotions unspecified,non_perinatal,g_behav_disord,g2_behav_cond_mixed,,definite,2,
+F95.1,hes_apc,diag,icd10,chronic motor or vocal tic disorder,non_perinatal,g_behav_disord,g3_tic,,maybe,1.75,
+F95.2,hes_apc,diag,icd10,combined vocal and multiple motor tic disorder [de la tourette],non_perinatal,g_behav_disord,g3_tic,,maybe,1.75,
+F95.8,hes_apc,diag,icd10,other tic disorders,non_perinatal,g_behav_disord,g3_tic,,maybe,1.75,
+F95.9,hes_apc,diag,icd10,tic disorder unspecified,non_perinatal,g_behav_disord,g3_tic,,maybe,1.75,
+F98.4,hes_apc,diag,icd10,stereotyped movement disorders,non_perinatal,g_behav_disord,g3_tic,,maybe,1.75,
+P21.0,hes_apc,diag,icd10,severe birth asphyxia,perinatal,p_perinatal,p1_severe_birth_asphyx,,definite,3,
+P57,hes_apc,diag,icd10,kernicterus,perinatal,p_perinatal,p2_other_brain_damage,p2e_kernicterus,definite,3,
+P57.0,hes_apc,diag,icd10,kernicterus due to isoimmunization,perinatal,p_perinatal,p2_other_brain_damage,p2e_kernicterus,definite,3,
+P57.8,hes_apc,diag,icd10,other specified kernicterus,perinatal,p_perinatal,p2_other_brain_damage,p2e_kernicterus,definite,3,
+P57.9,hes_apc,diag,icd10,kernicterus unspecified,perinatal,p_perinatal,p2_other_brain_damage,p2e_kernicterus,definite,3,
+P90,hes_apc,diag,icd10,convulsions of newborn,perinatal,p_perinatal,p2_other_brain_damage,p2a_seizure,maybe,1.75,
+P91.2,hes_apc,diag,icd10,neonatal cerebral leukomalacia,perinatal,p_perinatal,p2_other_brain_damage,p2b_white_matter,definite,2.75,
+X50.1,hes_apc,diag,opcs4,direct current cardioversion,perinatal,p_perinatal,p2_other_brain_damage,p2c_resuscitation,maybe,1.5,age_less_than_28_days
+X50.2,hes_apc,diag,opcs4,external cardioversion nec,perinatal,p_perinatal,p2_other_brain_damage,p2c_resuscitation,maybe,1.5,age_less_than_28_days
+X50.3,hes_apc,diag,opcs4,advanced cardiac pulmonary resuscitation,perinatal,p_perinatal,p2_other_brain_damage,p2c_resuscitation,maybe,1.5,age_less_than_28_days
+X50.4,hes_apc,diag,opcs4,external ventricular defibrillation,perinatal,p_perinatal,p2_other_brain_damage,p2c_resuscitation,maybe,1.5,age_less_than_28_days
+X50.5,hes_apc,diag,opcs4,evaluation of cardioverter defibrillator,perinatal,p_perinatal,p2_other_brain_damage,p2c_resuscitation,maybe,1.5,age_less_than_28_days
+X51.1,hes_apc,diag,opcs4,hypothermia therapy,perinatal,p_perinatal,p2_other_brain_damage,p2d_therap_hypotherm,maybe,1.75,age_less_than_28_days
+X51.2,hes_apc,diag,opcs4,active cooling,perinatal,p_perinatal,p2_other_brain_damage,p2d_therap_hypotherm,maybe,1.75,age_less_than_28_days
+G46,hes_apc,diag,icd10,vascular syndromes of brain in cerebrovascular diseases,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+G46.0,hes_apc,diag,icd10,middle cerebral artery syndrome,perinatal,p_perinatal,p3_stroke,,definite,2,age_less_than_28_days
+G46.1,hes_apc,diag,icd10,anterior cerebral artery syndrome,perinatal,p_perinatal,p3_stroke,,definite,2,age_less_than_28_days
+G46.2,hes_apc,diag,icd10,posterior cerebral artery syndrome,perinatal,p_perinatal,p3_stroke,,definite,2,age_less_than_28_days
+G46.3,hes_apc,diag,icd10,brain stem stroke syndrome,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+G46.4,hes_apc,diag,icd10,cerebellar stroke syndrome,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+G46.5,hes_apc,diag,icd10,pure motor lacunar syndrome,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+G46.6,hes_apc,diag,icd10,pure sensory lacunar syndrome,perinatal,p_perinatal,p3_stroke,,definite,2,age_less_than_28_days
+G46.7,hes_apc,diag,icd10,other lacunar syndromes,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+G46.8,hes_apc,diag,icd10,other vascular syndromes of brain in cerebrovascular diseases,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+I60,hes_apc,diag,icd10,subarachnoid haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.0,hes_apc,diag,icd10,subarachnoid haemorrhage from carotid siphon and bifurcation,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.1,hes_apc,diag,icd10,subarachnoid haemorrhage from middle cerebral artery,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.2,hes_apc,diag,icd10,subarachnoid haemorrhage from anterior communicating artery,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.3,hes_apc,diag,icd10,subarachnoid haemorrhage from posterior communicating artery,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.4,hes_apc,diag,icd10,subarachnoid haemorrhage from basilar artery,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.5,hes_apc,diag,icd10,subarachnoid haemorrhage from vertebral artery,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.6,hes_apc,diag,icd10,subarachnoid haemorrhage from other intracranial arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.7,hes_apc,diag,icd10,subarachnoid haemorrhage from intracranial artery unspecified,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I60.8,hes_apc,diag,icd10,other subarachnoid haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I60.9,hes_apc,diag,icd10,subarachnoid haemorrhage unspecified,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I61,hes_apc,diag,icd10,intracerebral haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.0,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere subcortical,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.1,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere cortical,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.2,hes_apc,diag,icd10,intracerebral haemorrhage in hemisphere unspecified,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.3,hes_apc,diag,icd10,intracerebral haemorrhage in brain stem,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.4,hes_apc,diag,icd10,intracerebral haemorrhage in cerebellum,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.5,hes_apc,diag,icd10,intracerebral haemorrhage intraventricular,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.6,hes_apc,diag,icd10,intracerebral haemorrhage multiple localized,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.8,hes_apc,diag,icd10,other intracerebral haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I61.9,hes_apc,diag,icd10,intracerebral haemorrhage unspecified,perinatal,p_perinatal,p3_stroke,,definite,2.75,age_less_than_28_days
+I63,hes_apc,diag,icd10,cerebral infarction,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.0,hes_apc,diag,icd10,cerebral infarction due to thrombosis of precerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.1,hes_apc,diag,icd10,cerebral infarction due to embolism of precerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.2,hes_apc,diag,icd10,cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.3,hes_apc,diag,icd10,cerebral infarction due to thrombosis of cerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.4,hes_apc,diag,icd10,cerebral infarction due to embolism of cerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.5,hes_apc,diag,icd10,cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.6,hes_apc,diag,icd10,cerebral infarction due to cerebral venous thrombosis nonpyogenic,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.8,hes_apc,diag,icd10,other cerebral infarction,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I63.9,hes_apc,diag,icd10,cerebral infarction unspecified,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I64,hes_apc,diag,icd10,stroke not specified as haemorrhage or infarction,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I67.0,hes_apc,diag,icd10,dissection of cerebral arteries nonruptured,perinatal,p_perinatal,p3_stroke,,definite,2,age_less_than_28_days
+I67.1,hes_apc,diag,icd10,cerebral aneurysm nonruptured,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+I67.3,hes_apc,diag,icd10,progressive vascular leukoencephalopathy,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I67.5,hes_apc,diag,icd10,moyamoya disease,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I67.6,hes_apc,diag,icd10,nonpyogenic thrombosis of intracranial venous system,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+I67.7,hes_apc,diag,icd10,cerebral arteritis not elsewhere classified,perinatal,p_perinatal,p3_stroke,,maybe,1.75,age_less_than_28_days
+I67.8,hes_apc,diag,icd10,other specified cerebrovascular diseases,perinatal,p_perinatal,p3_stroke,,maybe,1.5,age_less_than_28_days
+I67.9,hes_apc,diag,icd10,cerebrovascular disease unspecified,perinatal,p_perinatal,p3_stroke,,maybe,1.5,age_less_than_28_days
+I69.0,hes_apc,diag,icd10,sequelae of subarachnoid haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I69.1,hes_apc,diag,icd10,sequelae of intracerebral haemorrhage,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I69.3,hes_apc,diag,icd10,sequelae of cerebral infarction,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+I69.4,hes_apc,diag,icd10,sequelae of stroke not specified as haemorrhage or infarction,perinatal,p_perinatal,p3_stroke,,definite,3,age_less_than_28_days
+P52.4,hes_apc,diag,icd10,intracerebral (nontraumatic) haemorrhage of fetus and newborn,perinatal,p_perinatal,p3_stroke,,definite,2.75,
+P52.5,hes_apc,diag,icd10,subarachnoid (nontraumatic) haemorrhage of fetus and newborn,perinatal,p_perinatal,p3_stroke,,definite,2.75,
+P52.6,hes_apc,diag,icd10,cerebellar (nontraumatic) and posterior fossa haemorrhage of fetus and newborn,perinatal,p_perinatal,p3_stroke,,definite,2.75,
+P91.0,hes_apc,diag,icd10,neonatal cerebral ischaemia,perinatal,p_perinatal,p3_stroke,,definite,2,
+P91.1,hes_apc,diag,icd10,acquired periventricular cysts of newborn,perinatal,p_perinatal,p3_stroke,,definite,2,
+G91,hes_apc,diag,icd10,hydrocephalus,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G91.0,hes_apc,diag,icd10,communicating hydrocephalus,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G91.1,hes_apc,diag,icd10,obstructive hydrocephalus,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G91.2,hes_apc,diag,icd10,normal-pressure hydrocephalus,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,2,age_less_than_28_days
+G91.3,hes_apc,diag,icd10,post-traumatic hydrocephalus unspecified,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G91.8,hes_apc,diag,icd10,other hydrocephalus,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G91.9,hes_apc,diag,icd10,hydrocephalus unspecified,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G94.0,hes_apc,diag,icd10,hydrocephalus in infectious and parasitic diseases classified elsewhere,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G94.1,hes_apc,diag,icd10,hydrocephalus in neoplastic disease,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G94.2,hes_apc,diag,icd10,hydrocephalus in other diseases classified elsewhere,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,age_less_than_28_days
+G97.2,hes_apc,diag,icd10,intracranial hypotension following ventricular shunting,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,3,age_less_than_28_days
+P10.0,hes_apc,diag,icd10,subdural haemorrhage due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,maybe,1.5,
+P10.1,hes_apc,diag,icd10,cerebral haemorrhage due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,maybe,1.75,
+P10.2,hes_apc,diag,icd10,intraventricular haemorrhage due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P10.3,hes_apc,diag,icd10,subarachnoid haemorrhage due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.5,
+P10.4,hes_apc,diag,icd10,tentorial tear due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,maybe,1.5,
+P10.8,hes_apc,diag,icd10,other intracranial lacerations and haemorrhages due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P10.9,hes_apc,diag,icd10,unspecified intracranial laceration and haemorrhage due to birth injury,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P52.2,hes_apc,diag,icd10,intraventricular (nontraumatic) haemorrhage grade 3 and grade 4 of fetus and newborn,perinatal,p_perinatal,p4_intracranial_haem,,definite,3,
+P52.3,hes_apc,diag,icd10,unspecified intraventricular (nontraumatic) haemorrhage of fetus and newborn,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P52.8,hes_apc,diag,icd10,other intracranial (nontraumatic) haemorrhages of fetus and newborn,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P52.9,hes_apc,diag,icd10,intracranial (nontraumatic) haemorrhage of fetus and newborn unspecified,perinatal,p_perinatal,p4_intracranial_haem,,definite,2.25,
+P91.7,hes_apc,diag,icd10,acquired hydrocephalus of newborn,perinatal,p_perinatal,p4_intracranial_haem,p4b_hydroceph,definite,3,
+T85.0,hes_apc,diag,icd10,mechanical complication of ventricular intracranial (communicating) shunt,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,3,age_less_than_28_days
+Z98.2,hes_apc,diag,icd10,presence of cerebrospinal fluid drainage device,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,3,age_less_than_28_days
+A12,hes_apc,diag,opcs4,creation of connection from ventricle of brain,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,2.75,age_less_than_28_days
+A13,hes_apc,diag,opcs4,attention to component of connection from ventricle of brain,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,2.75,age_less_than_28_days
+A14,hes_apc,diag,opcs4,other operations on connection from ventricle of brain,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,2.75,age_less_than_28_days
+A16,hes_apc,diag,opcs4,other open operations on ventricle of brain,perinatal,p_perinatal,p4_intracranial_haem,p4a_shunt,definite,2.75,age_less_than_28_days
+P91.5,hes_apc,diag,icd10,neonatal coma,perinatal,p_perinatal,p5_hie,,definite,2.5,
+P91.6,hes_apc,diag,icd10,hypoxic ischaemic encephalopathy of newborn,perinatal,p_perinatal,p5_hie,,definite,2.75,
+A17.0,hes_apc,diag,icd10,tuberculous meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+A17.1,hes_apc,diag,icd10,meningeal tuberculoma,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+A20.3,hes_apc,diag,icd10,plague meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+A32.1,hes_apc,diag,icd10,listerial meningitis and meningoencephalitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+A39.0,hes_apc,diag,icd10,meningococcal meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+A87.2,hes_apc,diag,icd10,lymphocytic choriomeningitis,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+B00.3,hes_apc,diag,icd10,herpesviral meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+B00.4,hes_apc,diag,icd10,herpesviral encephalitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+B00.7,hes_apc,diag,icd10,disseminated herpesviral disease,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+B01.0,hes_apc,diag,icd10,varicella meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+B01.1,hes_apc,diag,icd10,varicella encephalitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+B01.8,hes_apc,diag,icd10,varicella with other complications,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+B37.5,hes_apc,diag,icd10,candidal meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00,hes_apc,diag,icd10,bacterial meningitis not elsewhere classified,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.0,hes_apc,diag,icd10,haemophilus meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.1,hes_apc,diag,icd10,pneumococcal meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.2,hes_apc,diag,icd10,streptococcal meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.3,hes_apc,diag,icd10,staphylococcal meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.8,hes_apc,diag,icd10,other bacterial meningitis,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G00.9,hes_apc,diag,icd10,bacterial meningitis unspecified,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G01,hes_apc,diag,icd10,meningitis in bacterial diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G02.1,hes_apc,diag,icd10,meningitis in mycoses,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G02.8,hes_apc,diag,icd10,meningitis in other specified infectious and parasitic diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G03,hes_apc,diag,icd10,meningitis due to other and unspecified causes,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G03.0,hes_apc,diag,icd10,nonpyogenic meningitis,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G03.1,hes_apc,diag,icd10,chronic meningitis,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G03.2,hes_apc,diag,icd10,benign recurrent meningitis [mollaret],perinatal,p_perinatal,p6_cns_infection,,maybe,1.5,age_less_than_28_days
+G03.8,hes_apc,diag,icd10,meningitis due to other specified causes,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G03.9,hes_apc,diag,icd10,meningitis unspecified,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G05,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G05.0,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in bacterial diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,definite,2,age_less_than_28_days
+G05.1,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in viral diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G05.2,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in other infectious and parasitic diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+G05.8,hes_apc,diag,icd10,encephalitis myelitis and encephalomyelitis in other diseases classified elsewhere,perinatal,p_perinatal,p6_cns_infection,,maybe,1.75,age_less_than_28_days
+P35.2,hes_apc,diag,icd10,congenital herpesviral [herpes simplex] infection,perinatal,p_perinatal,p6_cns_infection,,definite,2,
+P04.4,hes_apc,diag,icd10,fetus and newborn affected by maternal use of drugs of addiction,perinatal,p_perinatal,p7_nas,,definite,2,
+A50,hes_apc,diag,icd10,congenital syphilis,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.0,hes_apc,diag,icd10,early congenital syphilis symptomatic,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.1,hes_apc,diag,icd10,early congenital syphilis latent,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.2,hes_apc,diag,icd10,early congenital syphilis unspecified,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.3,hes_apc,diag,icd10,late congenital syphilitic oculopathy,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.4,hes_apc,diag,icd10,late congenital neurosyphilis [juvenile neurosyphilis],perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.5,hes_apc,diag,icd10,other late congenital syphilis symptomatic,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.6,hes_apc,diag,icd10,late congenital syphilis latent,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.7,hes_apc,diag,icd10,late congenital syphilis unspecified,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+A50.9,hes_apc,diag,icd10,congenital syphilis unspecified,perinatal,p_perinatal,p8_cong_inf,p8a_cong_syphilis,definite,3,
+B06.0,hes_apc,diag,icd10,rubella with neurological complications,perinatal,p_perinatal,p8_cong_inf,p8d_rubella,definite,3,age_less_than_28_days
+B06.9,hes_apc,diag,icd10,rubella without complication,perinatal,p_perinatal,p8_cong_inf,p8d_rubella,maybe,1.75,age_less_than_28_days
+B58.2,hes_apc,diag,icd10,toxoplasma meningoencephalitis,perinatal,p_perinatal,p8_cong_inf,p8b_toxo,definite,2,age_less_than_28_days
+P35.0,hes_apc,diag,icd10,congenital rubella syndrome,perinatal,p_perinatal,p8_cong_inf,p8d_rubella,definite,2.75,
+P35.1,hes_apc,diag,icd10,congenital cytomegalovirus infection,perinatal,p_perinatal,p8_cong_inf,p8c_cmv,maybe,1.75,
+P35.8,hes_apc,diag,icd10,other congenital viral diseases,perinatal,p_perinatal,p8_cong_inf,,maybe,1.5,
+P35.9,hes_apc,diag,icd10,congenital viral disease unspecified,perinatal,p_perinatal,p8_cong_inf,,maybe,1.5,
+P37.0,hes_apc,diag,icd10,congenital tuberculosis,perinatal,p_perinatal,p8_cong_inf,,definite,2,
+P37.1,hes_apc,diag,icd10,congenital toxoplasmosis,perinatal,p_perinatal,p8_cong_inf,p8b_toxo,definite,2,
+bwt_less_than_1000_g,hes_apc,birweit,birweit,birthweight less than 1000 g,perinatal,p_perinatal,p9_ext_lbw,,definite,,
+ga_less_than_26_w,hes_apc,gestat,gestat,gestational age less than 26 weeks,perinatal,p_perinatal,p9_ext_preterm,,definite,,
+Z50.5,hes_apc,diag,icd10,speech therapy,high_risk_sen,z1_speech_therapy,,,,,
+R27,hes_apc,diag,icd10,other lack of coordination,high_risk_sen,z2_coordination,,,,,
+R27.0,hes_apc,diag,icd10,ataxia unspecified,high_risk_sen,z2_coordination,,,,,
+R27.8,hes_apc,diag,icd10,other and unspecified lack of coordination,high_risk_sen,z2_coordination,,,,,
+R47,hes_apc,diag,icd10,speech disturbances not elsewhere classified,high_risk_sen,z3_speech_problems,,,,,
+R47.0,hes_apc,diag,icd10,dysphasia and aphasia,high_risk_sen,z3_speech_problems,,,,,
+R47.1,hes_apc,diag,icd10,dysarthria and anarthria,high_risk_sen,z3_speech_problems,,,,,
+R47.8,hes_apc,diag,icd10,other and unspecified speech disturbances,high_risk_sen,z3_speech_problems,,,,,
+R48,hes_apc,diag,icd10,dyslexia and other symbolic dysfunctions not elsewhere classified,high_risk_sen,z4_dyslexia,,,,,
+R48.0,hes_apc,diag,icd10,dyslexia and alexia,high_risk_sen,z4_dyslexia,,,,,
+R48.1,hes_apc,diag,icd10,agnosia,high_risk_sen,z4_dyslexia,,,,,
+R48.2,hes_apc,diag,icd10,apraxia,high_risk_sen,z4_dyslexia,,,,,
+R48.8,hes_apc,diag,icd10,other and unspecified symbolic dysfunctions,high_risk_sen,z4_dyslexia,,,,,
+R26.0,hes_apc,diag,icd10,ataxic gait,high_risk_sen,z5_gait_mobility,,,,,
+R26.1,hes_apc,diag,icd10,paralytic gait,high_risk_sen,z5_gait_mobility,,,,,
+R26.8,hes_apc,diag,icd10,other and unspecified abnormalities of gait and mobility,high_risk_sen,z5_gait_mobility,,,,,
+R62,hes_apc,diag,icd10,lack of expected normal physiological development,high_risk_sen,z6_lack_develop,,,,,
+R62.0,hes_apc,diag,icd10,delayed milestone,high_risk_sen,z6_lack_develop,,,,,
+R62.8,hes_apc,diag,icd10,other lack of expected normal physiological development,high_risk_sen,z6_lack_develop,,,,,
+R62.9,hes_apc,diag,icd10,lack of expected normal physiological development unspecified,high_risk_sen,z6_lack_develop,,,,,
+Z99.3,hes_apc,diag,icd10,dependence on wheelchair,high_risk_sen,z7_wheelchair,,,,,
+Z75.5,hes_apc,diag,icd10,holiday relief care,high_risk_sen,z8_respite,,,,,
+Z51.5,hes_apc,diag,icd10,palliative care,high_risk_sen,z9_palliative,,,,,
