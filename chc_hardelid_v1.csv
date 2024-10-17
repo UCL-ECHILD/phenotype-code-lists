@@ -581,6 +581,7 @@ K85.9,hes_apc,diag,icd10,acute pancreatitis unspecified,metabolic/endocrine/dige
 K86.1,hes_apc,diag,icd10,other chronic pancreatitis,metabolic/endocrine/digestive/renal/genitourinary,digestive,
 K86.2,hes_apc,diag,icd10,cyst of pancreas,metabolic/endocrine/digestive/renal/genitourinary,digestive,
 K86.3,hes_apc,diag,icd10,pseudocyst of pancreas,metabolic/endocrine/digestive/renal/genitourinary,digestive,
+K86.8,hes_apc,diag,icd10,other specified diseases of pancreas,metabolic/endocrine/digestive/renal/genitourinary,digestive,
 K86.9,hes_apc,diag,icd10,disease of pancreas unspecified,metabolic/endocrine/digestive/renal/genitourinary,digestive,
 K87.0,hes_apc,diag,icd10,disorders of gallbladder and biliary tract in diseases classified elsewhere,metabolic/endocrine/digestive/renal/genitourinary,digestive,
 K90,hes_apc,diag,icd10,intestinal malabsorption,metabolic/endocrine/digestive/renal/genitourinary,digestive,
