@@ -108,17 +108,17 @@ Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,externalisin
 Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
 Z72.1,hes_apc,diag,icd10,alcohol use,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
 Z72.2,hes_apc,diag,icd10,drug use,externalising,substance_use,first,emergency_admission,selfharm_xz_codes
-F30,hes_apc,diag,icd10,manic episode,externalising,mood_mania_psych,first,emergency_admission,
-F31,hes_apc,diag,icd10,bipolar affective disorder,externalising,mood_mania_psych,first,emergency_admission,
-F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,externalising,mood_mania_psych,first,emergency_admission,
-F20,hes_apc,diag,icd10,schizophrenia,externalising,schiz_or_other,first,emergency_admission,
-F21,hes_apc,diag,icd10,schizotypal disorder,externalising,schiz_or_other,first,emergency_admission,
-F22,hes_apc,diag,icd10,persistent delusional disorders,externalising,schiz_or_other,first,emergency_admission,
-F23,hes_apc,diag,icd10,acute and transient psychotic disorders,externalising,schiz_or_other,first,emergency_admission,
-F24,hes_apc,diag,icd10,induced delusional disorder,externalising,schiz_or_other,first,emergency_admission,
-F25,hes_apc,diag,icd10,schizoaffective disorders,externalising,schiz_or_other,first,emergency_admission,
-F28,hes_apc,diag,icd10,other nonorganic psychotic disorders,externalising,schiz_or_other,first,emergency_admission,
-F29,hes_apc,diag,icd10,unspecified nonorganic psychosis,externalising,schiz_or_other,first,emergency_admission,
+F30,hes_apc,diag,icd10,manic episode,thought_disorder,mood_mania_psych,first,emergency_admission,
+F31,hes_apc,diag,icd10,bipolar affective disorder,thought_disorder,mood_mania_psych,first,emergency_admission,
+F32.3,hes_apc,diag,icd10,severe depressive episode with psychotic symptoms,thought_disorder,mood_mania_psych,first,emergency_admission,
+F20,hes_apc,diag,icd10,schizophrenia,thought_disorder,schiz_or_other,first,emergency_admission,
+F21,hes_apc,diag,icd10,schizotypal disorder,thought_disorder,schiz_or_other,first,emergency_admission,
+F22,hes_apc,diag,icd10,persistent delusional disorders,thought_disorder,schiz_or_other,first,emergency_admission,
+F23,hes_apc,diag,icd10,acute and transient psychotic disorders,thought_disorder,schiz_or_other,first,emergency_admission,
+F24,hes_apc,diag,icd10,induced delusional disorder,thought_disorder,schiz_or_other,first,emergency_admission,
+F25,hes_apc,diag,icd10,schizoaffective disorders,thought_disorder,schiz_or_other,first,emergency_admission,
+F28,hes_apc,diag,icd10,other nonorganic psychotic disorders,thought_disorder,schiz_or_other,first,emergency_admission,
+F29,hes_apc,diag,icd10,unspecified nonorganic psychosis,thought_disorder,schiz_or_other,first,emergency_admission,
 T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
 T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
 T38,hes_apc,diag,icd10,poisoning by hormones and their synthetic substitutes and antagonists not elsewhere classified,selfharm,selfharm,first,emergency_admission,selfharm_xz_codes
