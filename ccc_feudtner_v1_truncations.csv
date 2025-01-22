@@ -78,7 +78,7 @@ T86.20,hes_apc,cardio,transplantation [cardio],T86.2
 T86.21,hes_apc,cardio,transplantation [cardio],T86.3
 T86.22,hes_apc,cardio,transplantation [cardio],T86.4
 G47.35,hes_apc,resp,chronic_resp_dis,G47.3
-G27.82,hes_apc,resp,chronic_resp_dis,G27.8
+I27.82,hes_apc,resp,chronic_resp_dis,I27.8
 J84.112,hes_apc,resp,chronic_resp_dis,J84.1
 J95.00,hes_apc,resp,devices [resp],J95.0
 J95.01,hes_apc,resp,devices [resp],J95.0
