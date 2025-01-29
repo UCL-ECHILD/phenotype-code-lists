@@ -133,15 +133,15 @@ R78.4,hes_apc,diag,icd10,finding of other drugs of addictive potential in blood,
 R78.5,hes_apc,diag,icd10,finding of psychotropic drug in blood,mental health & behavioural ,drug / alcohol abuse,first,emergency_admission,
 T51,hes_apc,diag,icd10,toxic effect of alcohol,mental health & behavioural ,drug / alcohol abuse,first,emergency_admission,
 Y15,hes_apc,diag,icd10,poisoning by and exposure to alcohol undetermined intent,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
-Y90,hes_apc,diag,icd10,evidence of alcohol involvement determined by blood alcohol level,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Y91,hes_apc,diag,icd10,evidence of alcohol involvement determined by level of intoxication,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z04.0,hes_apc,diag,icd10,blood-alcohol and blood-drug test,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z50.2,hes_apc,diag,icd10,alcohol rehabilitation,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z50.3,hes_apc,diag,icd10,drug rehabilitation,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z72.1,hes_apc,diag,icd10,alcohol use,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
-Z72.2,hes_apc,diag,icd10,drug use,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,selfharm_xz_codes
+Y90,hes_apc,diag,icd10,evidence of alcohol involvement determined by blood alcohol level,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Y91,hes_apc,diag,icd10,evidence of alcohol involvement determined by level of intoxication,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z04.0,hes_apc,diag,icd10,blood-alcohol and blood-drug test,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z50.2,hes_apc,diag,icd10,alcohol rehabilitation,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z50.3,hes_apc,diag,icd10,drug rehabilitation,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z71.4,hes_apc,diag,icd10,alcohol abuse counselling and surveillance,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z71.5,hes_apc,diag,icd10,drug abuse counselling and surveillance,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z72.1,hes_apc,diag,icd10,alcohol use,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
+Z72.2,hes_apc,diag,icd10,drug use,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,
 Z91.5,hes_apc,diag,icd10,personal history of self-harm,mental health & behavioural ,drug / alcohol abuse,any,emergency_admission,pers_hist
 T36,hes_apc,diag,icd10,poisoning by systemic antibiotics,mental health & behavioural ,self-harm / poisoning / cutting,first,emergency_admission,selfharm_xz_codes
 T37,hes_apc,diag,icd10,poisoning by other systemic anti-infectives and antiparasitics,mental health & behavioural ,self-harm / poisoning / cutting,first,emergency_admission,selfharm_xz_codes
