@@ -2,20 +2,24 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Author: Matthew Jay, matthew.jay@ucl.ac.uk
 # Code list: chc_hardelid_v1
+# Tested in R version 4.4.0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
 
-setwd("[file_path_omitted]/codelist_repo/")
-assign(".lib.loc", c(.libPaths(), "[file_path_omitted]"), envir = environment(.libPaths))
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------
@@ -25,20 +29,8 @@ setnames(hes_2019, names(hes_2019), tolower(names(hes_2019)))
 hardelid <- fread("codelists/chc_hardelid_v1.csv", stringsAsFactors = F)
 rm(conn_str)
 
-
-# preliminary cleaning ----------------------------------------------------
-
 # Remove the dot from the code list file so we can link to HES
 hardelid[, code := gsub("\\.", "", code)]
-
-# There are some codes in HES with 5 or 6 characters, which primarily relate to
-# the asterisk and dagger system (see the primer for details). As these are not
-# relevant, we truncate all codes to the first 4 characters only. The below
-# is a very fast way of looping through the relevant columns and applying the
-# substr() funciton.
-diag_cols <- names(hes_2019)[grepl("^diag", names(hes_2019))]
-for (j in diag_cols) set(hes_2019, j = j, value = substr(hes_2019[, get(j)], 1, 4))
-rm(j)
 
 
 # convert to long format --------------------------------------------------
@@ -49,20 +41,31 @@ rm(j)
 # working with just one year of HES data, it is quicker and easier to identify
 # relevant episodes in long format and then specify flags in the wide format data.
 
-diagnoses <- melt(hes_2019[, c("token_person_id",
-                               "epikey",
-                               "startage",
-                               "admidate",
-                               "disdate",
-                               diag_cols),
-                           with = F],
-                  id.vars = c("token_person_id",
-                              "epikey",
-                              "startage",
-                              "admidate",
-                              "disdate"),
-                  variable.name = "diag_n",
-                  value.name = "code")
+diag_cols <-
+  names(hes_2019)[grepl("^diag", names(hes_2019))]
+
+diagnoses <-
+  melt(hes_2019[, c("token_person_id",
+                    "epikey",
+                    "startage",
+                    "admidate",
+                    "disdate",
+                    "epiend",
+                    diag_cols),
+                with = F],
+       id.vars = c("token_person_id",
+                   "epikey",
+                   "startage",
+                   "admidate",
+                   "disdate",
+                   "epiend"),
+       variable.name = "diag_n",
+       value.name = "code")
+
+# There are some codes in HES with 5 or 6 characters, some of which which relate
+# to the asterisk and dagger system (see the primer for details). As these are not
+# relevant, we truncate all codes to the first 4 characters only.
+diagnoses[, code := substr(code, 1, 4)]
 
 # We can drop empty rows (i.e. where no diagnosis was recorded in a given position)
 # as these are now redundant.
@@ -106,11 +109,14 @@ diagnoses <- diagnoses[chc_hardelid == T]
 diagnoses[, chc_hardelid := NULL]
 
 # Now we left join the flags and sub-groups
-diagnoses <- merge(diagnoses,
-                   hardelid[, c("code", "flag", "group", "subgroup")],
-                   by.x = "diag_for_link",
-                   by.y = "code",
-                   all.x = T)
+diagnoses <-
+  merge(
+    diagnoses,
+    hardelid[, c("code", "flag", "group", "subgroup")],
+    by.x = "diag_for_link",
+    by.y = "code",
+    all.x = T
+  )
 
 
 # deal with flags ---------------------------------------------------------
@@ -125,18 +131,19 @@ diagnoses[, drop := F]
 # For chc_hardelid_v1, these are flags where a child must be greater than 10
 # years old (AGE10) or where the length of admission is 3 nights or longer (LOS3).
 
-# Age episodes can be dropped using startage (remembering that startages of 
-# children aged <1 year are coded 7001 to 7007)
+# Age episodes can be dropped using startage (remembering that startages of 7001
+# or higher are for children aged less than one year).
 diagnoses[flag == "age10" & (startage < 10 | startage >= 7001), drop := T]
 
 # For LOS3, we need to define the admission length, not episode length.
 # In real-world analyses, you will need to clean episode and admission dates
-# Here, we just use admidate and disdate and we set missing disdate
-# to the end of the financial year and otherwise take these variables at face value.
+# Here, we just use admidate and disdate. We also set missing disdates to epiend.
+# Otherwise, we take these variables at face value.
 # This approach alone may not be sufficient in real-world settings.
 diagnoses[, admidate := as.Date(admidate, format = "%Y-%m-%d")]
 diagnoses[, disdate := as.Date(disdate, format = "%Y-%m-%d")]
-diagnoses[disdate < as.Date("1900-01-01"), disdate := as.Date("2020-03-31")]
+diagnoses[, epiend := as.Date(epiend, format = "%Y-%m-%d")]
+diagnoses[disdate < as.Date("1900-01-01") | is.na(disdate), disdate := epiend]
 
 diagnoses[, admi_los_nights := as.integer(difftime(disdate, admidate, units = "days"))]
 diagnoses[flag == "los3" & admi_los_nights < 3, drop := T]
@@ -147,27 +154,30 @@ diagnoses <- diagnoses[drop == F]
 diagnoses[, drop := NULL]
 
 
-# create flags in the original data ---------------------------------------
+# Create spine and flag ---------------------------------------------------
 
-# We can now create flags in our original, wide format data (or in your cohort
-# spine if you are using a spine-based approach). For the sake of demonstration,
-# here we just create a flag for any code in the Hardelid and three of the
-# groups.
+# We will here create a data table that contains one row per patient and then
+# create flags to indicate whether a patient ever had a relevant CHC code.
+# In real world settings, you might be doing this using a spine of study
+# participants created elsewhere and using information only over certain time
+# periods. See the ECHILD How To guides for more information and examples.
 
-hes_2019[, chc_hardelid_any := token_person_id %in% diagnoses$token_person_id]
-hes_2019[, chc_hardelid_resp := token_person_id %in% diagnoses[group == "respiratory"]$token_person_id]
-hes_2019[, chc_hardelid_neuro := token_person_id %in% diagnoses[group == "neurological"]$token_person_id]
-hes_2019[, chc_hardelid_cancerblood := token_person_id %in% diagnoses[group == "cancer/blood"]$token_person_id]
+spine <-
+  data.table(
+    token_person_id = unique(hes_2019$token_person_id)
+  )
+
+# We will just create flags for just some groups for the sake of example.
+spine[, chc_hardelid_any := token_person_id %in% diagnoses$token_person_id]
+spine[, chc_hardelid_resp := token_person_id %in% diagnoses[group == "respiratory"]$token_person_id]
+spine[, chc_hardelid_neuro := token_person_id %in% diagnoses[group == "neurological"]$token_person_id]
+spine[, chc_hardelid_cancerblood := token_person_id %in% diagnoses[group == "cancer/blood"]$token_person_id]
 
 # Remove the temporary data from memory
-rm(diagnoses, diag_cols, hardelid)
+rm(diagnoses, diag_cols, hardelid, hes_2019)
 
 # We now have some binary flags that indicate the presence of a code in this year.
-table(hes_2019$chc_hardelid_any, useNA = "always")
-table(hes_2019$chc_hardelid_resp, useNA = "always")
-table(hes_2019$chc_hardelid_neuro, useNA = "always")
-table(hes_2019$chc_hardelid_cancerblood, useNA = "always")
-
-# You can easily expand this approach by, for example, subsetting by age or year of 
-# activity if you need conditions within a certain window (e.g. in a number)
-# of years prior to starting school.
+table(spine$chc_hardelid_any, useNA = "always")
+table(spine$chc_hardelid_resp, useNA = "always")
+table(spine$chc_hardelid_neuro, useNA = "always")
+table(spine$chc_hardelid_cancerblood, useNA = "always")

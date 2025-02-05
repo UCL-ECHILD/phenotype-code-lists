@@ -1,21 +1,25 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-# Author: Matthe Jay, matthew.jay@ucl.ac.uk
+# Author: Matthew Jay, matthew.jay@ucl.ac.uk
 # Code list: ccc_feudtner_v1
+# Tested in R version 4.4.0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
 
-setwd("[file_path_omitted]/codelist_repo/")
-assign(".lib.loc", c(.libPaths(), "[file_path_omitted]"), envir = environment(.libPaths))
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------
@@ -25,20 +29,8 @@ setnames(hes_2019, names(hes_2019), tolower(names(hes_2019)))
 feudtner <- fread("codelists/ccc_feudtner_v1.csv", stringsAsFactors = F)
 rm(conn_str)
 
-
-# preliminary cleaning ----------------------------------------------------
-
 # Remove the dot from the code list file so we can link to HES
 feudtner[, code := gsub("\\.", "", code)]
-
-# There are some codes in HES with 5 or 6 characters, which primarily relate to
-# the asterisk and dagger system (see the primer for details). As these are not
-# relevant, we truncate all codes to the first 4 characters only. The below
-# is a very fast way of looping through the relevant columns and applying the
-# substr() funciton.
-diag_cols <- names(hes_2019)[grepl("^diag", names(hes_2019))]
-for (j in diag_cols) set(hes_2019, j = j, value = substr(hes_2019[, get(j)], 1, 4))
-rm(j)
 
 
 # convert to long format --------------------------------------------------
@@ -49,20 +41,29 @@ rm(j)
 # working with just one year of HES data, it is quicker and easier to identify
 # relevant episodes in long format and then specify flags in the wide format data.
 
-diagnoses <- melt(hes_2019[, c("token_person_id",
-                               "epikey",
-                               "startage",
-                               "admidate",
-                               "disdate",
-                               diag_cols),
-                           with = F],
-                  id.vars = c("token_person_id",
-                              "epikey",
-                              "startage",
-                              "admidate",
-                              "disdate"),
-                  variable.name = "diag_n",
-                  value.name = "code")
+diag_cols <-
+  names(hes_2019)[grepl("^diag", names(hes_2019))]
+
+diagnoses <-
+  melt(hes_2019[, c("token_person_id",
+                    "epikey",
+                    "startage",
+                    "admidate",
+                    "disdate",
+                    diag_cols),
+                with = F],
+       id.vars = c("token_person_id",
+                   "epikey",
+                   "startage",
+                   "admidate",
+                   "disdate"),
+       variable.name = "diag_n",
+       value.name = "code")
+
+# There are some codes in HES with 5 or 6 characters, some of which which relate
+# to the asterisk and dagger system (see the primer for details). As these are not
+# relevant, we truncate all codes to the first 4 characters only.
+diagnoses[, code := substr(code, 1, 4)] 
 
 # We can drop empty rows (i.e. where no diagnosis was recorded in a given position)
 # as these are now redundant.
@@ -95,12 +96,6 @@ diagnoses[, diag_for_link := code]
 # across several columns, which is difficult to code and may take a very significant
 # amount of time, especially when using a for loop or the apply() functions.)
 
-# However, before we do this, we must deal with code Z94.8, which appears twice
-# in the list (see documentation for details). For the purposes of this demonstration,
-# we will arbitrarily delete this code from its gastro group.
-feudtner[code == "Z948"]
-feudtner <- feudtner[!(code == "Z948" & group == "gastro")]
-
 diagnoses[substr(code, 1, 3) %in% feudtner[nchar(code) == 3]$code, ccc_feudtner := T]
 diagnoses[substr(code, 1, 3) %in% feudtner[nchar(code) == 3]$code, diag_for_link := substr(code, 1, 3)]
 
@@ -113,11 +108,14 @@ diagnoses <- diagnoses[ccc_feudtner == T]
 diagnoses[, ccc_feudtner := NULL]
 
 # Now we left join the flags and sub-groups
-diagnoses <- merge(diagnoses,
-                   feudtner[, c("code", "flag", "group", "subgroup")],
-                   by.x = "diag_for_link",
-                   by.y = "code",
-                   all.x = T)
+# This creates additional rows for codes that sit in more than one group [[KL added this comment]]
+#[[KL - IF this merges back in the codelist minus the duplicate z948 will it not miss out that code here?]]
+diagnoses <-
+  merge(diagnoses,
+        feudtner[, c("code", "flag", "group", "subgroup")],
+        by.x = "diag_for_link",
+        by.y = "code",
+        all.x = T)
 
 
 # deal with flags ---------------------------------------------------------
@@ -126,27 +124,30 @@ diagnoses <- merge(diagnoses,
 # that some ICD-10-CA codes have been truncated. We will ignore these here.
 
 
-# create flags in the original data ---------------------------------------
+# Create spine and flag ---------------------------------------------------
 
-# We can now create flags in our original, wide format data (or in your cohort
-# spine if you are using a spine-based approach). For the sake of demonstration,
-# here we just create a flag for any code in the Feudtner et al and three
-# of the groups.
+# We will here create a data table that contains one row per patient and then
+# create flags to indicate whether a patient ever had a relevant CHC code.
+# In real world settings, you might be doing this using a spine of study
+# participants created elsewhere and using information only over certain time
+# periods. See the ECHILD How To guides for more information and examples.
 
-hes_2019[, ccc_feudtner_any := token_person_id %in% diagnoses$token_person_id]
-hes_2019[, ccc_feudtner_cardio := token_person_id %in% diagnoses[group == "cardio"]$token_person_id]
-hes_2019[, ccc_feudtner_gastro := token_person_id %in% diagnoses[group == "gastro"]$token_person_id]
-hes_2019[, ccc_feudtner_malignancy := token_person_id %in% diagnoses[group == "malignancy"]$token_person_id]
+spine <-
+  data.table(
+    token_person_id = unique(hes_2019$token_person_id)
+  )
+
+# We will just create flags for just some groups for the sake of example.
+spine[, ccc_feudtner_any := token_person_id %in% diagnoses$token_person_id]
+spine[, ccc_feudtner_cardio := token_person_id %in% diagnoses[group == "cardio"]$token_person_id]
+spine[, ccc_feudtner_gastro := token_person_id %in% diagnoses[group == "gastro"]$token_person_id]
+spine[, ccc_feudtner_malignancy := token_person_id %in% diagnoses[group == "malignancy"]$token_person_id]
 
 # Remove the temporary data from memory
-rm(diagnoses, diag_cols, feudtner)
+rm(diagnoses, diag_cols, feudtner, hes_2019)
 
 # We now have some binary flags that indicate the presence of a code in this year.
-table(hes_2019$ccc_feudtner_any, useNA = "always")
-table(hes_2019$ccc_feudtner_cardio, useNA = "always")
-table(hes_2019$ccc_feudtner_gastro, useNA = "always")
-table(hes_2019$ccc_feudtner_malignancy, useNA = "always")
-
-# You can easily expand this approach by, for example, subsetting by age or year of 
-# activity if you need conditions within a certain window (e.g. in a number)
-# of years prior to starting school.
+table(spine$ccc_feudtner_any, useNA = "always")
+table(spine$ccc_feudtner_cardio, useNA = "always")
+table(spine$ccc_feudtner_gastro, useNA = "always")
+table(spine$ccc_feudtner_malignancy, useNA = "always")

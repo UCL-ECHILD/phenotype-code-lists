@@ -2,20 +2,24 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Author: Matthew Jay, matthew.jay@ucl.ac.uk
 # Code list: emergency_admissions_v1
+# Tested in R version 4.4.0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
 
-setwd("[file_path_omitted]/codelist_repo/")
-assign(".lib.loc", c(.libPaths(), "[file_path_omitted]"), envir = environment(.libPaths))
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------

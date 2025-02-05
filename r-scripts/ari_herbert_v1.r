@@ -2,20 +2,24 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Author: Matthew Jay, matthew.jay@ucl.ac.uk
 # Code list: ari_herbert_v1
+# Tested in R version 4.4.0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
 
-setwd("[file_path_omitted]/codelist_repo/")
-assign(".lib.loc", c(.libPaths(), "[file_path_omitted]"), envir = environment(.libPaths))
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------
@@ -25,6 +29,8 @@ setnames(hes_2019, names(hes_2019), tolower(names(hes_2019)))
 herbert <- fread("codelists/ari_herbert_v1.csv", stringsAsFactors = F)
 rm(conn_str)
 
+# Remove the dot from the code list file so we can link to HES
+herbert[, code := gsub("\\.", "", code)]
 
 # smoking code ------------------------------------------------------------
 
@@ -33,7 +39,7 @@ rm(conn_str)
 # subcodes, you will need to run the following.
 
 new_f17 <- data.table(
-  code = paste0("F17.", c(0, 2:9)),
+  code = c("F17.0", paste0("F17.", 2:9)),
   dataset = "hes_apc",
   field = "diag",
   code_type = "icd10",
@@ -47,21 +53,6 @@ new_f17 <- data.table(
 herbert <- rbind(herbert, new_f17)
 herbert <- herbert[code != "F17"]
 rm(new_f17)
-
-# preliminary cleaning ----------------------------------------------------
-
-# Remove the dot from the code list file so we can link to HES
-herbert[, code := gsub("\\.", "", code)]
-
-# There are some codes in HES with 5 or 6 characters, which relate to
-# the asterisk and dagger system (see the primer for details). As these are not
-# relevant, we truncate all codes to the first 4 characters only. The below
-# is a very fast way of looping through the relevant columns and applying the
-# substr() funciton.
-
-diag_cols <- names(hes_2019)[grepl("^diag", names(hes_2019))]
-for (j in diag_cols) set(hes_2019, j = j, value = substr(hes_2019[, get(j)], 1, 4))
-rm(j)
 
 
 # convert to long format --------------------------------------------------
@@ -85,26 +76,36 @@ rm(j)
 # We also need only emergency admissions, and so we use the emergency admissions
 # code list to identify and retain only these in our long-format data.
 
-diagnoses <- melt(hes_2019[, c("token_person_id",
-                               "epikey",
-                               "startage",
-                               "admidate",
-                               "epistart",
-                               "admimeth",
-                               diag_cols),
-                           with = F],
-                  id.vars = c("token_person_id",
-                              "epikey",
-                              "startage",
-                              "admidate",
-                              "epistart",
-                              "admimeth"),
-                  variable.name = "diag_n",
-                  value.name = "code")
+diag_cols <-
+  names(hes_2019)[grepl("^diag", names(hes_2019))]
 
-diagnoses <- diagnoses[order(token_person_id,
-                             admidate,
-                             epistart)]
+diagnoses <-
+  melt(hes_2019[, c("token_person_id",
+                    "epikey",
+                    "startage",
+                    "admidate",
+                    "epistart",
+                    "admimeth",
+                    diag_cols),
+                with = F],
+       id.vars = c("token_person_id",
+                   "epikey",
+                   "startage",
+                   "admidate",
+                   "epistart",
+                   "admimeth"),
+       variable.name = "diag_n",
+       value.name = "code")
+
+diagnoses <-
+  diagnoses[order(token_person_id,
+                  admidate,
+                  epistart)]
+
+# There are some codes in HES with 5 or 6 characters, some of which which relate
+# to the asterisk and dagger system (see the primer for details). As these are not
+# relevant, we truncate all codes to the first 4 characters only.
+diagnoses[, code := substr(code, 1, 4)]
 
 # We can drop empty rows (i.e. where no diagnosis was recorded in a given position)
 # as these are now redundant.
@@ -190,30 +191,32 @@ diagnoses <- diagnoses[adversity_injury_admission == T |
                          adversity_admission == T]
 
 
-# create indicators in the original data ----------------------------------
+# Create spine and flag ---------------------------------------------------
 
-# We can now create flags in our original, wide format data (or in your cohort
-# spine if you are using a spine-based approach). This will create a binary flag
-# for each type of admission to say whether each patient ever has one of the
-# relevant admissions.
+# We will here create a data table that contains one row per patient and then
+# create flags to indicate whether a patient ever had a relevant CHC code.
+# In real world settings, you might be doing this using a spine of study
+# participants created elsewhere and using information only over certain time
+# periods. See the ECHILD How To guides for more information and examples.
 
-hes_2019[, adversity_injury_admission := token_person_id %in%
+spine <-
+  data.table(
+    token_person_id = unique(hes_2019$token_person_id)
+  )
+
+spine[, adversity_injury_admission := token_person_id %in%
            diagnoses[adversity_injury_admission == T]$token_person_id]
 
-hes_2019[, accident_injury_admission := token_person_id %in%
+spine[, accident_injury_admission := token_person_id %in%
            diagnoses[accident_injury_admission == T]$token_person_id]
 
-hes_2019[, adversity_admission := token_person_id %in%
+spine[, adversity_admission := token_person_id %in%
            diagnoses[adversity_admission == T]$token_person_id]
 
 # Remove the temporary data from memory
-rm(diagnoses, diag_cols, herbert)
+rm(diagnoses, diag_cols, herbert, hes_2019)
 
 # We now have some binary flags that indicate the presence of a code in this year.
-table(hes_2019$adversity_injury_admission, useNA = "always")
-table(hes_2019$accident_injury_admission, useNA = "always")
-table(hes_2019$adversity_admission, useNA = "always")
-
-# You can easily expand this approach by, for example, subsetting by age or year of 
-# activity if you need relevant admissions within a certain window (e.g. in a number)
-# of years prior to starting school.
+table(spine$adversity_injury_admission, useNA = "always")
+table(spine$accident_injury_admission, useNA = "always")
+table(spine$adversity_admission, useNA = "always")

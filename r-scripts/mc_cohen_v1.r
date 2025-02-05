@@ -2,20 +2,24 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Author: Matthew Jay, matthew.jay@ucl.ac.uk
 # Code list: mc_cohen_v1
+# Tested in R version 4.4.0
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
-
-setwd("[file_path_omitted]/codelist_repo/")
-assign(".lib.loc", c(.libPaths(), "[file_path_omitted]"), envir = environment(.libPaths))
+  
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------
@@ -25,20 +29,9 @@ setnames(hes_2019, names(hes_2019), tolower(names(hes_2019)))
 cohen <- fread("codelists/mc_cohen_v1.csv", stringsAsFactors = F)
 rm(conn_str)
 
-
-# preliminary cleaning ----------------------------------------------------
-
 # Remove the dot from the code list file so we can link to HES
 cohen[, code := gsub("\\.", "", code)]
 
-# There are some codes in HES with 5 or 6 characters, which primarily relate to
-# the asterisk and dagger system (see the primer for details). As these are not
-# relevant, we truncate all codes to the first 4 characters only. The below
-# is a very fast way of looping through the relevant columns and applying the
-# substr() funciton.
-diag_cols <- names(hes_2019)[grepl("^diag", names(hes_2019))]
-for (j in diag_cols) set(hes_2019, j = j, value = substr(hes_2019[, get(j)], 1, 4))
-rm(j)
 
 
 # convert to long format --------------------------------------------------
@@ -48,6 +41,9 @@ rm(j)
 # spine-based approach as we do in the "How To?" guides. But even here,
 # working with just one year of HES data, it is quicker and easier to identify
 # relevant episodes in long format and then specify flags in the wide format data.
+
+diag_cols <-
+  names(hes_2019)[grepl("^diag", names(hes_2019))]
 
 diagnoses <- melt(hes_2019[, c("token_person_id",
                                "epikey",
@@ -63,6 +59,11 @@ diagnoses <- melt(hes_2019[, c("token_person_id",
                               "disdate"),
                   variable.name = "diag_n",
                   value.name = "code")
+
+# There are some codes in HES with 5 or 6 characters, some of which which relate
+# to the asterisk and dagger system (see the primer for details). As these are not
+# relevant, we truncate all codes to the first 4 characters only.
+diagnoses[, code := substr(code, 1, 4)]
 
 # We can drop empty rows (i.e. where no diagnosis was recorded in a given position)
 # as these are now redundant.
@@ -106,11 +107,13 @@ diagnoses <- diagnoses[mc_cohen == T]
 diagnoses[, mc_cohen := NULL]
 
 # Now we left join the flags and sub-groups
-diagnoses <- merge(diagnoses,
-                   cohen[, c("code", "flag", "group", "subgroup")],
-                   by.x = "diag_for_link",
-                   by.y = "code",
-                   all.x = T)
+diagnoses <-
+  merge(diagnoses,
+        cohen[, c("code", "flag", "group", "subgroup")],
+        by.x = "diag_for_link",
+        by.y = "code",
+        all.x = T
+  )
 
 
 # deal with flags ---------------------------------------------------------
@@ -119,26 +122,30 @@ diagnoses <- merge(diagnoses,
 # that some ICD-10-CA codes have been truncated. We will ignore these here.
 
 
-# create flags in the original data ---------------------------------------
+# Create spine and flag ---------------------------------------------------
 
-# We can now create flags in our original, wide format data (or in your cohort
-# spine if you are using a spine-based approach). For the sake of demonstration,
-# here we just create a flag for any code in the Cohen et al and the three main groups.
+# We will here create a data table that contains one row per patient and then
+# create flags to indicate whether a patient ever had a relevant CHC code.
+# In real world settings, you might be doing this using a spine of study
+# participants created elsewhere and using information only over certain time
+# periods. See the ECHILD How To guides for more information and examples.
 
-hes_2019[, mc_cohen_any := token_person_id %in% diagnoses$token_person_id]
-hes_2019[, mc_cohen_ccc := token_person_id %in% diagnoses[group == "ccc"]$token_person_id]
-hes_2019[, mc_cohen_neurol_imp := token_person_id %in% diagnoses[group == "neurol_imp"]$token_person_id]
-hes_2019[, mc_cohen_tech_assistance := token_person_id %in% diagnoses[group == "technological_assistance"]$token_person_id]
+spine <-
+  data.table(
+    token_person_id = unique(hes_2019$token_person_id)
+  )
+
+
+spine[, mc_cohen_any := token_person_id %in% diagnoses$token_person_id]
+spine[, mc_cohen_ccc := token_person_id %in% diagnoses[group == "ccc"]$token_person_id]
+spine[, mc_cohen_neurol_imp := token_person_id %in% diagnoses[group == "neurol_imp"]$token_person_id]
+spine[, mc_cohen_tech_assistance := token_person_id %in% diagnoses[group == "technological_assistance"]$token_person_id]
 
 # Remove the temporary data from memory
-rm(diagnoses, diag_cols, cohen)
+rm(diagnoses, diag_cols, cohen, hes_2019)
 
 # We now have some binary flags that indicate the presence of a code in this year.
-table(hes_2019$mc_cohen_any, useNA = "always")
-table(hes_2019$mc_cohen_ccc, useNA = "always")
-table(hes_2019$mc_cohen_neurol_imp, useNA = "always")
-table(hes_2019$mc_cohen_tech_assistance, useNA = "always")
-
-# You can easily expand this approach by, for example, subsetting by age or year of 
-# activity if you need conditions within a certain window (e.g. in a number)
-# of years prior to starting school.
+table(spine$mc_cohen_any, useNA = "always")
+table(spine$mc_cohen_ccc, useNA = "always")
+table(spine$mc_cohen_neurol_imp, useNA = "always")
+table(spine$mc_cohen_tech_assistance, useNA = "always")

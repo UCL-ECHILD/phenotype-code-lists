@@ -1,21 +1,26 @@
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Author: Matthew Jay, matthew.jay@ucl.ac.uk
+# Checked by: Kate Lewis
+# Tested in R version 4.4.0
 # Code list: asthma_lut_v1
 # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 
-# global ------------------------------------------------------------------
+# set-up ------------------------------------------------------------------
+
+# Clear workspace
+rm(list=ls())
 
 # Set global settings, such as your working directory, load libraries and specify
 # the ODBC connection string.
 
-setwd("[path_omitted]")
-assign(".lib.loc", c(.libPaths(), "[path_omitted]"), envir = environment(.libPaths))
+setwd("[omitted]")
+assign(".lib.loc", c(.libPaths(), "[omitted]"), envir = environment(.libPaths))
 library(data.table)
 library(RODBC)
 
-conn_str <- odbcDriverConnect("[connection_string_omitted]")
+conn_str <- odbcDriverConnect("[omitted]")
 
 
 # load data and codelist --------------------------------------------------
@@ -26,18 +31,6 @@ lut <- fread("codelists/asthma_lut_v1.csv", stringsAsFactors = F)
 rm(conn_str)
 
 
-# preliminary cleaning ----------------------------------------------------
-
-# There are some codes in HES with 5 or 6 characters, which primarily relate to
-# the asterisk and dagger system (see the primer for details). As these are not
-# relevant, we truncate all codes to the first 4 characters only. The below
-# is a very fast way of looping through the relevant columns and applying the
-# substr() funciton.
-diag_cols <- names(hes_2019)[grepl("^diag", names(hes_2019))]
-for (j in diag_cols) set(hes_2019, j = j, value = substr(hes_2019[, get(j)], 1, 4))
-rm(j)
-
-
 # convert to long format --------------------------------------------------
 
 # It is significantly easier to work with the diagnostic data in long format.
@@ -46,16 +39,25 @@ rm(j)
 # working with just one year of HES data, it is quicker and easier to identify
 # relevant episodes in long format and then specify flags in the wide format data.
 
-diagnoses <- melt(hes_2019[, c("token_person_id",
-                               "epikey",
-                               "epistart",
-                               diag_cols),
-                           with = F],
-                  id.vars = c("token_person_id",
-                              "epikey",
-                              "epistart"),
-                  variable.name = "diag_n",
-                  value.name = "code")
+diag_cols <-
+  names(hes_2019)[grepl("^diag", names(hes_2019))]
+
+diagnoses <-
+  melt(hes_2019[, c("token_person_id",
+                    "epikey",
+                    "epistart",
+                    diag_cols),
+                with = F],
+       id.vars = c("token_person_id",
+                   "epikey",
+                   "epistart"),
+       variable.name = "diag_n",
+       value.name = "code")
+
+# There are some codes in HES with 5 or 6 characters, some of which which relate
+# to the asterisk and dagger system (see the primer for details). As these are not
+# relevant, we truncate all codes to the first 4 characters only.
+diagnoses[, code := substr(code, 1, 4)]
 
 # We can drop empty rows (i.e. where no diagnosis was recorded in a given position)
 # as these are now redundant.
@@ -127,25 +129,31 @@ diagnoses <- diagnoses[exclude_episode == F]
 # really necessary in this example as the dataset is so small, but you may wish
 # to consider it in real-world analyses.)
 
+# consider renaming this data.table asthma_episodes? #
 diagnoses <- diagnoses[, c("token_person_id",
                            "epikey",
                            "epistart")]
 
 diagnoses <- diagnoses[!duplicated(diagnoses)]
 
-# create flags in the original data ---------------------------------------
 
-# We can now create flags in our original, wide format data (or in your cohort
-# spine if you are using a spine-based approach).
+# Create spine and flag ---------------------------------------------------
 
-hes_2019[, ever_asthma := token_person_id %in% diagnoses$token_person_id]
+# We will here create a data table that contains one row per patient and then
+# create flags to indicate whether a patient ever had a relevant CHC code.
+# In real world settings, you might be doing this using a spine of study
+# participants created elsewhere and using information only over certain time
+# periods. See the ECHILD How To guides for more information and examples.
+
+spine <-
+  data.table(
+    token_person_id = unique(hes_2019$token_person_id)
+  )
+
+spine[, ever_asthma := token_person_id %in% diagnoses$token_person_id]
 
 # Remove the temporary data from memory
-rm(diagnoses, diag_cols, lut, lut_exclusion)
+rm(diagnoses, diag_cols, lut, lut_exclusion, hes_2019)
 
 # We now have some binary flags that indicate the presence of a code in this year.
-table(hes_2019$ever_asthma, useNA = "always")
-
-# You can easily expand this approach by, for example, subsetting by age or year of 
-# activity if you need conditions within a certain window (e.g. in a number)
-# of years prior to starting school.
+table(spine$ever_asthma, useNA = "always")
